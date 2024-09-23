@@ -1,0 +1,10 @@
+[
+    {
+        "VulnerabilityID": "CVE-2024-34156",
+        "PkgName": "stdlib",
+        "InstalledVersion": "1.22.4",
+        "Severity": "HIGH",
+        "Description": "Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-34156"
+    }
+]
