@@ -1,167 +1,143 @@
 {
   "SchemaVersion": 2,
-  "CreatedAt": "2024-09-23T07:39:19.56288637Z",
-  "ArtifactName": "quay.io/jeslynlamxy/ollama-llama-8b:latest",
+  "CreatedAt": "2024-09-26T14:04:35.29760898Z",
+  "ArtifactName": "ollama/ollama:0.3.11",
   "ArtifactType": "container_image",
   "Metadata": {
     "OS": {
       "Family": "ubuntu",
       "Name": "22.04"
     },
-    "ImageID": "sha256:7b0065632b82b85f827d18d7adbd6532acdadf19c122fe773f4055036d7c6364",
+    "ImageID": "sha256:7b3ed996feaccc499198d4367b3a934aec4b7f9a941beec3bceebb77acea3046",
     "DiffIDs": [
-      "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf",
-      "sha256:f1d7da5a19406244ec76ff693ce96ff1890cc78c7dc07fa171efe86f1ab2d612",
-      "sha256:45e67f013a8c6ec84fdf75b375af8f6864c0adabaefd9af9538ee7a3acc6ee12",
-      "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
-      "sha256:891bedd61b86d2af89e6e8ef7ed526df3be9a2af427aa2a2feed6de162a7128c",
-      "sha256:4a8655b9d396e9fb5deed12b274b666f89d5c32c4c43ea533a59d291c003413f",
-      "sha256:eecb631ae639a94bc21d902f35f5abde21d92425c49a3d8c0cef437f0218a6f3",
-      "sha256:d807209ad242106aa5be9bde3dffdb13fbca7b4c9bd4417ce14d23f7f5cc7a50",
-      "sha256:df5365ccfde578e081ef76a744e54b445044b1297ebecb3bf4b4afb88d10c5bf"
+      "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465",
+      "sha256:f116f9fb17920e17cc6dc64b85a1fa4dc21a5ad4518d3d5e0a72e9fb16fbf03e",
+      "sha256:cc7193c240149d3f307b8333b750d34e4125181b1872f2514519e9dd4d6101f4",
+      "sha256:55fd1b9cc57872947b34665dc4ccaa3d1a332af1ce14f431fb059270158bf067",
+      "sha256:f75da7df3666bce39add3cc8603be094a16b3382f752bf01b421b41bd5c4cacd",
+      "sha256:3ba97323ab62a1c20f0f0d340d3be7ebe0050d53b93f52874f03d9eba3b710d3",
+      "sha256:1858de2f230bacf05b477ead7677137b750fb305e555a16c1583d5288ab99fa1",
+      "sha256:6e266521421c6622cf07b2ab85b07c1ea767b34f4c3a7a78f48d2496bfa89ffe"
     ],
     "RepoTags": [
-      "quay.io/jeslynlamxy/ollama-llama-8b:latest"
+      "ollama/ollama:0.3.11"
     ],
     "RepoDigests": [
-      "quay.io/jeslynlamxy/ollama-llama-8b@sha256:00661a554ab9860ab246ee3d639a44f33d4b5f973c78ed385cade25d40e1f6db"
+      "ollama/ollama@sha256:a45c1ae866f0ad115b5b2b5048cb80e02a8c49c36f60d49f449b0d6a3825cdbf"
     ],
     "ImageConfig": {
       "architecture": "amd64",
-      "created": "2024-08-31T11:29:41.084979077Z",
+      "created": "2024-09-18T04:20:50.179267564Z",
       "history": [
         {
-          "created": "2024-06-27T20:10:10.528110614Z",
+          "created": "2024-09-11T16:25:16.091322237Z",
           "created_by": "/bin/sh -c #(nop)  ARG RELEASE",
           "empty_layer": true
         },
         {
-          "created": "2024-06-27T20:10:10.566300625Z",
+          "created": "2024-09-11T16:25:16.110134186Z",
           "created_by": "/bin/sh -c #(nop)  ARG LAUNCHPAD_BUILD_ARCH",
           "empty_layer": true
         },
         {
-          "created": "2024-06-27T20:10:10.606737029Z",
+          "created": "2024-09-11T16:25:16.12828917Z",
           "created_by": "/bin/sh -c #(nop)  LABEL org.opencontainers.image.ref.name=ubuntu",
           "empty_layer": true
         },
         {
-          "created": "2024-06-27T20:10:10.638915467Z",
+          "created": "2024-09-11T16:25:16.145319811Z",
           "created_by": "/bin/sh -c #(nop)  LABEL org.opencontainers.image.version=22.04",
           "empty_layer": true
         },
         {
-          "created": "2024-06-27T20:10:12.481980539Z",
-          "created_by": "/bin/sh -c #(nop) ADD file:d5da92199726e42da09a6f75a778befb607fe3f79e4afaf7ef5188329b26b386 in / "
+          "created": "2024-09-11T16:25:17.895714864Z",
+          "created_by": "/bin/sh -c #(nop) ADD file:ebe009f86035c175ba244badd298a2582914415cf62783d510eab3a311a5d4e1 in / "
         },
         {
-          "created": "2024-06-27T20:10:12.703519218Z",
+          "created": "2024-09-11T16:25:18.112480611Z",
           "created_by": "/bin/sh -c #(nop)  CMD [\"/bin/bash\"]",
           "empty_layer": true
         },
         {
-          "created": "2024-07-08T01:51:01.551735861Z",
-          "created_by": "RUN /bin/sh -c apt-get update \u0026\u0026 apt-get install -y ca-certificates # buildkit",
+          "created": "2024-09-18T03:57:05.661172638Z",
+          "created_by": "RUN /bin/sh -c apt-get update \u0026\u0026     apt-get install -y ca-certificates \u0026\u0026     apt-get clean \u0026\u0026 rm -rf /var/lib/apt/lists/* # buildkit",
           "comment": "buildkit.dockerfile.v0"
         },
         {
-          "created": "2024-07-08T02:33:49.180682568Z",
-          "created_by": "COPY /go/src/github.com/ollama/ollama/ollama /bin/ollama # buildkit",
+          "created": "2024-09-18T03:59:28.816779773Z",
+          "created_by": "COPY /go/src/github.com/ollama/ollama/dist/linux-amd64/bin/ /bin/ # buildkit",
           "comment": "buildkit.dockerfile.v0"
         },
         {
-          "created": "2024-07-08T02:33:49.180682568Z",
+          "created": "2024-09-18T03:59:48.137380416Z",
+          "created_by": "COPY /go/src/github.com/ollama/ollama/dist/linux-amd64/lib/ /lib/ # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2024-09-18T03:59:50.297294978Z",
+          "created_by": "COPY /go/src/github.com/ollama/ollama/dist/linux-amd64/lib/ /lib/ # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2024-09-18T03:59:50.392983104Z",
+          "created_by": "COPY /go/src/github.com/ollama/ollama/dist/linux-amd64/lib/ /lib/ # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2024-09-18T04:20:37.455362539Z",
+          "created_by": "COPY /go/src/github.com/ollama/ollama/dist/linux-amd64/lib/ /lib/ # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2024-09-18T04:20:50.179267564Z",
+          "created_by": "COPY /go/src/github.com/ollama/ollama/dist/linux-amd64/lib/ /lib/ # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2024-09-18T04:20:50.179267564Z",
           "created_by": "EXPOSE map[11434/tcp:{}]",
           "comment": "buildkit.dockerfile.v0",
           "empty_layer": true
         },
         {
-          "created": "2024-07-08T02:33:49.180682568Z",
+          "created": "2024-09-18T04:20:50.179267564Z",
           "created_by": "ENV OLLAMA_HOST=0.0.0.0",
           "comment": "buildkit.dockerfile.v0",
           "empty_layer": true
         },
         {
-          "created": "2024-07-08T02:33:49.180682568Z",
+          "created": "2024-09-18T04:20:50.179267564Z",
           "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
           "comment": "buildkit.dockerfile.v0",
           "empty_layer": true
         },
         {
-          "created": "2024-07-08T02:33:49.180682568Z",
+          "created": "2024-09-18T04:20:50.179267564Z",
           "created_by": "ENV LD_LIBRARY_PATH=/usr/local/nvidia/lib:/usr/local/nvidia/lib64",
           "comment": "buildkit.dockerfile.v0",
           "empty_layer": true
         },
         {
-          "created": "2024-07-08T02:33:49.180682568Z",
+          "created": "2024-09-18T04:20:50.179267564Z",
           "created_by": "ENV NVIDIA_DRIVER_CAPABILITIES=compute,utility",
           "comment": "buildkit.dockerfile.v0",
           "empty_layer": true
         },
         {
-          "created": "2024-07-08T02:33:49.180682568Z",
+          "created": "2024-09-18T04:20:50.179267564Z",
           "created_by": "ENV NVIDIA_VISIBLE_DEVICES=all",
           "comment": "buildkit.dockerfile.v0",
           "empty_layer": true
         },
         {
-          "created": "2024-07-08T02:33:49.180682568Z",
+          "created": "2024-09-18T04:20:50.179267564Z",
           "created_by": "ENTRYPOINT [\"/bin/ollama\"]",
           "comment": "buildkit.dockerfile.v0",
           "empty_layer": true
         },
         {
-          "created": "2024-07-08T02:33:49.180682568Z",
+          "created": "2024-09-18T04:20:50.179267564Z",
           "created_by": "CMD [\"serve\"]",
-          "comment": "buildkit.dockerfile.v0",
-          "empty_layer": true
-        },
-        {
-          "created": "2024-08-31T11:26:57.74530725Z",
-          "created_by": "ENV OLLAMA_MODELS=/tmp/.ollama/models",
-          "comment": "buildkit.dockerfile.v0",
-          "empty_layer": true
-        },
-        {
-          "created": "2024-08-31T11:26:57.74530725Z",
-          "created_by": "ENV OLLAMA_TMPDIR=/tmp/.ollama",
-          "comment": "buildkit.dockerfile.v0",
-          "empty_layer": true
-        },
-        {
-          "created": "2024-08-31T11:26:57.74530725Z",
-          "created_by": "WORKDIR /tmp",
-          "comment": "buildkit.dockerfile.v0"
-        },
-        {
-          "created": "2024-08-31T11:26:58.046778306Z",
-          "created_by": "RUN /bin/sh -c mkdir -p $OLLAMA_MODELS \u0026\u0026     chgrp -R 0 $OLLAMA_MODELS \u0026\u0026     chmod -R g=u $OLLAMA_MODELS # buildkit",
-          "comment": "buildkit.dockerfile.v0"
-        },
-        {
-          "created": "2024-08-31T11:29:33.362398599Z",
-          "created_by": "RUN /bin/sh -c ollama serve \u0026 sleep 5 \u0026\u0026 ollama run llama3:instruct # buildkit",
-          "comment": "buildkit.dockerfile.v0"
-        },
-        {
-          "created": "2024-08-31T11:29:33.70872552Z",
-          "created_by": "RUN /bin/sh -c mkdir -p /.ollama \u0026\u0026 cp /root/.ollama/id_ed25519 /.ollama/id_ed25519 # buildkit",
-          "comment": "buildkit.dockerfile.v0"
-        },
-        {
-          "created": "2024-08-31T11:29:34.318497868Z",
-          "created_by": "RUN /bin/sh -c chgrp -R 0 /.ollama \u0026\u0026     chmod -R g=u /.ollama # buildkit",
-          "comment": "buildkit.dockerfile.v0"
-        },
-        {
-          "created": "2024-08-31T11:29:41.084979077Z",
-          "created_by": "RUN /bin/sh -c chgrp -R 0 /tmp \u0026\u0026     chmod -R g=u /tmp # buildkit",
-          "comment": "buildkit.dockerfile.v0"
-        },
-        {
-          "created": "2024-08-31T11:29:41.084979077Z",
-          "created_by": "EXPOSE map[11434/tcp:{}]",
           "comment": "buildkit.dockerfile.v0",
           "empty_layer": true
         }
@@ -170,15 +146,14 @@
       "rootfs": {
         "type": "layers",
         "diff_ids": [
-          "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf",
-          "sha256:f1d7da5a19406244ec76ff693ce96ff1890cc78c7dc07fa171efe86f1ab2d612",
-          "sha256:45e67f013a8c6ec84fdf75b375af8f6864c0adabaefd9af9538ee7a3acc6ee12",
-          "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
-          "sha256:891bedd61b86d2af89e6e8ef7ed526df3be9a2af427aa2a2feed6de162a7128c",
-          "sha256:4a8655b9d396e9fb5deed12b274b666f89d5c32c4c43ea533a59d291c003413f",
-          "sha256:eecb631ae639a94bc21d902f35f5abde21d92425c49a3d8c0cef437f0218a6f3",
-          "sha256:d807209ad242106aa5be9bde3dffdb13fbca7b4c9bd4417ce14d23f7f5cc7a50",
-          "sha256:df5365ccfde578e081ef76a744e54b445044b1297ebecb3bf4b4afb88d10c5bf"
+          "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465",
+          "sha256:f116f9fb17920e17cc6dc64b85a1fa4dc21a5ad4518d3d5e0a72e9fb16fbf03e",
+          "sha256:cc7193c240149d3f307b8333b750d34e4125181b1872f2514519e9dd4d6101f4",
+          "sha256:55fd1b9cc57872947b34665dc4ccaa3d1a332af1ce14f431fb059270158bf067",
+          "sha256:f75da7df3666bce39add3cc8603be094a16b3382f752bf01b421b41bd5c4cacd",
+          "sha256:3ba97323ab62a1c20f0f0d340d3be7ebe0050d53b93f52874f03d9eba3b710d3",
+          "sha256:1858de2f230bacf05b477ead7677137b750fb305e555a16c1583d5288ab99fa1",
+          "sha256:6e266521421c6622cf07b2ab85b07c1ea767b34f4c3a7a78f48d2496bfa89ffe"
         ]
       },
       "config": {
@@ -193,15 +168,12 @@
           "OLLAMA_HOST=0.0.0.0",
           "LD_LIBRARY_PATH=/usr/local/nvidia/lib:/usr/local/nvidia/lib64",
           "NVIDIA_DRIVER_CAPABILITIES=compute,utility",
-          "NVIDIA_VISIBLE_DEVICES=all",
-          "OLLAMA_MODELS=/tmp/.ollama/models",
-          "OLLAMA_TMPDIR=/tmp/.ollama"
+          "NVIDIA_VISIBLE_DEVICES=all"
         ],
         "Labels": {
           "org.opencontainers.image.ref.name": "ubuntu",
           "org.opencontainers.image.version": "22.04"
         },
-        "WorkingDir": "/tmp",
         "ExposedPorts": {
           "11434/tcp": {}
         },
@@ -211,7 +183,7 @@
   },
   "Results": [
     {
-      "Target": "quay.io/jeslynlamxy/ollama-llama-8b:latest (ubuntu 22.04)",
+      "Target": "ollama/ollama:0.3.11 (ubuntu 22.04)",
       "Class": "os-pkgs",
       "Type": "ubuntu",
       "Vulnerabilities": [
@@ -226,8 +198,8 @@
           "InstalledVersion": "8.32-4.1ubuntu1.2",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2016-2781",
@@ -287,8 +259,8 @@
           "InstalledVersion": "12.3.0-1ubuntu1~22.04",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-4039",
@@ -344,8 +316,8 @@
           "InstalledVersion": "12.3.0-1ubuntu1~22.04",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-27943",
@@ -404,8 +376,8 @@
           "InstalledVersion": "2.2.27-3ubuntu2.1",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-3219",
@@ -459,8 +431,8 @@
           "InstalledVersion": "2.35-0ubuntu3.8",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2016-20013",
@@ -506,8 +478,8 @@
           "InstalledVersion": "2.35-0ubuntu3.8",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2016-20013",
@@ -553,8 +525,8 @@
           "InstalledVersion": "12.3.0-1ubuntu1~22.04",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-4039",
@@ -610,8 +582,8 @@
           "InstalledVersion": "12.3.0-1ubuntu1~22.04",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-27943",
@@ -670,8 +642,8 @@
           "InstalledVersion": "1.9.4-3ubuntu3",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-2236",
@@ -711,17 +683,17 @@
         },
         {
           "VulnerabilityID": "CVE-2024-26462",
-          "PkgID": "libgssapi-krb5-2@1.19.2-2ubuntu0.3",
+          "PkgID": "libgssapi-krb5-2@1.19.2-2ubuntu0.4",
           "PkgName": "libgssapi-krb5-2",
           "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.3?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "ac5e6f3f6558b570"
+            "PURL": "pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.4?arch=amd64\u0026distro=ubuntu-22.04",
+            "UID": "35ab46c58817a45b"
           },
-          "InstalledVersion": "1.19.2-2ubuntu0.3",
+          "InstalledVersion": "1.19.2-2ubuntu0.4",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-26462",
@@ -758,146 +730,18 @@
           "LastModifiedDate": "2024-05-14T15:09:01.053Z"
         },
         {
-          "VulnerabilityID": "CVE-2024-37370",
-          "PkgID": "libgssapi-krb5-2@1.19.2-2ubuntu0.3",
-          "PkgName": "libgssapi-krb5-2",
-          "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.3?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "ac5e6f3f6558b570"
-          },
-          "InstalledVersion": "1.19.2-2ubuntu0.3",
-          "FixedVersion": "1.19.2-2ubuntu0.4",
-          "Status": "fixed",
-          "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
-          },
-          "SeveritySource": "ubuntu",
-          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-37370",
-          "DataSource": {
-            "ID": "ubuntu",
-            "Name": "Ubuntu CVE Tracker",
-            "URL": "https://git.launchpad.net/ubuntu-cve-tracker"
-          },
-          "Title": "krb5: GSS message token handling",
-          "Description": "In MIT Kerberos 5 (aka krb5) before 1.21.3, an attacker can modify the plaintext Extra Count field of a confidential GSS krb5 wrap token, causing the unwrapped token to appear truncated to the application.",
-          "Severity": "MEDIUM",
-          "VendorSeverity": {
-            "alma": 2,
-            "amazon": 2,
-            "azure": 3,
-            "cbl-mariner": 3,
-            "nvd": 3,
-            "oracle-oval": 2,
-            "photon": 3,
-            "redhat": 2,
-            "ubuntu": 2
-          },
-          "CVSS": {
-            "nvd": {
-              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
-              "V3Score": 7.5
-            },
-            "redhat": {
-              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H",
-              "V3Score": 7.4
-            }
-          },
-          "References": [
-            "https://access.redhat.com/errata/RHSA-2024:5312",
-            "https://access.redhat.com/security/cve/CVE-2024-37370",
-            "https://bugzilla.redhat.com/2294676",
-            "https://bugzilla.redhat.com/2294677",
-            "https://errata.almalinux.org/8/ALSA-2024-5312.html",
-            "https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef",
-            "https://linux.oracle.com/cve/CVE-2024-37370.html",
-            "https://linux.oracle.com/errata/ELSA-2024-6166.html",
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-37370",
-            "https://ubuntu.com/security/notices/USN-6947-1",
-            "https://web.mit.edu/kerberos/www/advisories/",
-            "https://web.mit.edu/kerberos/www/krb5-1.21/",
-            "https://www.cve.org/CVERecord?id=CVE-2024-37370"
-          ],
-          "PublishedDate": "2024-06-28T22:15:02.293Z",
-          "LastModifiedDate": "2024-08-27T17:48:12.297Z"
-        },
-        {
-          "VulnerabilityID": "CVE-2024-37371",
-          "PkgID": "libgssapi-krb5-2@1.19.2-2ubuntu0.3",
-          "PkgName": "libgssapi-krb5-2",
-          "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.3?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "ac5e6f3f6558b570"
-          },
-          "InstalledVersion": "1.19.2-2ubuntu0.3",
-          "FixedVersion": "1.19.2-2ubuntu0.4",
-          "Status": "fixed",
-          "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
-          },
-          "SeveritySource": "ubuntu",
-          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-37371",
-          "DataSource": {
-            "ID": "ubuntu",
-            "Name": "Ubuntu CVE Tracker",
-            "URL": "https://git.launchpad.net/ubuntu-cve-tracker"
-          },
-          "Title": "krb5: GSS message token handling",
-          "Description": "In MIT Kerberos 5 (aka krb5) before 1.21.3, an attacker can cause invalid memory reads during GSS message token handling by sending message tokens with invalid length fields.",
-          "Severity": "MEDIUM",
-          "VendorSeverity": {
-            "alma": 2,
-            "amazon": 2,
-            "azure": 4,
-            "cbl-mariner": 4,
-            "nvd": 4,
-            "oracle-oval": 2,
-            "photon": 4,
-            "redhat": 2,
-            "ubuntu": 2
-          },
-          "CVSS": {
-            "nvd": {
-              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
-              "V3Score": 9.1
-            },
-            "redhat": {
-              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-              "V3Score": 6.5
-            }
-          },
-          "References": [
-            "https://access.redhat.com/errata/RHSA-2024:5312",
-            "https://access.redhat.com/security/cve/CVE-2024-37371",
-            "https://bugzilla.redhat.com/2294676",
-            "https://bugzilla.redhat.com/2294677",
-            "https://errata.almalinux.org/8/ALSA-2024-5312.html",
-            "https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef",
-            "https://linux.oracle.com/cve/CVE-2024-37371.html",
-            "https://linux.oracle.com/errata/ELSA-2024-6166.html",
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-37371",
-            "https://ubuntu.com/security/notices/USN-6947-1",
-            "https://web.mit.edu/kerberos/www/advisories/",
-            "https://web.mit.edu/kerberos/www/krb5-1.21/",
-            "https://www.cve.org/CVERecord?id=CVE-2024-37371"
-          ],
-          "PublishedDate": "2024-06-28T23:15:11.603Z",
-          "LastModifiedDate": "2024-09-18T12:39:04.477Z"
-        },
-        {
           "VulnerabilityID": "CVE-2024-26458",
-          "PkgID": "libgssapi-krb5-2@1.19.2-2ubuntu0.3",
+          "PkgID": "libgssapi-krb5-2@1.19.2-2ubuntu0.4",
           "PkgName": "libgssapi-krb5-2",
           "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.3?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "ac5e6f3f6558b570"
+            "PURL": "pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.4?arch=amd64\u0026distro=ubuntu-22.04",
+            "UID": "35ab46c58817a45b"
           },
-          "InstalledVersion": "1.19.2-2ubuntu0.3",
+          "InstalledVersion": "1.19.2-2ubuntu0.4",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-26458",
@@ -949,17 +793,17 @@
         },
         {
           "VulnerabilityID": "CVE-2024-26461",
-          "PkgID": "libgssapi-krb5-2@1.19.2-2ubuntu0.3",
+          "PkgID": "libgssapi-krb5-2@1.19.2-2ubuntu0.4",
           "PkgName": "libgssapi-krb5-2",
           "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.3?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "ac5e6f3f6558b570"
+            "PURL": "pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.4?arch=amd64\u0026distro=ubuntu-22.04",
+            "UID": "35ab46c58817a45b"
           },
-          "InstalledVersion": "1.19.2-2ubuntu0.3",
+          "InstalledVersion": "1.19.2-2ubuntu0.4",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-26461",
@@ -1015,17 +859,17 @@
         },
         {
           "VulnerabilityID": "CVE-2024-26462",
-          "PkgID": "libk5crypto3@1.19.2-2ubuntu0.3",
+          "PkgID": "libk5crypto3@1.19.2-2ubuntu0.4",
           "PkgName": "libk5crypto3",
           "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.3?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "7ebfc245d40b9021"
+            "PURL": "pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.4?arch=amd64\u0026distro=ubuntu-22.04",
+            "UID": "fa90fa58391d7f8a"
           },
-          "InstalledVersion": "1.19.2-2ubuntu0.3",
+          "InstalledVersion": "1.19.2-2ubuntu0.4",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-26462",
@@ -1062,146 +906,18 @@
           "LastModifiedDate": "2024-05-14T15:09:01.053Z"
         },
         {
-          "VulnerabilityID": "CVE-2024-37370",
-          "PkgID": "libk5crypto3@1.19.2-2ubuntu0.3",
-          "PkgName": "libk5crypto3",
-          "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.3?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "7ebfc245d40b9021"
-          },
-          "InstalledVersion": "1.19.2-2ubuntu0.3",
-          "FixedVersion": "1.19.2-2ubuntu0.4",
-          "Status": "fixed",
-          "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
-          },
-          "SeveritySource": "ubuntu",
-          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-37370",
-          "DataSource": {
-            "ID": "ubuntu",
-            "Name": "Ubuntu CVE Tracker",
-            "URL": "https://git.launchpad.net/ubuntu-cve-tracker"
-          },
-          "Title": "krb5: GSS message token handling",
-          "Description": "In MIT Kerberos 5 (aka krb5) before 1.21.3, an attacker can modify the plaintext Extra Count field of a confidential GSS krb5 wrap token, causing the unwrapped token to appear truncated to the application.",
-          "Severity": "MEDIUM",
-          "VendorSeverity": {
-            "alma": 2,
-            "amazon": 2,
-            "azure": 3,
-            "cbl-mariner": 3,
-            "nvd": 3,
-            "oracle-oval": 2,
-            "photon": 3,
-            "redhat": 2,
-            "ubuntu": 2
-          },
-          "CVSS": {
-            "nvd": {
-              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
-              "V3Score": 7.5
-            },
-            "redhat": {
-              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H",
-              "V3Score": 7.4
-            }
-          },
-          "References": [
-            "https://access.redhat.com/errata/RHSA-2024:5312",
-            "https://access.redhat.com/security/cve/CVE-2024-37370",
-            "https://bugzilla.redhat.com/2294676",
-            "https://bugzilla.redhat.com/2294677",
-            "https://errata.almalinux.org/8/ALSA-2024-5312.html",
-            "https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef",
-            "https://linux.oracle.com/cve/CVE-2024-37370.html",
-            "https://linux.oracle.com/errata/ELSA-2024-6166.html",
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-37370",
-            "https://ubuntu.com/security/notices/USN-6947-1",
-            "https://web.mit.edu/kerberos/www/advisories/",
-            "https://web.mit.edu/kerberos/www/krb5-1.21/",
-            "https://www.cve.org/CVERecord?id=CVE-2024-37370"
-          ],
-          "PublishedDate": "2024-06-28T22:15:02.293Z",
-          "LastModifiedDate": "2024-08-27T17:48:12.297Z"
-        },
-        {
-          "VulnerabilityID": "CVE-2024-37371",
-          "PkgID": "libk5crypto3@1.19.2-2ubuntu0.3",
-          "PkgName": "libk5crypto3",
-          "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.3?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "7ebfc245d40b9021"
-          },
-          "InstalledVersion": "1.19.2-2ubuntu0.3",
-          "FixedVersion": "1.19.2-2ubuntu0.4",
-          "Status": "fixed",
-          "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
-          },
-          "SeveritySource": "ubuntu",
-          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-37371",
-          "DataSource": {
-            "ID": "ubuntu",
-            "Name": "Ubuntu CVE Tracker",
-            "URL": "https://git.launchpad.net/ubuntu-cve-tracker"
-          },
-          "Title": "krb5: GSS message token handling",
-          "Description": "In MIT Kerberos 5 (aka krb5) before 1.21.3, an attacker can cause invalid memory reads during GSS message token handling by sending message tokens with invalid length fields.",
-          "Severity": "MEDIUM",
-          "VendorSeverity": {
-            "alma": 2,
-            "amazon": 2,
-            "azure": 4,
-            "cbl-mariner": 4,
-            "nvd": 4,
-            "oracle-oval": 2,
-            "photon": 4,
-            "redhat": 2,
-            "ubuntu": 2
-          },
-          "CVSS": {
-            "nvd": {
-              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
-              "V3Score": 9.1
-            },
-            "redhat": {
-              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-              "V3Score": 6.5
-            }
-          },
-          "References": [
-            "https://access.redhat.com/errata/RHSA-2024:5312",
-            "https://access.redhat.com/security/cve/CVE-2024-37371",
-            "https://bugzilla.redhat.com/2294676",
-            "https://bugzilla.redhat.com/2294677",
-            "https://errata.almalinux.org/8/ALSA-2024-5312.html",
-            "https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef",
-            "https://linux.oracle.com/cve/CVE-2024-37371.html",
-            "https://linux.oracle.com/errata/ELSA-2024-6166.html",
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-37371",
-            "https://ubuntu.com/security/notices/USN-6947-1",
-            "https://web.mit.edu/kerberos/www/advisories/",
-            "https://web.mit.edu/kerberos/www/krb5-1.21/",
-            "https://www.cve.org/CVERecord?id=CVE-2024-37371"
-          ],
-          "PublishedDate": "2024-06-28T23:15:11.603Z",
-          "LastModifiedDate": "2024-09-18T12:39:04.477Z"
-        },
-        {
           "VulnerabilityID": "CVE-2024-26458",
-          "PkgID": "libk5crypto3@1.19.2-2ubuntu0.3",
+          "PkgID": "libk5crypto3@1.19.2-2ubuntu0.4",
           "PkgName": "libk5crypto3",
           "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.3?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "7ebfc245d40b9021"
+            "PURL": "pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.4?arch=amd64\u0026distro=ubuntu-22.04",
+            "UID": "fa90fa58391d7f8a"
           },
-          "InstalledVersion": "1.19.2-2ubuntu0.3",
+          "InstalledVersion": "1.19.2-2ubuntu0.4",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-26458",
@@ -1253,17 +969,17 @@
         },
         {
           "VulnerabilityID": "CVE-2024-26461",
-          "PkgID": "libk5crypto3@1.19.2-2ubuntu0.3",
+          "PkgID": "libk5crypto3@1.19.2-2ubuntu0.4",
           "PkgName": "libk5crypto3",
           "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.3?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "7ebfc245d40b9021"
+            "PURL": "pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.4?arch=amd64\u0026distro=ubuntu-22.04",
+            "UID": "fa90fa58391d7f8a"
           },
-          "InstalledVersion": "1.19.2-2ubuntu0.3",
+          "InstalledVersion": "1.19.2-2ubuntu0.4",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-26461",
@@ -1319,17 +1035,17 @@
         },
         {
           "VulnerabilityID": "CVE-2024-26462",
-          "PkgID": "libkrb5-3@1.19.2-2ubuntu0.3",
+          "PkgID": "libkrb5-3@1.19.2-2ubuntu0.4",
           "PkgName": "libkrb5-3",
           "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.3?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "ad9b14cc7d452ce7"
+            "PURL": "pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.4?arch=amd64\u0026distro=ubuntu-22.04",
+            "UID": "da6fa7279f28be71"
           },
-          "InstalledVersion": "1.19.2-2ubuntu0.3",
+          "InstalledVersion": "1.19.2-2ubuntu0.4",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-26462",
@@ -1366,146 +1082,18 @@
           "LastModifiedDate": "2024-05-14T15:09:01.053Z"
         },
         {
-          "VulnerabilityID": "CVE-2024-37370",
-          "PkgID": "libkrb5-3@1.19.2-2ubuntu0.3",
-          "PkgName": "libkrb5-3",
-          "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.3?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "ad9b14cc7d452ce7"
-          },
-          "InstalledVersion": "1.19.2-2ubuntu0.3",
-          "FixedVersion": "1.19.2-2ubuntu0.4",
-          "Status": "fixed",
-          "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
-          },
-          "SeveritySource": "ubuntu",
-          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-37370",
-          "DataSource": {
-            "ID": "ubuntu",
-            "Name": "Ubuntu CVE Tracker",
-            "URL": "https://git.launchpad.net/ubuntu-cve-tracker"
-          },
-          "Title": "krb5: GSS message token handling",
-          "Description": "In MIT Kerberos 5 (aka krb5) before 1.21.3, an attacker can modify the plaintext Extra Count field of a confidential GSS krb5 wrap token, causing the unwrapped token to appear truncated to the application.",
-          "Severity": "MEDIUM",
-          "VendorSeverity": {
-            "alma": 2,
-            "amazon": 2,
-            "azure": 3,
-            "cbl-mariner": 3,
-            "nvd": 3,
-            "oracle-oval": 2,
-            "photon": 3,
-            "redhat": 2,
-            "ubuntu": 2
-          },
-          "CVSS": {
-            "nvd": {
-              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
-              "V3Score": 7.5
-            },
-            "redhat": {
-              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H",
-              "V3Score": 7.4
-            }
-          },
-          "References": [
-            "https://access.redhat.com/errata/RHSA-2024:5312",
-            "https://access.redhat.com/security/cve/CVE-2024-37370",
-            "https://bugzilla.redhat.com/2294676",
-            "https://bugzilla.redhat.com/2294677",
-            "https://errata.almalinux.org/8/ALSA-2024-5312.html",
-            "https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef",
-            "https://linux.oracle.com/cve/CVE-2024-37370.html",
-            "https://linux.oracle.com/errata/ELSA-2024-6166.html",
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-37370",
-            "https://ubuntu.com/security/notices/USN-6947-1",
-            "https://web.mit.edu/kerberos/www/advisories/",
-            "https://web.mit.edu/kerberos/www/krb5-1.21/",
-            "https://www.cve.org/CVERecord?id=CVE-2024-37370"
-          ],
-          "PublishedDate": "2024-06-28T22:15:02.293Z",
-          "LastModifiedDate": "2024-08-27T17:48:12.297Z"
-        },
-        {
-          "VulnerabilityID": "CVE-2024-37371",
-          "PkgID": "libkrb5-3@1.19.2-2ubuntu0.3",
-          "PkgName": "libkrb5-3",
-          "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.3?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "ad9b14cc7d452ce7"
-          },
-          "InstalledVersion": "1.19.2-2ubuntu0.3",
-          "FixedVersion": "1.19.2-2ubuntu0.4",
-          "Status": "fixed",
-          "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
-          },
-          "SeveritySource": "ubuntu",
-          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-37371",
-          "DataSource": {
-            "ID": "ubuntu",
-            "Name": "Ubuntu CVE Tracker",
-            "URL": "https://git.launchpad.net/ubuntu-cve-tracker"
-          },
-          "Title": "krb5: GSS message token handling",
-          "Description": "In MIT Kerberos 5 (aka krb5) before 1.21.3, an attacker can cause invalid memory reads during GSS message token handling by sending message tokens with invalid length fields.",
-          "Severity": "MEDIUM",
-          "VendorSeverity": {
-            "alma": 2,
-            "amazon": 2,
-            "azure": 4,
-            "cbl-mariner": 4,
-            "nvd": 4,
-            "oracle-oval": 2,
-            "photon": 4,
-            "redhat": 2,
-            "ubuntu": 2
-          },
-          "CVSS": {
-            "nvd": {
-              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
-              "V3Score": 9.1
-            },
-            "redhat": {
-              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-              "V3Score": 6.5
-            }
-          },
-          "References": [
-            "https://access.redhat.com/errata/RHSA-2024:5312",
-            "https://access.redhat.com/security/cve/CVE-2024-37371",
-            "https://bugzilla.redhat.com/2294676",
-            "https://bugzilla.redhat.com/2294677",
-            "https://errata.almalinux.org/8/ALSA-2024-5312.html",
-            "https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef",
-            "https://linux.oracle.com/cve/CVE-2024-37371.html",
-            "https://linux.oracle.com/errata/ELSA-2024-6166.html",
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-37371",
-            "https://ubuntu.com/security/notices/USN-6947-1",
-            "https://web.mit.edu/kerberos/www/advisories/",
-            "https://web.mit.edu/kerberos/www/krb5-1.21/",
-            "https://www.cve.org/CVERecord?id=CVE-2024-37371"
-          ],
-          "PublishedDate": "2024-06-28T23:15:11.603Z",
-          "LastModifiedDate": "2024-09-18T12:39:04.477Z"
-        },
-        {
           "VulnerabilityID": "CVE-2024-26458",
-          "PkgID": "libkrb5-3@1.19.2-2ubuntu0.3",
+          "PkgID": "libkrb5-3@1.19.2-2ubuntu0.4",
           "PkgName": "libkrb5-3",
           "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.3?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "ad9b14cc7d452ce7"
+            "PURL": "pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.4?arch=amd64\u0026distro=ubuntu-22.04",
+            "UID": "da6fa7279f28be71"
           },
-          "InstalledVersion": "1.19.2-2ubuntu0.3",
+          "InstalledVersion": "1.19.2-2ubuntu0.4",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-26458",
@@ -1557,17 +1145,17 @@
         },
         {
           "VulnerabilityID": "CVE-2024-26461",
-          "PkgID": "libkrb5-3@1.19.2-2ubuntu0.3",
+          "PkgID": "libkrb5-3@1.19.2-2ubuntu0.4",
           "PkgName": "libkrb5-3",
           "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.3?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "ad9b14cc7d452ce7"
+            "PURL": "pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.4?arch=amd64\u0026distro=ubuntu-22.04",
+            "UID": "da6fa7279f28be71"
           },
-          "InstalledVersion": "1.19.2-2ubuntu0.3",
+          "InstalledVersion": "1.19.2-2ubuntu0.4",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-26461",
@@ -1623,17 +1211,17 @@
         },
         {
           "VulnerabilityID": "CVE-2024-26462",
-          "PkgID": "libkrb5support0@1.19.2-2ubuntu0.3",
+          "PkgID": "libkrb5support0@1.19.2-2ubuntu0.4",
           "PkgName": "libkrb5support0",
           "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.3?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "aab42c9fbd29cbfd"
+            "PURL": "pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.4?arch=amd64\u0026distro=ubuntu-22.04",
+            "UID": "76c2af1c95fa70fe"
           },
-          "InstalledVersion": "1.19.2-2ubuntu0.3",
+          "InstalledVersion": "1.19.2-2ubuntu0.4",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-26462",
@@ -1670,146 +1258,18 @@
           "LastModifiedDate": "2024-05-14T15:09:01.053Z"
         },
         {
-          "VulnerabilityID": "CVE-2024-37370",
-          "PkgID": "libkrb5support0@1.19.2-2ubuntu0.3",
-          "PkgName": "libkrb5support0",
-          "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.3?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "aab42c9fbd29cbfd"
-          },
-          "InstalledVersion": "1.19.2-2ubuntu0.3",
-          "FixedVersion": "1.19.2-2ubuntu0.4",
-          "Status": "fixed",
-          "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
-          },
-          "SeveritySource": "ubuntu",
-          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-37370",
-          "DataSource": {
-            "ID": "ubuntu",
-            "Name": "Ubuntu CVE Tracker",
-            "URL": "https://git.launchpad.net/ubuntu-cve-tracker"
-          },
-          "Title": "krb5: GSS message token handling",
-          "Description": "In MIT Kerberos 5 (aka krb5) before 1.21.3, an attacker can modify the plaintext Extra Count field of a confidential GSS krb5 wrap token, causing the unwrapped token to appear truncated to the application.",
-          "Severity": "MEDIUM",
-          "VendorSeverity": {
-            "alma": 2,
-            "amazon": 2,
-            "azure": 3,
-            "cbl-mariner": 3,
-            "nvd": 3,
-            "oracle-oval": 2,
-            "photon": 3,
-            "redhat": 2,
-            "ubuntu": 2
-          },
-          "CVSS": {
-            "nvd": {
-              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
-              "V3Score": 7.5
-            },
-            "redhat": {
-              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H",
-              "V3Score": 7.4
-            }
-          },
-          "References": [
-            "https://access.redhat.com/errata/RHSA-2024:5312",
-            "https://access.redhat.com/security/cve/CVE-2024-37370",
-            "https://bugzilla.redhat.com/2294676",
-            "https://bugzilla.redhat.com/2294677",
-            "https://errata.almalinux.org/8/ALSA-2024-5312.html",
-            "https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef",
-            "https://linux.oracle.com/cve/CVE-2024-37370.html",
-            "https://linux.oracle.com/errata/ELSA-2024-6166.html",
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-37370",
-            "https://ubuntu.com/security/notices/USN-6947-1",
-            "https://web.mit.edu/kerberos/www/advisories/",
-            "https://web.mit.edu/kerberos/www/krb5-1.21/",
-            "https://www.cve.org/CVERecord?id=CVE-2024-37370"
-          ],
-          "PublishedDate": "2024-06-28T22:15:02.293Z",
-          "LastModifiedDate": "2024-08-27T17:48:12.297Z"
-        },
-        {
-          "VulnerabilityID": "CVE-2024-37371",
-          "PkgID": "libkrb5support0@1.19.2-2ubuntu0.3",
-          "PkgName": "libkrb5support0",
-          "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.3?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "aab42c9fbd29cbfd"
-          },
-          "InstalledVersion": "1.19.2-2ubuntu0.3",
-          "FixedVersion": "1.19.2-2ubuntu0.4",
-          "Status": "fixed",
-          "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
-          },
-          "SeveritySource": "ubuntu",
-          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-37371",
-          "DataSource": {
-            "ID": "ubuntu",
-            "Name": "Ubuntu CVE Tracker",
-            "URL": "https://git.launchpad.net/ubuntu-cve-tracker"
-          },
-          "Title": "krb5: GSS message token handling",
-          "Description": "In MIT Kerberos 5 (aka krb5) before 1.21.3, an attacker can cause invalid memory reads during GSS message token handling by sending message tokens with invalid length fields.",
-          "Severity": "MEDIUM",
-          "VendorSeverity": {
-            "alma": 2,
-            "amazon": 2,
-            "azure": 4,
-            "cbl-mariner": 4,
-            "nvd": 4,
-            "oracle-oval": 2,
-            "photon": 4,
-            "redhat": 2,
-            "ubuntu": 2
-          },
-          "CVSS": {
-            "nvd": {
-              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
-              "V3Score": 9.1
-            },
-            "redhat": {
-              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-              "V3Score": 6.5
-            }
-          },
-          "References": [
-            "https://access.redhat.com/errata/RHSA-2024:5312",
-            "https://access.redhat.com/security/cve/CVE-2024-37371",
-            "https://bugzilla.redhat.com/2294676",
-            "https://bugzilla.redhat.com/2294677",
-            "https://errata.almalinux.org/8/ALSA-2024-5312.html",
-            "https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef",
-            "https://linux.oracle.com/cve/CVE-2024-37371.html",
-            "https://linux.oracle.com/errata/ELSA-2024-6166.html",
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-37371",
-            "https://ubuntu.com/security/notices/USN-6947-1",
-            "https://web.mit.edu/kerberos/www/advisories/",
-            "https://web.mit.edu/kerberos/www/krb5-1.21/",
-            "https://www.cve.org/CVERecord?id=CVE-2024-37371"
-          ],
-          "PublishedDate": "2024-06-28T23:15:11.603Z",
-          "LastModifiedDate": "2024-09-18T12:39:04.477Z"
-        },
-        {
           "VulnerabilityID": "CVE-2024-26458",
-          "PkgID": "libkrb5support0@1.19.2-2ubuntu0.3",
+          "PkgID": "libkrb5support0@1.19.2-2ubuntu0.4",
           "PkgName": "libkrb5support0",
           "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.3?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "aab42c9fbd29cbfd"
+            "PURL": "pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.4?arch=amd64\u0026distro=ubuntu-22.04",
+            "UID": "76c2af1c95fa70fe"
           },
-          "InstalledVersion": "1.19.2-2ubuntu0.3",
+          "InstalledVersion": "1.19.2-2ubuntu0.4",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-26458",
@@ -1861,17 +1321,17 @@
         },
         {
           "VulnerabilityID": "CVE-2024-26461",
-          "PkgID": "libkrb5support0@1.19.2-2ubuntu0.3",
+          "PkgID": "libkrb5support0@1.19.2-2ubuntu0.4",
           "PkgName": "libkrb5support0",
           "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.3?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "aab42c9fbd29cbfd"
+            "PURL": "pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.4?arch=amd64\u0026distro=ubuntu-22.04",
+            "UID": "76c2af1c95fa70fe"
           },
-          "InstalledVersion": "1.19.2-2ubuntu0.3",
+          "InstalledVersion": "1.19.2-2ubuntu0.4",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-26461",
@@ -1936,8 +1396,8 @@
           "InstalledVersion": "6.3-2ubuntu0.1",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-45918",
@@ -1981,8 +1441,8 @@
           "InstalledVersion": "6.3-2ubuntu0.1",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-50495",
@@ -2034,8 +1494,8 @@
           "InstalledVersion": "6.3-2ubuntu0.1",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-45918",
@@ -2079,8 +1539,8 @@
           "InstalledVersion": "6.3-2ubuntu0.1",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-50495",
@@ -2132,8 +1592,8 @@
           "InstalledVersion": "2:8.39-13ubuntu0.22.04.1",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2017-11164",
@@ -2181,17 +1641,17 @@
         },
         {
           "VulnerabilityID": "CVE-2024-41996",
-          "PkgID": "libssl3@3.0.2-0ubuntu1.16",
+          "PkgID": "libssl3@3.0.2-0ubuntu1.18",
           "PkgName": "libssl3",
           "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.16?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "4506eac22f986dcb"
+            "PURL": "pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.18?arch=amd64\u0026distro=ubuntu-22.04",
+            "UID": "db081268e5a2a73"
           },
-          "InstalledVersion": "3.0.2-0ubuntu1.16",
+          "InstalledVersion": "3.0.2-0ubuntu1.18",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-41996",
@@ -2202,13 +1662,13 @@
           },
           "Title": "openssl: remote attackers (from the client side) to trigger unnecessarily expensive server-side DHE modular-exponentiation calculations",
           "Description": "Validating the order of the public keys in the Diffie-Hellman Key Agreement Protocol, when an approved safe prime is used, allows remote attackers (from the client side) to trigger unnecessarily expensive server-side DHE modular-exponentiation calculations. The client may cause asymmetric resource consumption. The basic attack scenario is that the client must claim that it can only communicate with DHE, and the server must be configured to allow DHE and validate the order of the public key.",
-          "Severity": "MEDIUM",
+          "Severity": "LOW",
           "CweIDs": [
             "CWE-295"
           ],
           "VendorSeverity": {
             "redhat": 2,
-            "ubuntu": 2
+            "ubuntu": 1
           },
           "CVSS": {
             "redhat": {
@@ -2231,288 +1691,6 @@
           "LastModifiedDate": "2024-08-26T16:35:11.247Z"
         },
         {
-          "VulnerabilityID": "CVE-2024-6119",
-          "PkgID": "libssl3@3.0.2-0ubuntu1.16",
-          "PkgName": "libssl3",
-          "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.16?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "4506eac22f986dcb"
-          },
-          "InstalledVersion": "3.0.2-0ubuntu1.16",
-          "FixedVersion": "3.0.2-0ubuntu1.18",
-          "Status": "fixed",
-          "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
-          },
-          "SeveritySource": "ubuntu",
-          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-6119",
-          "DataSource": {
-            "ID": "ubuntu",
-            "Name": "Ubuntu CVE Tracker",
-            "URL": "https://git.launchpad.net/ubuntu-cve-tracker"
-          },
-          "Title": "openssl: Possible denial of service in X.509 name checks",
-          "Description": "Issue summary: Applications performing certificate name checks (e.g., TLS\nclients checking server certificates) may attempt to read an invalid memory\naddress resulting in abnormal termination of the application process.\n\nImpact summary: Abnormal termination of an application can a cause a denial of\nservice.\n\nApplications performing certificate name checks (e.g., TLS clients checking\nserver certificates) may attempt to read an invalid memory address when\ncomparing the expected name with an `otherName` subject alternative name of an\nX.509 certificate. This may result in an exception that terminates the\napplication program.\n\nNote that basic certificate chain validation (signatures, dates, ...) is not\naffected, the denial of service can occur only when the application also\nspecifies an expected DNS name, Email address or IP address.\n\nTLS servers rarely solicit client certificates, and even when they do, they\ngenerally don't perform a name check against a reference identifier (expected\nidentity), but rather extract the presented identity after checking the\ncertificate chain.  So TLS servers are generally not affected and the severity\nof the issue is Moderate.\n\nThe FIPS modules in 3.3, 3.2, 3.1 and 3.0 are not affected by this issue.",
-          "Severity": "MEDIUM",
-          "CweIDs": [
-            "CWE-843"
-          ],
-          "VendorSeverity": {
-            "alma": 2,
-            "oracle-oval": 2,
-            "photon": 3,
-            "redhat": 2,
-            "ubuntu": 2
-          },
-          "CVSS": {
-            "redhat": {
-              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
-              "V3Score": 5.9
-            }
-          },
-          "References": [
-            "https://access.redhat.com/errata/RHSA-2024:6783",
-            "https://access.redhat.com/security/cve/CVE-2024-6119",
-            "https://bugzilla.redhat.com/2306158",
-            "https://errata.almalinux.org/9/ALSA-2024-6783.html",
-            "https://github.com/openssl/openssl/commit/05f360d9e849a1b277db628f1f13083a7f8dd04f",
-            "https://github.com/openssl/openssl/commit/06d1dc3fa96a2ba5a3e22735a033012aadc9f0d6",
-            "https://github.com/openssl/openssl/commit/621f3729831b05ee828a3203eddb621d014ff2b2",
-            "https://github.com/openssl/openssl/commit/7dfcee2cd2a63b2c64b9b4b0850be64cb695b0a0",
-            "https://github.com/openssl/openssl/security/advisories/GHSA-5qrj-vq78-58fj",
-            "https://linux.oracle.com/cve/CVE-2024-6119.html",
-            "https://linux.oracle.com/errata/ELSA-2024-6783.html",
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-6119",
-            "https://openssl-library.org/news/secadv/20240903.txt",
-            "https://ubuntu.com/security/notices/USN-6986-1",
-            "https://www.cve.org/CVERecord?id=CVE-2024-6119"
-          ],
-          "PublishedDate": "2024-09-03T16:15:07.177Z",
-          "LastModifiedDate": "2024-09-03T21:35:12.987Z"
-        },
-        {
-          "VulnerabilityID": "CVE-2024-2511",
-          "PkgID": "libssl3@3.0.2-0ubuntu1.16",
-          "PkgName": "libssl3",
-          "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.16?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "4506eac22f986dcb"
-          },
-          "InstalledVersion": "3.0.2-0ubuntu1.16",
-          "FixedVersion": "3.0.2-0ubuntu1.17",
-          "Status": "fixed",
-          "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
-          },
-          "SeveritySource": "ubuntu",
-          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-2511",
-          "DataSource": {
-            "ID": "ubuntu",
-            "Name": "Ubuntu CVE Tracker",
-            "URL": "https://git.launchpad.net/ubuntu-cve-tracker"
-          },
-          "Title": "openssl: Unbounded memory growth with session handling in TLSv1.3",
-          "Description": "Issue summary: Some non-default TLS server configurations can cause unbounded\nmemory growth when processing TLSv1.3 sessions\n\nImpact summary: An attacker may exploit certain server configurations to trigger\nunbounded memory growth that would lead to a Denial of Service\n\nThis problem can occur in TLSv1.3 if the non-default SSL_OP_NO_TICKET option is\nbeing used (but not if early_data support is also configured and the default\nanti-replay protection is in use). In this case, under certain conditions, the\nsession cache can get into an incorrect state and it will fail to flush properly\nas it fills. The session cache will continue to grow in an unbounded manner. A\nmalicious client could deliberately create the scenario for this failure to\nforce a Denial of Service. It may also happen by accident in normal operation.\n\nThis issue only affects TLS servers supporting TLSv1.3. It does not affect TLS\nclients.\n\nThe FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue. OpenSSL\n1.0.2 is also not affected by this issue.",
-          "Severity": "LOW",
-          "VendorSeverity": {
-            "amazon": 2,
-            "azure": 1,
-            "cbl-mariner": 3,
-            "photon": 3,
-            "redhat": 1,
-            "ubuntu": 1
-          },
-          "CVSS": {
-            "redhat": {
-              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
-              "V3Score": 3.7
-            }
-          },
-          "References": [
-            "http://www.openwall.com/lists/oss-security/2024/04/08/5",
-            "https://access.redhat.com/security/cve/CVE-2024-2511",
-            "https://github.com/openssl/openssl/commit/7e4d731b1c07201ad9374c1cd9ac5263bdf35bce",
-            "https://github.com/openssl/openssl/commit/b52867a9f618bb955bed2a3ce3db4d4f97ed8e5d",
-            "https://github.com/openssl/openssl/commit/e9d7083e241670332e0443da0f0d4ffb52829f08",
-            "https://github.openssl.org/openssl/extended-releases/commit/5f8d25770ae6437db119dfc951e207271a326640",
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-2511",
-            "https://security.netapp.com/advisory/ntap-20240503-0013/",
-            "https://ubuntu.com/security/notices/USN-6937-1",
-            "https://www.cve.org/CVERecord?id=CVE-2024-2511",
-            "https://www.openssl.org/news/secadv/20240408.txt",
-            "https://www.openssl.org/news/vulnerabilities.html"
-          ],
-          "PublishedDate": "2024-04-08T14:15:07.66Z",
-          "LastModifiedDate": "2024-05-03T13:15:21.93Z"
-        },
-        {
-          "VulnerabilityID": "CVE-2024-4603",
-          "PkgID": "libssl3@3.0.2-0ubuntu1.16",
-          "PkgName": "libssl3",
-          "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.16?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "4506eac22f986dcb"
-          },
-          "InstalledVersion": "3.0.2-0ubuntu1.16",
-          "FixedVersion": "3.0.2-0ubuntu1.17",
-          "Status": "fixed",
-          "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
-          },
-          "SeveritySource": "ubuntu",
-          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-4603",
-          "DataSource": {
-            "ID": "ubuntu",
-            "Name": "Ubuntu CVE Tracker",
-            "URL": "https://git.launchpad.net/ubuntu-cve-tracker"
-          },
-          "Title": "openssl: Excessive time spent checking DSA keys and parameters",
-          "Description": "Issue summary: Checking excessively long DSA keys or parameters may be very\nslow.\n\nImpact summary: Applications that use the functions EVP_PKEY_param_check()\nor EVP_PKEY_public_check() to check a DSA public key or DSA parameters may\nexperience long delays. Where the key or parameters that are being checked\nhave been obtained from an untrusted source this may lead to a Denial of\nService.\n\nThe functions EVP_PKEY_param_check() or EVP_PKEY_public_check() perform\nvarious checks on DSA parameters. Some of those computations take a long time\nif the modulus (`p` parameter) is too large.\n\nTrying to use a very large modulus is slow and OpenSSL will not allow using\npublic keys with a modulus which is over 10,000 bits in length for signature\nverification. However the key and parameter check functions do not limit\nthe modulus size when performing the checks.\n\nAn application that calls EVP_PKEY_param_check() or EVP_PKEY_public_check()\nand supplies a key or parameters obtained from an untrusted source could be\nvulnerable to a Denial of Service attack.\n\nThese functions are not called by OpenSSL itself on untrusted DSA keys so\nonly applications that directly call these functions may be vulnerable.\n\nAlso vulnerable are the OpenSSL pkey and pkeyparam command line applications\nwhen using the `-check` option.\n\nThe OpenSSL SSL/TLS implementation is not affected by this issue.\n\nThe OpenSSL 3.0 and 3.1 FIPS providers are affected by this issue.",
-          "Severity": "LOW",
-          "CweIDs": [
-            "CWE-834"
-          ],
-          "VendorSeverity": {
-            "amazon": 2,
-            "azure": 2,
-            "cbl-mariner": 2,
-            "redhat": 1,
-            "ubuntu": 1
-          },
-          "CVSS": {
-            "redhat": {
-              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
-              "V3Score": 5.3
-            }
-          },
-          "References": [
-            "http://www.openwall.com/lists/oss-security/2024/05/16/2",
-            "https://access.redhat.com/security/cve/CVE-2024-4603",
-            "https://github.com/openssl/openssl/commit/3559e868e58005d15c6013a0c1fd832e51c73397",
-            "https://github.com/openssl/openssl/commit/53ea06486d296b890d565fb971b2764fcd826e7e",
-            "https://github.com/openssl/openssl/commit/9c39b3858091c152f52513c066ff2c5a47969f0d",
-            "https://github.com/openssl/openssl/commit/da343d0605c826ef197aceedc67e8e04f065f740",
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-4603",
-            "https://security.netapp.com/advisory/ntap-20240621-0001/",
-            "https://ubuntu.com/security/notices/USN-6937-1",
-            "https://www.cve.org/CVERecord?id=CVE-2024-4603",
-            "https://www.openssl.org/news/secadv/20240516.txt"
-          ],
-          "PublishedDate": "2024-05-16T16:15:10.643Z",
-          "LastModifiedDate": "2024-08-13T16:35:05.013Z"
-        },
-        {
-          "VulnerabilityID": "CVE-2024-4741",
-          "PkgID": "libssl3@3.0.2-0ubuntu1.16",
-          "PkgName": "libssl3",
-          "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.16?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "4506eac22f986dcb"
-          },
-          "InstalledVersion": "3.0.2-0ubuntu1.16",
-          "FixedVersion": "3.0.2-0ubuntu1.17",
-          "Status": "fixed",
-          "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
-          },
-          "SeveritySource": "ubuntu",
-          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-4741",
-          "DataSource": {
-            "ID": "ubuntu",
-            "Name": "Ubuntu CVE Tracker",
-            "URL": "https://git.launchpad.net/ubuntu-cve-tracker"
-          },
-          "Title": "openssl: Use After Free with SSL_free_buffers",
-          "Description": "A use-after-free vulnerability was found in OpenSSL. Calling the OpenSSL API SSL_free_buffers function may cause memory to be accessed that was previously freed in some situations.",
-          "Severity": "LOW",
-          "VendorSeverity": {
-            "amazon": 2,
-            "cbl-mariner": 3,
-            "photon": 2,
-            "redhat": 1,
-            "ubuntu": 1
-          },
-          "CVSS": {
-            "redhat": {
-              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
-              "V3Score": 5.6
-            }
-          },
-          "References": [
-            "https://access.redhat.com/security/cve/CVE-2024-4741",
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-4741",
-            "https://ubuntu.com/security/notices/USN-6937-1",
-            "https://www.cve.org/CVERecord?id=CVE-2024-4741",
-            "https://www.openssl.org/news/secadv/20240528.txt"
-          ]
-        },
-        {
-          "VulnerabilityID": "CVE-2024-5535",
-          "PkgID": "libssl3@3.0.2-0ubuntu1.16",
-          "PkgName": "libssl3",
-          "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.16?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "4506eac22f986dcb"
-          },
-          "InstalledVersion": "3.0.2-0ubuntu1.16",
-          "FixedVersion": "3.0.2-0ubuntu1.17",
-          "Status": "fixed",
-          "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
-          },
-          "SeveritySource": "ubuntu",
-          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-5535",
-          "DataSource": {
-            "ID": "ubuntu",
-            "Name": "Ubuntu CVE Tracker",
-            "URL": "https://git.launchpad.net/ubuntu-cve-tracker"
-          },
-          "Title": "openssl: SSL_select_next_proto buffer overread",
-          "Description": "Issue summary: Calling the OpenSSL API function SSL_select_next_proto with an\nempty supported client protocols buffer may cause a crash or memory contents to\nbe sent to the peer.\n\nImpact summary: A buffer overread can have a range of potential consequences\nsuch as unexpected application beahviour or a crash. In particular this issue\ncould result in up to 255 bytes of arbitrary private data from memory being sent\nto the peer leading to a loss of confidentiality. However, only applications\nthat directly call the SSL_select_next_proto function with a 0 length list of\nsupported client protocols are affected by this issue. This would normally never\nbe a valid scenario and is typically not under attacker control but may occur by\naccident in the case of a configuration or programming error in the calling\napplication.\n\nThe OpenSSL API function SSL_select_next_proto is typically used by TLS\napplications that support ALPN (Application Layer Protocol Negotiation) or NPN\n(Next Protocol Negotiation). NPN is older, was never standardised and\nis deprecated in favour of ALPN. We believe that ALPN is significantly more\nwidely deployed than NPN. The SSL_select_next_proto function accepts a list of\nprotocols from the server and a list of protocols from the client and returns\nthe first protocol that appears in the server list that also appears in the\nclient list. In the case of no overlap between the two lists it returns the\nfirst item in the client list. In either case it will signal whether an overlap\nbetween the two lists was found. In the case where SSL_select_next_proto is\ncalled with a zero length client list it fails to notice this condition and\nreturns the memory immediately following the client list pointer (and reports\nthat there was no overlap in the lists).\n\nThis function is typically called from a server side application callback for\nALPN or a client side application callback for NPN. In the case of ALPN the list\nof protocols supplied by the client is guaranteed by libssl to never be zero in\nlength. The list of server protocols comes from the application and should never\nnormally be expected to be of zero length. In this case if the\nSSL_select_next_proto function has been called as expected (with the list\nsupplied by the client passed in the client/client_len parameters), then the\napplication will not be vulnerable to this issue. If the application has\naccidentally been configured with a zero length server list, and has\naccidentally passed that zero length server list in the client/client_len\nparameters, and has additionally failed to correctly handle a \"no overlap\"\nresponse (which would normally result in a handshake failure in ALPN) then it\nwill be vulnerable to this problem.\n\nIn the case of NPN, the protocol permits the client to opportunistically select\na protocol when there is no overlap. OpenSSL returns the first client protocol\nin the no overlap case in support of this. The list of client protocols comes\nfrom the application and should never normally be expected to be of zero length.\nHowever if the SSL_select_next_proto function is accidentally called with a\nclient_len of 0 then an invalid memory pointer will be returned instead. If the\napplication uses this output as the opportunistic protocol then the loss of\nconfidentiality will occur.\n\nThis issue has been assessed as Low severity because applications are most\nlikely to be vulnerable if they are using NPN instead of ALPN - but NPN is not\nwidely used. It also requires an application configuration or programming error.\nFinally, this issue would not typically be under attacker control making active\nexploitation unlikely.\n\nThe FIPS modules in 3.3, 3.2, 3.1 and 3.0 are not affected by this issue.\n\nDue to the low severity of this issue we are not issuing new releases of\nOpenSSL at this time. The fix will be included in the next releases when they\nbecome available.",
-          "Severity": "LOW",
-          "CweIDs": [
-            "CWE-200"
-          ],
-          "VendorSeverity": {
-            "amazon": 2,
-            "azure": 2,
-            "cbl-mariner": 4,
-            "photon": 4,
-            "redhat": 1,
-            "ubuntu": 1
-          },
-          "CVSS": {
-            "redhat": {
-              "V3Vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
-              "V3Score": 5.9
-            }
-          },
-          "References": [
-            "http://www.openwall.com/lists/oss-security/2024/06/27/1",
-            "http://www.openwall.com/lists/oss-security/2024/06/28/4",
-            "https://access.redhat.com/security/cve/CVE-2024-5535",
-            "https://github.com/openssl/openssl/commit/4ada436a1946cbb24db5ab4ca082b69c1bc10f37",
-            "https://github.com/openssl/openssl/commit/99fb785a5f85315b95288921a321a935ea29a51e",
-            "https://github.com/openssl/openssl/commit/cf6f91f6121f4db167405db2f0de410a456f260c",
-            "https://github.com/openssl/openssl/commit/e86ac436f0bd54d4517745483e2315650fae7b2c",
-            "https://github.openssl.org/openssl/extended-releases/commit/9947251413065a05189a63c9b7a6c1d4e224c21c",
-            "https://github.openssl.org/openssl/extended-releases/commit/b78ec0824da857223486660177d3b1f255c65d87",
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-5535",
-            "https://openssl.org/news/secadv/20240627.txt",
-            "https://security.netapp.com/advisory/ntap-20240712-0005/",
-            "https://ubuntu.com/security/notices/USN-6937-1",
-            "https://www.cve.org/CVERecord?id=CVE-2024-5535",
-            "https://www.openssl.org/news/secadv/20240627.txt"
-          ],
-          "PublishedDate": "2024-06-27T11:15:24.447Z",
-          "LastModifiedDate": "2024-07-12T14:15:16.79Z"
-        },
-        {
           "VulnerabilityID": "CVE-2023-4039",
           "PkgID": "libstdc++6@12.3.0-1ubuntu1~22.04",
           "PkgName": "libstdc++6",
@@ -2523,8 +1701,8 @@
           "InstalledVersion": "12.3.0-1ubuntu1~22.04",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-4039",
@@ -2580,8 +1758,8 @@
           "InstalledVersion": "12.3.0-1ubuntu1~22.04",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-27943",
@@ -2640,8 +1818,8 @@
           "InstalledVersion": "249.11-0ubuntu3.12",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-7008",
@@ -2684,7 +1862,7 @@
             "https://bugzilla.redhat.com/show_bug.cgi?id=2222261",
             "https://bugzilla.redhat.com/show_bug.cgi?id=2222672",
             "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008",
-            "https://errata.almalinux.org/8/ALSA-2024-3203.html",
+            "https://errata.almalinux.org/9/ALSA-2024-2463.html",
             "https://errata.rockylinux.org/RLSA-2024:2463",
             "https://github.com/systemd/systemd/issues/25676",
             "https://linux.oracle.com/cve/CVE-2023-7008.html",
@@ -2706,8 +1884,8 @@
           "InstalledVersion": "6.3-2ubuntu0.1",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-45918",
@@ -2751,8 +1929,8 @@
           "InstalledVersion": "6.3-2ubuntu0.1",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-50495",
@@ -2804,8 +1982,8 @@
           "InstalledVersion": "249.11-0ubuntu3.12",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-7008",
@@ -2848,7 +2026,7 @@
             "https://bugzilla.redhat.com/show_bug.cgi?id=2222261",
             "https://bugzilla.redhat.com/show_bug.cgi?id=2222672",
             "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008",
-            "https://errata.almalinux.org/8/ALSA-2024-3203.html",
+            "https://errata.almalinux.org/9/ALSA-2024-2463.html",
             "https://errata.rockylinux.org/RLSA-2024:2463",
             "https://github.com/systemd/systemd/issues/25676",
             "https://linux.oracle.com/cve/CVE-2023-7008.html",
@@ -2870,8 +2048,8 @@
           "InstalledVersion": "1.4.8+dfsg-3build1",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-4899",
@@ -2912,7 +2090,7 @@
             }
           },
           "References": [
-            "https://access.redhat.com/errata/RHSA-2024:0894",
+            "https://access.redhat.com/errata/RHSA-2024:1141",
             "https://access.redhat.com/security/cve/CVE-2022-4899",
             "https://bugzilla.redhat.com/2179864",
             "https://bugzilla.redhat.com/2188109",
@@ -2989,7 +2167,7 @@
             "https://bugzilla.redhat.com/2258792",
             "https://bugzilla.redhat.com/2258793",
             "https://bugzilla.redhat.com/2258794",
-            "https://errata.almalinux.org/8/ALSA-2024-0894.html",
+            "https://errata.almalinux.org/9/ALSA-2024-1141.html",
             "https://github.com/facebook/zstd",
             "https://github.com/facebook/zstd/issues/3200",
             "https://github.com/facebook/zstd/pull/3220",
@@ -3022,8 +2200,8 @@
           "InstalledVersion": "1:4.8.1-2ubuntu2.2",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-29383",
@@ -3077,8 +2255,8 @@
           "InstalledVersion": "6.3-2ubuntu0.1",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-45918",
@@ -3122,8 +2300,8 @@
           "InstalledVersion": "6.3-2ubuntu0.1",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-50495",
@@ -3175,8 +2353,8 @@
           "InstalledVersion": "6.3-2ubuntu0.1",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-45918",
@@ -3220,8 +2398,8 @@
           "InstalledVersion": "6.3-2ubuntu0.1",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-50495",
@@ -3264,17 +2442,17 @@
         },
         {
           "VulnerabilityID": "CVE-2024-41996",
-          "PkgID": "openssl@3.0.2-0ubuntu1.16",
+          "PkgID": "openssl@3.0.2-0ubuntu1.18",
           "PkgName": "openssl",
           "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.16?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "c3cd56ed22eab39e"
+            "PURL": "pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.18?arch=amd64\u0026distro=ubuntu-22.04",
+            "UID": "a236dfe9d79b0401"
           },
-          "InstalledVersion": "3.0.2-0ubuntu1.16",
+          "InstalledVersion": "3.0.2-0ubuntu1.18",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:b9477eac1777b6fb958ac96c3492f3e7a6e4d2b642cf70de742839ed886e78eb",
-            "DiffID": "sha256:f1d7da5a19406244ec76ff693ce96ff1890cc78c7dc07fa171efe86f1ab2d612"
+            "Digest": "sha256:93758c2edc6bfc0b02da1e8e5910077fb789f4c06006566c97818c5525a42146",
+            "DiffID": "sha256:f116f9fb17920e17cc6dc64b85a1fa4dc21a5ad4518d3d5e0a72e9fb16fbf03e"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-41996",
@@ -3285,13 +2463,13 @@
           },
           "Title": "openssl: remote attackers (from the client side) to trigger unnecessarily expensive server-side DHE modular-exponentiation calculations",
           "Description": "Validating the order of the public keys in the Diffie-Hellman Key Agreement Protocol, when an approved safe prime is used, allows remote attackers (from the client side) to trigger unnecessarily expensive server-side DHE modular-exponentiation calculations. The client may cause asymmetric resource consumption. The basic attack scenario is that the client must claim that it can only communicate with DHE, and the server must be configured to allow DHE and validate the order of the public key.",
-          "Severity": "MEDIUM",
+          "Severity": "LOW",
           "CweIDs": [
             "CWE-295"
           ],
           "VendorSeverity": {
             "redhat": 2,
-            "ubuntu": 2
+            "ubuntu": 1
           },
           "CVSS": {
             "redhat": {
@@ -3314,288 +2492,6 @@
           "LastModifiedDate": "2024-08-26T16:35:11.247Z"
         },
         {
-          "VulnerabilityID": "CVE-2024-6119",
-          "PkgID": "openssl@3.0.2-0ubuntu1.16",
-          "PkgName": "openssl",
-          "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.16?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "c3cd56ed22eab39e"
-          },
-          "InstalledVersion": "3.0.2-0ubuntu1.16",
-          "FixedVersion": "3.0.2-0ubuntu1.18",
-          "Status": "fixed",
-          "Layer": {
-            "Digest": "sha256:b9477eac1777b6fb958ac96c3492f3e7a6e4d2b642cf70de742839ed886e78eb",
-            "DiffID": "sha256:f1d7da5a19406244ec76ff693ce96ff1890cc78c7dc07fa171efe86f1ab2d612"
-          },
-          "SeveritySource": "ubuntu",
-          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-6119",
-          "DataSource": {
-            "ID": "ubuntu",
-            "Name": "Ubuntu CVE Tracker",
-            "URL": "https://git.launchpad.net/ubuntu-cve-tracker"
-          },
-          "Title": "openssl: Possible denial of service in X.509 name checks",
-          "Description": "Issue summary: Applications performing certificate name checks (e.g., TLS\nclients checking server certificates) may attempt to read an invalid memory\naddress resulting in abnormal termination of the application process.\n\nImpact summary: Abnormal termination of an application can a cause a denial of\nservice.\n\nApplications performing certificate name checks (e.g., TLS clients checking\nserver certificates) may attempt to read an invalid memory address when\ncomparing the expected name with an `otherName` subject alternative name of an\nX.509 certificate. This may result in an exception that terminates the\napplication program.\n\nNote that basic certificate chain validation (signatures, dates, ...) is not\naffected, the denial of service can occur only when the application also\nspecifies an expected DNS name, Email address or IP address.\n\nTLS servers rarely solicit client certificates, and even when they do, they\ngenerally don't perform a name check against a reference identifier (expected\nidentity), but rather extract the presented identity after checking the\ncertificate chain.  So TLS servers are generally not affected and the severity\nof the issue is Moderate.\n\nThe FIPS modules in 3.3, 3.2, 3.1 and 3.0 are not affected by this issue.",
-          "Severity": "MEDIUM",
-          "CweIDs": [
-            "CWE-843"
-          ],
-          "VendorSeverity": {
-            "alma": 2,
-            "oracle-oval": 2,
-            "photon": 3,
-            "redhat": 2,
-            "ubuntu": 2
-          },
-          "CVSS": {
-            "redhat": {
-              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
-              "V3Score": 5.9
-            }
-          },
-          "References": [
-            "https://access.redhat.com/errata/RHSA-2024:6783",
-            "https://access.redhat.com/security/cve/CVE-2024-6119",
-            "https://bugzilla.redhat.com/2306158",
-            "https://errata.almalinux.org/9/ALSA-2024-6783.html",
-            "https://github.com/openssl/openssl/commit/05f360d9e849a1b277db628f1f13083a7f8dd04f",
-            "https://github.com/openssl/openssl/commit/06d1dc3fa96a2ba5a3e22735a033012aadc9f0d6",
-            "https://github.com/openssl/openssl/commit/621f3729831b05ee828a3203eddb621d014ff2b2",
-            "https://github.com/openssl/openssl/commit/7dfcee2cd2a63b2c64b9b4b0850be64cb695b0a0",
-            "https://github.com/openssl/openssl/security/advisories/GHSA-5qrj-vq78-58fj",
-            "https://linux.oracle.com/cve/CVE-2024-6119.html",
-            "https://linux.oracle.com/errata/ELSA-2024-6783.html",
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-6119",
-            "https://openssl-library.org/news/secadv/20240903.txt",
-            "https://ubuntu.com/security/notices/USN-6986-1",
-            "https://www.cve.org/CVERecord?id=CVE-2024-6119"
-          ],
-          "PublishedDate": "2024-09-03T16:15:07.177Z",
-          "LastModifiedDate": "2024-09-03T21:35:12.987Z"
-        },
-        {
-          "VulnerabilityID": "CVE-2024-2511",
-          "PkgID": "openssl@3.0.2-0ubuntu1.16",
-          "PkgName": "openssl",
-          "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.16?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "c3cd56ed22eab39e"
-          },
-          "InstalledVersion": "3.0.2-0ubuntu1.16",
-          "FixedVersion": "3.0.2-0ubuntu1.17",
-          "Status": "fixed",
-          "Layer": {
-            "Digest": "sha256:b9477eac1777b6fb958ac96c3492f3e7a6e4d2b642cf70de742839ed886e78eb",
-            "DiffID": "sha256:f1d7da5a19406244ec76ff693ce96ff1890cc78c7dc07fa171efe86f1ab2d612"
-          },
-          "SeveritySource": "ubuntu",
-          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-2511",
-          "DataSource": {
-            "ID": "ubuntu",
-            "Name": "Ubuntu CVE Tracker",
-            "URL": "https://git.launchpad.net/ubuntu-cve-tracker"
-          },
-          "Title": "openssl: Unbounded memory growth with session handling in TLSv1.3",
-          "Description": "Issue summary: Some non-default TLS server configurations can cause unbounded\nmemory growth when processing TLSv1.3 sessions\n\nImpact summary: An attacker may exploit certain server configurations to trigger\nunbounded memory growth that would lead to a Denial of Service\n\nThis problem can occur in TLSv1.3 if the non-default SSL_OP_NO_TICKET option is\nbeing used (but not if early_data support is also configured and the default\nanti-replay protection is in use). In this case, under certain conditions, the\nsession cache can get into an incorrect state and it will fail to flush properly\nas it fills. The session cache will continue to grow in an unbounded manner. A\nmalicious client could deliberately create the scenario for this failure to\nforce a Denial of Service. It may also happen by accident in normal operation.\n\nThis issue only affects TLS servers supporting TLSv1.3. It does not affect TLS\nclients.\n\nThe FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue. OpenSSL\n1.0.2 is also not affected by this issue.",
-          "Severity": "LOW",
-          "VendorSeverity": {
-            "amazon": 2,
-            "azure": 1,
-            "cbl-mariner": 3,
-            "photon": 3,
-            "redhat": 1,
-            "ubuntu": 1
-          },
-          "CVSS": {
-            "redhat": {
-              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
-              "V3Score": 3.7
-            }
-          },
-          "References": [
-            "http://www.openwall.com/lists/oss-security/2024/04/08/5",
-            "https://access.redhat.com/security/cve/CVE-2024-2511",
-            "https://github.com/openssl/openssl/commit/7e4d731b1c07201ad9374c1cd9ac5263bdf35bce",
-            "https://github.com/openssl/openssl/commit/b52867a9f618bb955bed2a3ce3db4d4f97ed8e5d",
-            "https://github.com/openssl/openssl/commit/e9d7083e241670332e0443da0f0d4ffb52829f08",
-            "https://github.openssl.org/openssl/extended-releases/commit/5f8d25770ae6437db119dfc951e207271a326640",
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-2511",
-            "https://security.netapp.com/advisory/ntap-20240503-0013/",
-            "https://ubuntu.com/security/notices/USN-6937-1",
-            "https://www.cve.org/CVERecord?id=CVE-2024-2511",
-            "https://www.openssl.org/news/secadv/20240408.txt",
-            "https://www.openssl.org/news/vulnerabilities.html"
-          ],
-          "PublishedDate": "2024-04-08T14:15:07.66Z",
-          "LastModifiedDate": "2024-05-03T13:15:21.93Z"
-        },
-        {
-          "VulnerabilityID": "CVE-2024-4603",
-          "PkgID": "openssl@3.0.2-0ubuntu1.16",
-          "PkgName": "openssl",
-          "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.16?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "c3cd56ed22eab39e"
-          },
-          "InstalledVersion": "3.0.2-0ubuntu1.16",
-          "FixedVersion": "3.0.2-0ubuntu1.17",
-          "Status": "fixed",
-          "Layer": {
-            "Digest": "sha256:b9477eac1777b6fb958ac96c3492f3e7a6e4d2b642cf70de742839ed886e78eb",
-            "DiffID": "sha256:f1d7da5a19406244ec76ff693ce96ff1890cc78c7dc07fa171efe86f1ab2d612"
-          },
-          "SeveritySource": "ubuntu",
-          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-4603",
-          "DataSource": {
-            "ID": "ubuntu",
-            "Name": "Ubuntu CVE Tracker",
-            "URL": "https://git.launchpad.net/ubuntu-cve-tracker"
-          },
-          "Title": "openssl: Excessive time spent checking DSA keys and parameters",
-          "Description": "Issue summary: Checking excessively long DSA keys or parameters may be very\nslow.\n\nImpact summary: Applications that use the functions EVP_PKEY_param_check()\nor EVP_PKEY_public_check() to check a DSA public key or DSA parameters may\nexperience long delays. Where the key or parameters that are being checked\nhave been obtained from an untrusted source this may lead to a Denial of\nService.\n\nThe functions EVP_PKEY_param_check() or EVP_PKEY_public_check() perform\nvarious checks on DSA parameters. Some of those computations take a long time\nif the modulus (`p` parameter) is too large.\n\nTrying to use a very large modulus is slow and OpenSSL will not allow using\npublic keys with a modulus which is over 10,000 bits in length for signature\nverification. However the key and parameter check functions do not limit\nthe modulus size when performing the checks.\n\nAn application that calls EVP_PKEY_param_check() or EVP_PKEY_public_check()\nand supplies a key or parameters obtained from an untrusted source could be\nvulnerable to a Denial of Service attack.\n\nThese functions are not called by OpenSSL itself on untrusted DSA keys so\nonly applications that directly call these functions may be vulnerable.\n\nAlso vulnerable are the OpenSSL pkey and pkeyparam command line applications\nwhen using the `-check` option.\n\nThe OpenSSL SSL/TLS implementation is not affected by this issue.\n\nThe OpenSSL 3.0 and 3.1 FIPS providers are affected by this issue.",
-          "Severity": "LOW",
-          "CweIDs": [
-            "CWE-834"
-          ],
-          "VendorSeverity": {
-            "amazon": 2,
-            "azure": 2,
-            "cbl-mariner": 2,
-            "redhat": 1,
-            "ubuntu": 1
-          },
-          "CVSS": {
-            "redhat": {
-              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
-              "V3Score": 5.3
-            }
-          },
-          "References": [
-            "http://www.openwall.com/lists/oss-security/2024/05/16/2",
-            "https://access.redhat.com/security/cve/CVE-2024-4603",
-            "https://github.com/openssl/openssl/commit/3559e868e58005d15c6013a0c1fd832e51c73397",
-            "https://github.com/openssl/openssl/commit/53ea06486d296b890d565fb971b2764fcd826e7e",
-            "https://github.com/openssl/openssl/commit/9c39b3858091c152f52513c066ff2c5a47969f0d",
-            "https://github.com/openssl/openssl/commit/da343d0605c826ef197aceedc67e8e04f065f740",
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-4603",
-            "https://security.netapp.com/advisory/ntap-20240621-0001/",
-            "https://ubuntu.com/security/notices/USN-6937-1",
-            "https://www.cve.org/CVERecord?id=CVE-2024-4603",
-            "https://www.openssl.org/news/secadv/20240516.txt"
-          ],
-          "PublishedDate": "2024-05-16T16:15:10.643Z",
-          "LastModifiedDate": "2024-08-13T16:35:05.013Z"
-        },
-        {
-          "VulnerabilityID": "CVE-2024-4741",
-          "PkgID": "openssl@3.0.2-0ubuntu1.16",
-          "PkgName": "openssl",
-          "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.16?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "c3cd56ed22eab39e"
-          },
-          "InstalledVersion": "3.0.2-0ubuntu1.16",
-          "FixedVersion": "3.0.2-0ubuntu1.17",
-          "Status": "fixed",
-          "Layer": {
-            "Digest": "sha256:b9477eac1777b6fb958ac96c3492f3e7a6e4d2b642cf70de742839ed886e78eb",
-            "DiffID": "sha256:f1d7da5a19406244ec76ff693ce96ff1890cc78c7dc07fa171efe86f1ab2d612"
-          },
-          "SeveritySource": "ubuntu",
-          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-4741",
-          "DataSource": {
-            "ID": "ubuntu",
-            "Name": "Ubuntu CVE Tracker",
-            "URL": "https://git.launchpad.net/ubuntu-cve-tracker"
-          },
-          "Title": "openssl: Use After Free with SSL_free_buffers",
-          "Description": "A use-after-free vulnerability was found in OpenSSL. Calling the OpenSSL API SSL_free_buffers function may cause memory to be accessed that was previously freed in some situations.",
-          "Severity": "LOW",
-          "VendorSeverity": {
-            "amazon": 2,
-            "cbl-mariner": 3,
-            "photon": 2,
-            "redhat": 1,
-            "ubuntu": 1
-          },
-          "CVSS": {
-            "redhat": {
-              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
-              "V3Score": 5.6
-            }
-          },
-          "References": [
-            "https://access.redhat.com/security/cve/CVE-2024-4741",
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-4741",
-            "https://ubuntu.com/security/notices/USN-6937-1",
-            "https://www.cve.org/CVERecord?id=CVE-2024-4741",
-            "https://www.openssl.org/news/secadv/20240528.txt"
-          ]
-        },
-        {
-          "VulnerabilityID": "CVE-2024-5535",
-          "PkgID": "openssl@3.0.2-0ubuntu1.16",
-          "PkgName": "openssl",
-          "PkgIdentifier": {
-            "PURL": "pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.16?arch=amd64\u0026distro=ubuntu-22.04",
-            "UID": "c3cd56ed22eab39e"
-          },
-          "InstalledVersion": "3.0.2-0ubuntu1.16",
-          "FixedVersion": "3.0.2-0ubuntu1.17",
-          "Status": "fixed",
-          "Layer": {
-            "Digest": "sha256:b9477eac1777b6fb958ac96c3492f3e7a6e4d2b642cf70de742839ed886e78eb",
-            "DiffID": "sha256:f1d7da5a19406244ec76ff693ce96ff1890cc78c7dc07fa171efe86f1ab2d612"
-          },
-          "SeveritySource": "ubuntu",
-          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-5535",
-          "DataSource": {
-            "ID": "ubuntu",
-            "Name": "Ubuntu CVE Tracker",
-            "URL": "https://git.launchpad.net/ubuntu-cve-tracker"
-          },
-          "Title": "openssl: SSL_select_next_proto buffer overread",
-          "Description": "Issue summary: Calling the OpenSSL API function SSL_select_next_proto with an\nempty supported client protocols buffer may cause a crash or memory contents to\nbe sent to the peer.\n\nImpact summary: A buffer overread can have a range of potential consequences\nsuch as unexpected application beahviour or a crash. In particular this issue\ncould result in up to 255 bytes of arbitrary private data from memory being sent\nto the peer leading to a loss of confidentiality. However, only applications\nthat directly call the SSL_select_next_proto function with a 0 length list of\nsupported client protocols are affected by this issue. This would normally never\nbe a valid scenario and is typically not under attacker control but may occur by\naccident in the case of a configuration or programming error in the calling\napplication.\n\nThe OpenSSL API function SSL_select_next_proto is typically used by TLS\napplications that support ALPN (Application Layer Protocol Negotiation) or NPN\n(Next Protocol Negotiation). NPN is older, was never standardised and\nis deprecated in favour of ALPN. We believe that ALPN is significantly more\nwidely deployed than NPN. The SSL_select_next_proto function accepts a list of\nprotocols from the server and a list of protocols from the client and returns\nthe first protocol that appears in the server list that also appears in the\nclient list. In the case of no overlap between the two lists it returns the\nfirst item in the client list. In either case it will signal whether an overlap\nbetween the two lists was found. In the case where SSL_select_next_proto is\ncalled with a zero length client list it fails to notice this condition and\nreturns the memory immediately following the client list pointer (and reports\nthat there was no overlap in the lists).\n\nThis function is typically called from a server side application callback for\nALPN or a client side application callback for NPN. In the case of ALPN the list\nof protocols supplied by the client is guaranteed by libssl to never be zero in\nlength. The list of server protocols comes from the application and should never\nnormally be expected to be of zero length. In this case if the\nSSL_select_next_proto function has been called as expected (with the list\nsupplied by the client passed in the client/client_len parameters), then the\napplication will not be vulnerable to this issue. If the application has\naccidentally been configured with a zero length server list, and has\naccidentally passed that zero length server list in the client/client_len\nparameters, and has additionally failed to correctly handle a \"no overlap\"\nresponse (which would normally result in a handshake failure in ALPN) then it\nwill be vulnerable to this problem.\n\nIn the case of NPN, the protocol permits the client to opportunistically select\na protocol when there is no overlap. OpenSSL returns the first client protocol\nin the no overlap case in support of this. The list of client protocols comes\nfrom the application and should never normally be expected to be of zero length.\nHowever if the SSL_select_next_proto function is accidentally called with a\nclient_len of 0 then an invalid memory pointer will be returned instead. If the\napplication uses this output as the opportunistic protocol then the loss of\nconfidentiality will occur.\n\nThis issue has been assessed as Low severity because applications are most\nlikely to be vulnerable if they are using NPN instead of ALPN - but NPN is not\nwidely used. It also requires an application configuration or programming error.\nFinally, this issue would not typically be under attacker control making active\nexploitation unlikely.\n\nThe FIPS modules in 3.3, 3.2, 3.1 and 3.0 are not affected by this issue.\n\nDue to the low severity of this issue we are not issuing new releases of\nOpenSSL at this time. The fix will be included in the next releases when they\nbecome available.",
-          "Severity": "LOW",
-          "CweIDs": [
-            "CWE-200"
-          ],
-          "VendorSeverity": {
-            "amazon": 2,
-            "azure": 2,
-            "cbl-mariner": 4,
-            "photon": 4,
-            "redhat": 1,
-            "ubuntu": 1
-          },
-          "CVSS": {
-            "redhat": {
-              "V3Vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
-              "V3Score": 5.9
-            }
-          },
-          "References": [
-            "http://www.openwall.com/lists/oss-security/2024/06/27/1",
-            "http://www.openwall.com/lists/oss-security/2024/06/28/4",
-            "https://access.redhat.com/security/cve/CVE-2024-5535",
-            "https://github.com/openssl/openssl/commit/4ada436a1946cbb24db5ab4ca082b69c1bc10f37",
-            "https://github.com/openssl/openssl/commit/99fb785a5f85315b95288921a321a935ea29a51e",
-            "https://github.com/openssl/openssl/commit/cf6f91f6121f4db167405db2f0de410a456f260c",
-            "https://github.com/openssl/openssl/commit/e86ac436f0bd54d4517745483e2315650fae7b2c",
-            "https://github.openssl.org/openssl/extended-releases/commit/9947251413065a05189a63c9b7a6c1d4e224c21c",
-            "https://github.openssl.org/openssl/extended-releases/commit/b78ec0824da857223486660177d3b1f255c65d87",
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-5535",
-            "https://openssl.org/news/secadv/20240627.txt",
-            "https://security.netapp.com/advisory/ntap-20240712-0005/",
-            "https://ubuntu.com/security/notices/USN-6937-1",
-            "https://www.cve.org/CVERecord?id=CVE-2024-5535",
-            "https://www.openssl.org/news/secadv/20240627.txt"
-          ],
-          "PublishedDate": "2024-06-27T11:15:24.447Z",
-          "LastModifiedDate": "2024-07-12T14:15:16.79Z"
-        },
-        {
           "VulnerabilityID": "CVE-2023-29383",
           "PkgID": "passwd@1:4.8.1-2ubuntu2.2",
           "PkgName": "passwd",
@@ -3606,8 +2502,8 @@
           "InstalledVersion": "1:4.8.1-2ubuntu2.2",
           "Status": "affected",
           "Layer": {
-            "Digest": "sha256:9b857f539cb142c9aa2201a17bb8e1cd5cf12edd4a65adf5732fe9f4343964cf",
-            "DiffID": "sha256:931b7ff0cb6f494b27d31a4cbec3efe62ac54676add9c7469560302f1541ecaf"
+            "Digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+            "DiffID": "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465"
           },
           "SeveritySource": "ubuntu",
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-29383",
@@ -3661,15 +2557,15 @@
           "VulnerabilityID": "CVE-2024-34156",
           "PkgName": "stdlib",
           "PkgIdentifier": {
-            "PURL": "pkg:golang/stdlib@1.22.4",
-            "UID": "746ecc6c115d2b05"
+            "PURL": "pkg:golang/stdlib@1.22.5",
+            "UID": "8b0b8812583fae2d"
           },
-          "InstalledVersion": "1.22.4",
+          "InstalledVersion": "1.22.5",
           "FixedVersion": "1.22.7, 1.23.1",
           "Status": "fixed",
           "Layer": {
-            "Digest": "sha256:6c72d37377ab10ea1401eabefcf0524d729d312c23fd49f85308023772c55645",
-            "DiffID": "sha256:45e67f013a8c6ec84fdf75b375af8f6864c0adabaefd9af9538ee7a3acc6ee12"
+            "Digest": "sha256:a7371162aa160c992ea8a7a972d348df9f2bebe704684bd094337ceedfb9d9cb",
+            "DiffID": "sha256:cc7193c240149d3f307b8333b750d34e4125181b1872f2514519e9dd4d6101f4"
           },
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-34156",
           "DataSource": {
@@ -3681,7 +2577,9 @@
           "Description": "Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.",
           "Severity": "HIGH",
           "VendorSeverity": {
+            "alma": 3,
             "bitnami": 3,
+            "oracle-oval": 3,
             "redhat": 3
           },
           "CVSS": {
@@ -3695,10 +2593,15 @@
             }
           },
           "References": [
+            "https://access.redhat.com/errata/RHSA-2024:6947",
             "https://access.redhat.com/security/cve/CVE-2024-34156",
+            "https://bugzilla.redhat.com/2310528",
+            "https://errata.almalinux.org/9/ALSA-2024-6947.html",
             "https://go.dev/cl/611239",
             "https://go.dev/issue/69139",
             "https://groups.google.com/g/golang-dev/c/S9POB9NCTdk",
+            "https://linux.oracle.com/cve/CVE-2024-34156.html",
+            "https://linux.oracle.com/errata/ELSA-2024-7136.html",
             "https://nvd.nist.gov/vuln/detail/CVE-2024-34156",
             "https://pkg.go.dev/vuln/GO-2024-3106",
             "https://www.cve.org/CVERecord?id=CVE-2024-34156"
@@ -3707,70 +2610,18 @@
           "LastModifiedDate": "2024-09-09T15:35:07.573Z"
         },
         {
-          "VulnerabilityID": "CVE-2024-24791",
-          "PkgName": "stdlib",
-          "PkgIdentifier": {
-            "PURL": "pkg:golang/stdlib@1.22.4",
-            "UID": "746ecc6c115d2b05"
-          },
-          "InstalledVersion": "1.22.4",
-          "FixedVersion": "1.21.12, 1.22.5",
-          "Status": "fixed",
-          "Layer": {
-            "Digest": "sha256:6c72d37377ab10ea1401eabefcf0524d729d312c23fd49f85308023772c55645",
-            "DiffID": "sha256:45e67f013a8c6ec84fdf75b375af8f6864c0adabaefd9af9538ee7a3acc6ee12"
-          },
-          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-24791",
-          "DataSource": {
-            "ID": "govulndb",
-            "Name": "The Go Vulnerability Database",
-            "URL": "https://pkg.go.dev/vuln/"
-          },
-          "Title": "net/http: Denial of service due to improper 100-continue handling in net/http",
-          "Description": "The net/http HTTP/1.1 client mishandled the case where a server responds to a request with an \"Expect: 100-continue\" header with a non-informational (200 or higher) status. This mishandling could leave a client connection in an invalid state, where the next request sent on the connection will fail. An attacker sending a request to a net/http/httputil.ReverseProxy proxy can exploit this mishandling to cause a denial of service by sending \"Expect: 100-continue\" requests which elicit a non-informational response from the backend. Each such request leaves the proxy with an invalid connection, and causes one subsequent request using that connection to fail.",
-          "Severity": "MEDIUM",
-          "VendorSeverity": {
-            "amazon": 2,
-            "azure": 3,
-            "bitnami": 3,
-            "photon": 3,
-            "redhat": 2
-          },
-          "CVSS": {
-            "bitnami": {
-              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-              "V3Score": 7.5
-            },
-            "redhat": {
-              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
-              "V3Score": 5.9
-            }
-          },
-          "References": [
-            "https://access.redhat.com/security/cve/CVE-2024-24791",
-            "https://go.dev/cl/591255",
-            "https://go.dev/issue/67555",
-            "https://groups.google.com/g/golang-dev/c/t0rK-qHBqzY/m/6MMoAZkMAgAJ",
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-24791",
-            "https://pkg.go.dev/vuln/GO-2024-2963",
-            "https://www.cve.org/CVERecord?id=CVE-2024-24791"
-          ],
-          "PublishedDate": "2024-07-02T22:15:04.833Z",
-          "LastModifiedDate": "2024-07-08T14:17:39.083Z"
-        },
-        {
           "VulnerabilityID": "CVE-2024-34155",
           "PkgName": "stdlib",
           "PkgIdentifier": {
-            "PURL": "pkg:golang/stdlib@1.22.4",
-            "UID": "746ecc6c115d2b05"
+            "PURL": "pkg:golang/stdlib@1.22.5",
+            "UID": "8b0b8812583fae2d"
           },
-          "InstalledVersion": "1.22.4",
+          "InstalledVersion": "1.22.5",
           "FixedVersion": "1.22.7, 1.23.1",
           "Status": "fixed",
           "Layer": {
-            "Digest": "sha256:6c72d37377ab10ea1401eabefcf0524d729d312c23fd49f85308023772c55645",
-            "DiffID": "sha256:45e67f013a8c6ec84fdf75b375af8f6864c0adabaefd9af9538ee7a3acc6ee12"
+            "Digest": "sha256:a7371162aa160c992ea8a7a972d348df9f2bebe704684bd094337ceedfb9d9cb",
+            "DiffID": "sha256:cc7193c240149d3f307b8333b750d34e4125181b1872f2514519e9dd4d6101f4"
           },
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-34155",
           "DataSource": {
@@ -3782,6 +2633,8 @@
           "Description": "Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.",
           "Severity": "MEDIUM",
           "VendorSeverity": {
+            "alma": 3,
+            "oracle-oval": 3,
             "redhat": 2
           },
           "CVSS": {
@@ -3791,10 +2644,18 @@
             }
           },
           "References": [
+            "https://access.redhat.com/errata/RHSA-2024:6913",
             "https://access.redhat.com/security/cve/CVE-2024-34155",
+            "https://bugzilla.redhat.com/2295310",
+            "https://bugzilla.redhat.com/2310527",
+            "https://bugzilla.redhat.com/2310528",
+            "https://bugzilla.redhat.com/2310529",
+            "https://errata.almalinux.org/9/ALSA-2024-6913.html",
             "https://go.dev/cl/611238",
             "https://go.dev/issue/69138",
             "https://groups.google.com/g/golang-dev/c/S9POB9NCTdk",
+            "https://linux.oracle.com/cve/CVE-2024-34155.html",
+            "https://linux.oracle.com/errata/ELSA-2024-6913.html",
             "https://nvd.nist.gov/vuln/detail/CVE-2024-34155",
             "https://pkg.go.dev/vuln/GO-2024-3105",
             "https://www.cve.org/CVERecord?id=CVE-2024-34155"
@@ -3806,15 +2667,15 @@
           "VulnerabilityID": "CVE-2024-34158",
           "PkgName": "stdlib",
           "PkgIdentifier": {
-            "PURL": "pkg:golang/stdlib@1.22.4",
-            "UID": "746ecc6c115d2b05"
+            "PURL": "pkg:golang/stdlib@1.22.5",
+            "UID": "8b0b8812583fae2d"
           },
-          "InstalledVersion": "1.22.4",
+          "InstalledVersion": "1.22.5",
           "FixedVersion": "1.22.7, 1.23.1",
           "Status": "fixed",
           "Layer": {
-            "Digest": "sha256:6c72d37377ab10ea1401eabefcf0524d729d312c23fd49f85308023772c55645",
-            "DiffID": "sha256:45e67f013a8c6ec84fdf75b375af8f6864c0adabaefd9af9538ee7a3acc6ee12"
+            "Digest": "sha256:a7371162aa160c992ea8a7a972d348df9f2bebe704684bd094337ceedfb9d9cb",
+            "DiffID": "sha256:cc7193c240149d3f307b8333b750d34e4125181b1872f2514519e9dd4d6101f4"
           },
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-34158",
           "DataSource": {
@@ -3829,7 +2690,9 @@
             "CWE-674"
           ],
           "VendorSeverity": {
+            "alma": 3,
             "bitnami": 3,
+            "oracle-oval": 3,
             "redhat": 2
           },
           "CVSS": {
@@ -3843,10 +2706,18 @@
             }
           },
           "References": [
+            "https://access.redhat.com/errata/RHSA-2024:6913",
             "https://access.redhat.com/security/cve/CVE-2024-34158",
+            "https://bugzilla.redhat.com/2295310",
+            "https://bugzilla.redhat.com/2310527",
+            "https://bugzilla.redhat.com/2310528",
+            "https://bugzilla.redhat.com/2310529",
+            "https://errata.almalinux.org/9/ALSA-2024-6913.html",
             "https://go.dev/cl/611240",
             "https://go.dev/issue/69141",
             "https://groups.google.com/g/golang-dev/c/S9POB9NCTdk",
+            "https://linux.oracle.com/cve/CVE-2024-34158.html",
+            "https://linux.oracle.com/errata/ELSA-2024-6913.html",
             "https://nvd.nist.gov/vuln/detail/CVE-2024-34158",
             "https://pkg.go.dev/vuln/GO-2024-3107",
             "https://www.cve.org/CVERecord?id=CVE-2024-34158"
