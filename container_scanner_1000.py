@@ -6,17 +6,7 @@ import json
 
 # Define the list of images to scan
 images_to_scan = [
-    # "nvcr.io/nvidia/tritonserver:24.09-py3"
-    # "quay.io/jeslynlamxy/explorer-app:latest",
-    # "quay.io/jeslynlamxy/starchat-app:latest",
-    # "quay.io/jeslynlamxy/ollama-llama-8b:latest",
-    # "quay.io/jeslynlamxy/my-temp-image:latest",
-    # "registry.access.redhat.com/ubi9/python-39@sha256:feda42148febbbadaf2ad594a342462b7d0260428e38503c0720610193fb24b6",
-    # "registry.access.redhat.com/ubi9/python-311@sha256:3dc479c15b8c8e1e09ca03a6eed59bc2d0f9d2e9291184468460f763999f5bf9",
     # "ollama/ollama:latest",
-    # "ollama/ollama:0.3.11",
-    # "quay.io/jeslynlamxy/ollama-patching:latest"
-    "quay.io/jeslynlamxy/postgres-logging"
 ]
 
 # Set the results directory
