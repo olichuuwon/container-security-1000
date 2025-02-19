@@ -5,9 +5,7 @@ import time
 import json
 
 # Define the list of images to scan
-images_to_scan = [
-    # "ollama/ollama:latest",
-]
+images_to_scan = ["ghcr.io/open-webui/open-webui:main"]
 
 # Set the results directory
 results_dir = os.path.join(os.getcwd(), "results")
@@ -95,6 +93,10 @@ def filter_vulnerabilities(input_file, output_file):
     # Save the filtered results to a new JSON file
     with open(output_file, "w", encoding="utf-8") as output_file:
         json.dump(filtered_vulnerabilities, output_file, indent=4)
+
+    print(
+        f"Number of {str(desired_severities)} severities: {str(len(filtered_vulnerabilities))}"
+    )
 
     print(f"Filtered vulnerabilities saved to: {output_file}")
 

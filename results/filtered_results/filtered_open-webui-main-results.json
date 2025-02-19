@@ -1,0 +1,818 @@
+[
+    {
+        "VulnerabilityID": "CVE-2023-6879",
+        "PkgName": "libaom3",
+        "InstalledVersion": "3.6.0-1+deb12u1",
+        "Severity": "CRITICAL",
+        "Description": "Increasing the resolution of video frames, while performing a multi-threaded encode, can result in a heap overflow in av1_loop_restoration_dealloc().",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-6879"
+    },
+    {
+        "VulnerabilityID": "CVE-2023-39616",
+        "PkgName": "libaom3",
+        "InstalledVersion": "3.6.0-1+deb12u1",
+        "Severity": "HIGH",
+        "Description": "AOMedia v3.0.0 to v3.5.0 was discovered to contain an invalid read memory access via the component assign_frame_buffer_p in av1/common/av1_common_int.h.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-39616"
+    },
+    {
+        "VulnerabilityID": "CVE-2023-52425",
+        "PkgName": "libexpat1",
+        "InstalledVersion": "2.5.0-1+deb12u1",
+        "Severity": "HIGH",
+        "Description": "libexpat through 2.5.0 allows a denial of service (resource consumption) because many full reparsings are required in the case of a large token for which multiple buffer fills are needed.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-52425"
+    },
+    {
+        "VulnerabilityID": "CVE-2023-52425",
+        "PkgName": "libexpat1-dev",
+        "InstalledVersion": "2.5.0-1+deb12u1",
+        "Severity": "HIGH",
+        "Description": "libexpat through 2.5.0 allows a denial of service (resource consumption) because many full reparsings are required in the case of a large token for which multiple buffer fills are needed.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-52425"
+    },
+    {
+        "VulnerabilityID": "CVE-2023-25193",
+        "PkgName": "libharfbuzz0b",
+        "InstalledVersion": "6.0.0+dfsg-3",
+        "Severity": "HIGH",
+        "Description": "hb-ot-layout-gsubgpos.hh in HarfBuzz through 6.0.0 allows attackers to trigger O(n^2) growth via consecutive marks during the process of looking back for base glyphs when attaching marks.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-25193"
+    },
+    {
+        "VulnerabilityID": "CVE-2023-0645",
+        "PkgName": "libjxl0.7",
+        "InstalledVersion": "0.7.0-10",
+        "Severity": "CRITICAL",
+        "Description": "An out of bounds read exists in libjxl. An attacker using a specifically crafted file could cause an out of bounds read in the exif handler. We recommend upgrading to version 0.8.1 or past commit\u00a0 https://github.com/libjxl/libjxl/pull/2101/commits/d95b050c1822a5b1ede9e0dc937e43fca1b10159 https://github.com/libjxl/libjxl/pull/2101/commits/d95b050c1822a5b1ede9e0dc937e43fca1b10159 ",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-0645"
+    },
+    {
+        "VulnerabilityID": "CVE-2023-35790",
+        "PkgName": "libjxl0.7",
+        "InstalledVersion": "0.7.0-10",
+        "Severity": "HIGH",
+        "Description": "An issue was discovered in dec_patch_dictionary.cc in libjxl before 0.8.2. An integer underflow in patch decoding can lead to a denial of service, such as an infinite loop.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-35790"
+    },
+    {
+        "VulnerabilityID": "CVE-2023-2953",
+        "PkgName": "libldap-2.5-0",
+        "InstalledVersion": "2.5.13+dfsg-5",
+        "Severity": "HIGH",
+        "Description": "A vulnerability was found in openldap. This security flaw causes a null pointer dereference in ber_memalloc_x() function.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-2953"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-23775",
+        "PkgName": "libmbedcrypto7",
+        "InstalledVersion": "2.28.3-1",
+        "Severity": "HIGH",
+        "Description": "Integer Overflow vulnerability in Mbed TLS 2.x before 2.28.7 and 3.x before 3.5.2, allows attackers to cause a denial of service (DoS) via mbedtls_x509_set_extension().",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-23775"
+    },
+    {
+        "VulnerabilityID": "CVE-2023-31484",
+        "PkgName": "libperl5.36",
+        "InstalledVersion": "5.36.0-7+deb12u1",
+        "Severity": "HIGH",
+        "Description": "CPAN.pm before 2.35 does not verify TLS certificates when downloading distributions over HTTPS.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-31484"
+    },
+    {
+        "VulnerabilityID": "CVE-2022-33064",
+        "PkgName": "libsndfile1",
+        "InstalledVersion": "1.2.0-1",
+        "Severity": "HIGH",
+        "Description": "An off-by-one error in function wav_read_header in src/wav.c in Libsndfile 1.1.0, results in a write out of bound, which allows an attacker to execute arbitrary code, Denial of Service or other unspecified impacts.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-33064"
+    },
+    {
+        "VulnerabilityID": "CVE-2022-33065",
+        "PkgName": "libsndfile1",
+        "InstalledVersion": "1.2.0-1",
+        "Severity": "HIGH",
+        "Description": "Multiple signed integers overflow in function au_read_header in src/au.c and in functions mat4_open and mat4_read_header in src/mat4.c in Libsndfile, allows an attacker to cause Denial of Service or other unspecified impacts.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-33065"
+    },
+    {
+        "VulnerabilityID": "CVE-2023-52355",
+        "PkgName": "libtiff6",
+        "InstalledVersion": "4.5.0-6+deb12u2",
+        "Severity": "HIGH",
+        "Description": "An out-of-memory flaw was found in libtiff that could be triggered by passing a crafted tiff file to the TIFFRasterScanlineSize64() API. This flaw allows a remote attacker to cause a denial of service via a crafted input with a size smaller than 379 KB.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-52355"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-25062",
+        "PkgName": "libxml2",
+        "InstalledVersion": "2.9.14+dfsg-1.3~deb12u1",
+        "Severity": "HIGH",
+        "Description": "An issue was discovered in libxml2 before 2.11.7 and 2.12.x before 2.12.5. When using the XML Reader interface with DTD validation and XInclude expansion enabled, processing crafted XML documents can lead to an xmlValidatePopElement use-after-free.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-25062"
+    },
+    {
+        "VulnerabilityID": "CVE-2013-7445",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "The Direct Rendering Manager (DRM) subsystem in the Linux kernel through 4.x mishandles requests for Graphics Execution Manager (GEM) objects, which allows context-dependent attackers to cause a denial of service (memory consumption) via an application that processes graphics data, as demonstrated by JavaScript code that creates many CANVAS elements for rendering by Chrome or Firefox.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2013-7445"
+    },
+    {
+        "VulnerabilityID": "CVE-2019-19449",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel 5.0.21, mounting a crafted f2fs filesystem image can lead to slab-out-of-bounds read access in f2fs_build_segment_manager in fs/f2fs/segment.c, related to init_min_max_mtime in fs/f2fs/segment.c (because the second argument to get_seg_entry is not validated).",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2019-19449"
+    },
+    {
+        "VulnerabilityID": "CVE-2019-19814",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel 5.0.21, mounting a crafted f2fs filesystem image can cause __remove_dirty_segment slab-out-of-bounds write access because an array is bounded by the number of dirty types (8) but the array index can exceed this.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2019-19814"
+    },
+    {
+        "VulnerabilityID": "CVE-2021-3847",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "An unauthorized access to the execution of the setuid file with capabilities flaw in the Linux kernel OverlayFS subsystem was found in the way user copying a capable file from a nosuid mount into another mount. A local user could use this flaw to escalate their privileges on the system.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2021-3847"
+    },
+    {
+        "VulnerabilityID": "CVE-2021-3864",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "A flaw was found in the way the dumpable flag setting was handled when certain SUID binaries executed its descendants. The prerequisite is a SUID binary that sets real UID equal to effective UID, and real GID equal to effective GID. The descendant will then have a dumpable value set to 1. As a result, if the descendant process crashes and core_pattern is set to a relative value, its core dump is stored in the current directory with uid:gid permissions. An unprivileged local user with eligible root SUID binary could use this flaw to place core dumps into root-owned directories, potentially resulting in escalation of privileges.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2021-3864"
+    },
+    {
+        "VulnerabilityID": "CVE-2023-52452",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nbpf: Fix accesses to uninit stack slots\n\nPrivileged programs are supposed to be able to read uninitialized stack\nmemory (ever since 6715df8d5) but, before this patch, these accesses\nwere permitted inconsistently. In particular, accesses were permitted\nabove state->allocated_stack, but not below it. In other words, if the\nstack was already \"large enough\", the access was permitted, but\notherwise the access was rejected instead of being allowed to \"grow the\nstack\". This undesired rejection was happening in two places:\n- in check_stack_slot_within_bounds()\n- in check_stack_range_initialized()\nThis patch arranges for these accesses to be permitted. A bunch of tests\nthat were relying on the old rejection had to change; all of them were\nchanged to add also run unprivileged, in which case the old behavior\npersists. One tests couldn't be updated - global_func16 - because it\ncan't run unprivileged for other reasons.\n\nThis patch also fixes the tracking of the stack size for variable-offset\nreads. This second fix is bundled in the same commit as the first one\nbecause they're inter-related. Before this patch, writes to the stack\nusing registers containing a variable offset (as opposed to registers\nwith fixed, known values) were not properly contributing to the\nfunction's needed stack size. As a result, it was possible for a program\nto verify, but then to attempt to read out-of-bounds data at runtime\nbecause a too small stack had been allocated for it.\n\nEach function tracks the size of the stack it needs in\nbpf_subprog_info.stack_depth, which is maintained by\nupdate_stack_depth(). For regular memory accesses, check_mem_access()\nwas calling update_state_depth() but it was passing in only the fixed\npart of the offset register, ignoring the variable offset. This was\nincorrect; the minimum possible value of that register should be used\ninstead.\n\nThis tracking is now fixed by centralizing the tracking of stack size in\ngrow_stack_state(), and by lifting the calls to grow_stack_state() to\ncheck_stack_access_within_bounds() as suggested by Andrii. The code is\nnow simpler and more convincingly tracks the correct maximum stack size.\ncheck_stack_range_initialized() can now rely on enough stack having been\nallocated for the access; this helps with the fix for the first issue.\n\nA few tests were changed to also check the stack depth computation. The\none that fails without this patch is verifier_var_off:stack_write_priv_vs_unpriv.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-52452"
+    },
+    {
+        "VulnerabilityID": "CVE-2023-52586",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/msm/dpu: Add mutex lock in control vblank irq\n\nAdd a mutex lock to control vblank irq to synchronize vblank\nenable/disable operations happening from different threads to prevent\nrace conditions while registering/unregistering the vblank irq callback.\n\nv4: -Removed vblank_ctl_lock from dpu_encoder_virt, so it is only a\n    parameter of dpu_encoder_phys.\n    -Switch from atomic refcnt to a simple int counter as mutex has\n    now been added\nv3: Mistakenly did not change wording in last version. It is done now.\nv2: Slightly changed wording of commit message\n\nPatchwork: https://patchwork.freedesktop.org/patch/571854/",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-52586"
+    },
+    {
+        "VulnerabilityID": "CVE-2023-52751",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nsmb: client: fix use-after-free in smb2_query_info_compound()\n\nThe following UAF was triggered when running fstests generic/072 with\nKASAN enabled against Windows Server 2022 and mount options\n'multichannel,max_channels=2,vers=3.1.1,mfsymlinks,noperm'\n\n  BUG: KASAN: slab-use-after-free in smb2_query_info_compound+0x423/0x6d0 [cifs]\n  Read of size 8 at addr ffff888014941048 by task xfs_io/27534\n\n  CPU: 0 PID: 27534 Comm: xfs_io Not tainted 6.6.0-rc7 #1\n  Hardware name: QEMU Standard PC (Q35 + ICH9, 2009), BIOS\n  rel-1.16.2-3-gd478f380-rebuilt.opensuse.org 04/01/2014\n  Call Trace:\n   dump_stack_lvl+0x4a/0x80\n   print_report+0xcf/0x650\n   ? srso_alias_return_thunk+0x5/0x7f\n   ? srso_alias_return_thunk+0x5/0x7f\n   ? __phys_addr+0x46/0x90\n   kasan_report+0xda/0x110\n   ? smb2_query_info_compound+0x423/0x6d0 [cifs]\n   ? smb2_query_info_compound+0x423/0x6d0 [cifs]\n   smb2_query_info_compound+0x423/0x6d0 [cifs]\n   ? __pfx_smb2_query_info_compound+0x10/0x10 [cifs]\n   ? srso_alias_return_thunk+0x5/0x7f\n   ? __stack_depot_save+0x39/0x480\n   ? kasan_save_stack+0x33/0x60\n   ? kasan_set_track+0x25/0x30\n   ? ____kasan_slab_free+0x126/0x170\n   smb2_queryfs+0xc2/0x2c0 [cifs]\n   ? __pfx_smb2_queryfs+0x10/0x10 [cifs]\n   ? __pfx___lock_acquire+0x10/0x10\n   smb311_queryfs+0x210/0x220 [cifs]\n   ? __pfx_smb311_queryfs+0x10/0x10 [cifs]\n   ? srso_alias_return_thunk+0x5/0x7f\n   ? __lock_acquire+0x480/0x26c0\n   ? lock_release+0x1ed/0x640\n   ? srso_alias_return_thunk+0x5/0x7f\n   ? do_raw_spin_unlock+0x9b/0x100\n   cifs_statfs+0x18c/0x4b0 [cifs]\n   statfs_by_dentry+0x9b/0xf0\n   fd_statfs+0x4e/0xb0\n   __do_sys_fstatfs+0x7f/0xe0\n   ? __pfx___do_sys_fstatfs+0x10/0x10\n   ? srso_alias_return_thunk+0x5/0x7f\n   ? lockdep_hardirqs_on_prepare+0x136/0x200\n   ? srso_alias_return_thunk+0x5/0x7f\n   do_syscall_64+0x3f/0x90\n   entry_SYSCALL_64_after_hwframe+0x6e/0xd8\n\n  Allocated by task 27534:\n   kasan_save_stack+0x33/0x60\n   kasan_set_track+0x25/0x30\n   __kasan_kmalloc+0x8f/0xa0\n   open_cached_dir+0x71b/0x1240 [cifs]\n   smb2_query_info_compound+0x5c3/0x6d0 [cifs]\n   smb2_queryfs+0xc2/0x2c0 [cifs]\n   smb311_queryfs+0x210/0x220 [cifs]\n   cifs_statfs+0x18c/0x4b0 [cifs]\n   statfs_by_dentry+0x9b/0xf0\n   fd_statfs+0x4e/0xb0\n   __do_sys_fstatfs+0x7f/0xe0\n   do_syscall_64+0x3f/0x90\n   entry_SYSCALL_64_after_hwframe+0x6e/0xd8\n\n  Freed by task 27534:\n   kasan_save_stack+0x33/0x60\n   kasan_set_track+0x25/0x30\n   kasan_save_free_info+0x2b/0x50\n   ____kasan_slab_free+0x126/0x170\n   slab_free_freelist_hook+0xd0/0x1e0\n   __kmem_cache_free+0x9d/0x1b0\n   open_cached_dir+0xff5/0x1240 [cifs]\n   smb2_query_info_compound+0x5c3/0x6d0 [cifs]\n   smb2_queryfs+0xc2/0x2c0 [cifs]\n\nThis is a race between open_cached_dir() and cached_dir_lease_break()\nwhere the cache entry for the open directory handle receives a lease\nbreak while creating it.  And before returning from open_cached_dir(),\nwe put the last reference of the new @cfid because of\n!@cfid->has_lease.\n\nBesides the UAF, while running xfstests a lot of missed lease breaks\nhave been noticed in tests that run several concurrent statfs(2) calls\non those cached fids\n\n  CIFS: VFS: \\\\w22-root1.gandalf.test No task to wake, unknown frame...\n  CIFS: VFS: \\\\w22-root1.gandalf.test Cmd: 18 Err: 0x0 Flags: 0x1...\n  CIFS: VFS: \\\\w22-root1.gandalf.test smb buf 00000000715bfe83 len 108\n  CIFS: VFS: Dump pending requests:\n  CIFS: VFS: \\\\w22-root1.gandalf.test No task to wake, unknown frame...\n  CIFS: VFS: \\\\w22-root1.gandalf.test Cmd: 18 Err: 0x0 Flags: 0x1...\n  CIFS: VFS: \\\\w22-root1.gandalf.test smb buf 000000005aa7316e len 108\n  ...\n\nTo fix both, in open_cached_dir() ensure that @cfid->has_lease is set\nright before sending out compounded request so that any potential\nlease break will be get processed by demultiplex thread while we're\nstill caching @cfid.  And, if open failed for some reason, re-check\n@cfid->has_lease to decide whether or not put lease reference.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-52751"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-21803",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "Use After Free vulnerability in Linux Linux kernel kernel on Linux, x86, ARM (bluetooth modules) allows Local Execution of Code. This vulnerability is associated with program files https://gitee.Com/anolis/cloud-kernel/blob/devel-5.10/net/bluetooth/af_bluetooth.C.\n\nThis issue affects Linux kernel: from v2.6.12-rc2 before v6.8-rc1.\n\n",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-21803"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-25742",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel before 6.9, an untrusted hypervisor can inject virtual interrupt 29 (#VC) at any point in time and can trigger its handler. This affects AMD SEV-SNP and AMD SEV-ES.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-25742"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-25743",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel through 6.9, an untrusted hypervisor can inject virtual interrupts 0 and 14 at any point in time and can trigger the SIGFPE signal handler in userspace applications. This affects AMD SEV-SNP and AMD SEV-ES.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-25743"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-26669",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/sched: flower: Fix chain template offload\n\nWhen a qdisc is deleted from a net device the stack instructs the\nunderlying driver to remove its flow offload callback from the\nassociated filter block using the 'FLOW_BLOCK_UNBIND' command. The stack\nthen continues to replay the removal of the filters in the block for\nthis driver by iterating over the chains in the block and invoking the\n'reoffload' operation of the classifier being used. In turn, the\nclassifier in its 'reoffload' operation prepares and emits a\n'FLOW_CLS_DESTROY' command for each filter.\n\nHowever, the stack does not do the same for chain templates and the\nunderlying driver never receives a 'FLOW_CLS_TMPLT_DESTROY' command when\na qdisc is deleted. This results in a memory leak [1] which can be\nreproduced using [2].\n\nFix by introducing a 'tmplt_reoffload' operation and have the stack\ninvoke it with the appropriate arguments as part of the replay.\nImplement the operation in the sole classifier that supports chain\ntemplates (flower) by emitting the 'FLOW_CLS_TMPLT_{CREATE,DESTROY}'\ncommand based on whether a flow offload callback is being bound to a\nfilter block or being unbound from one.\n\nAs far as I can tell, the issue happens since cited commit which\nreordered tcf_block_offload_unbind() before tcf_block_flush_all_chains()\nin __tcf_block_put(). The order cannot be reversed as the filter block\nis expected to be freed after flushing all the chains.\n\n[1]\nunreferenced object 0xffff888107e28800 (size 2048):\n  comm \"tc\", pid 1079, jiffies 4294958525 (age 3074.287s)\n  hex dump (first 32 bytes):\n    b1 a6 7c 11 81 88 ff ff e0 5b b3 10 81 88 ff ff  ..|......[......\n    01 00 00 00 00 00 00 00 e0 aa b0 84 ff ff ff ff  ................\n  backtrace:\n    [<ffffffff81c06a68>] __kmem_cache_alloc_node+0x1e8/0x320\n    [<ffffffff81ab374e>] __kmalloc+0x4e/0x90\n    [<ffffffff832aec6d>] mlxsw_sp_acl_ruleset_get+0x34d/0x7a0\n    [<ffffffff832bc195>] mlxsw_sp_flower_tmplt_create+0x145/0x180\n    [<ffffffff832b2e1a>] mlxsw_sp_flow_block_cb+0x1ea/0x280\n    [<ffffffff83a10613>] tc_setup_cb_call+0x183/0x340\n    [<ffffffff83a9f85a>] fl_tmplt_create+0x3da/0x4c0\n    [<ffffffff83a22435>] tc_ctl_chain+0xa15/0x1170\n    [<ffffffff838a863c>] rtnetlink_rcv_msg+0x3cc/0xed0\n    [<ffffffff83ac87f0>] netlink_rcv_skb+0x170/0x440\n    [<ffffffff83ac6270>] netlink_unicast+0x540/0x820\n    [<ffffffff83ac6e28>] netlink_sendmsg+0x8d8/0xda0\n    [<ffffffff83793def>] ____sys_sendmsg+0x30f/0xa80\n    [<ffffffff8379d29a>] ___sys_sendmsg+0x13a/0x1e0\n    [<ffffffff8379d50c>] __sys_sendmsg+0x11c/0x1f0\n    [<ffffffff843b9ce0>] do_syscall_64+0x40/0xe0\nunreferenced object 0xffff88816d2c0400 (size 1024):\n  comm \"tc\", pid 1079, jiffies 4294958525 (age 3074.287s)\n  hex dump (first 32 bytes):\n    40 00 00 00 00 00 00 00 57 f6 38 be 00 00 00 00  @.......W.8.....\n    10 04 2c 6d 81 88 ff ff 10 04 2c 6d 81 88 ff ff  ..,m......,m....\n  backtrace:\n    [<ffffffff81c06a68>] __kmem_cache_alloc_node+0x1e8/0x320\n    [<ffffffff81ab36c1>] __kmalloc_node+0x51/0x90\n    [<ffffffff81a8ed96>] kvmalloc_node+0xa6/0x1f0\n    [<ffffffff82827d03>] bucket_table_alloc.isra.0+0x83/0x460\n    [<ffffffff82828d2b>] rhashtable_init+0x43b/0x7c0\n    [<ffffffff832aed48>] mlxsw_sp_acl_ruleset_get+0x428/0x7a0\n    [<ffffffff832bc195>] mlxsw_sp_flower_tmplt_create+0x145/0x180\n    [<ffffffff832b2e1a>] mlxsw_sp_flow_block_cb+0x1ea/0x280\n    [<ffffffff83a10613>] tc_setup_cb_call+0x183/0x340\n    [<ffffffff83a9f85a>] fl_tmplt_create+0x3da/0x4c0\n    [<ffffffff83a22435>] tc_ctl_chain+0xa15/0x1170\n    [<ffffffff838a863c>] rtnetlink_rcv_msg+0x3cc/0xed0\n    [<ffffffff83ac87f0>] netlink_rcv_skb+0x170/0x440\n    [<ffffffff83ac6270>] netlink_unicast+0x540/0x820\n    [<ffffffff83ac6e28>] netlink_sendmsg+0x8d8/0xda0\n    [<ffffffff83793def>] ____sys_sendmsg+0x30f/0xa80\n\n[2]\n # tc qdisc add dev swp1 clsact\n # tc chain add dev swp1 ingress proto ip chain 1 flower dst_ip 0.0.0.0/32\n # tc qdisc del dev\n---truncated---",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-26669"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-26739",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/sched: act_mirred: don't override retval if we already lost the skb\n\nIf we're redirecting the skb, and haven't called tcf_mirred_forward(),\nyet, we need to tell the core to drop the skb by setting the retcode\nto SHOT. If we have called tcf_mirred_forward(), however, the skb\nis out of our hands and returning SHOT will lead to UaF.\n\nMove the retval override to the error path which actually need it.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-26739"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-26913",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Fix dcn35 8k30 Underflow/Corruption Issue\n\n[why]\nodm calculation is missing for pipe split policy determination\nand cause Underflow/Corruption issue.\n\n[how]\nAdd the odm calculation.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-26913"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-26930",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: qla2xxx: Fix double free of the ha->vp_map pointer\n\nCoverity scan reported potential risk of double free of the pointer\nha->vp_map.  ha->vp_map was freed in qla2x00_mem_alloc(), and again freed\nin function qla2x00_mem_free(ha).\n\nAssign NULL to vp_map and kfree take care of NULL.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-26930"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-26944",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nbtrfs: zoned: fix use-after-free in do_zone_finish()\n\nShinichiro reported the following use-after-free triggered by the device\nreplace operation in fstests btrfs/070.\n\n BTRFS info (device nullb1): scrub: finished on devid 1 with status: 0\n ==================================================================\n BUG: KASAN: slab-use-after-free in do_zone_finish+0x91a/0xb90 [btrfs]\n Read of size 8 at addr ffff8881543c8060 by task btrfs-cleaner/3494007\n\n CPU: 0 PID: 3494007 Comm: btrfs-cleaner Tainted: G        W          6.8.0-rc5-kts #1\n Hardware name: Supermicro Super Server/X11SPi-TF, BIOS 3.3 02/21/2020\n Call Trace:\n  <TASK>\n  dump_stack_lvl+0x5b/0x90\n  print_report+0xcf/0x670\n  ? __virt_addr_valid+0x200/0x3e0\n  kasan_report+0xd8/0x110\n  ? do_zone_finish+0x91a/0xb90 [btrfs]\n  ? do_zone_finish+0x91a/0xb90 [btrfs]\n  do_zone_finish+0x91a/0xb90 [btrfs]\n  btrfs_delete_unused_bgs+0x5e1/0x1750 [btrfs]\n  ? __pfx_btrfs_delete_unused_bgs+0x10/0x10 [btrfs]\n  ? btrfs_put_root+0x2d/0x220 [btrfs]\n  ? btrfs_clean_one_deleted_snapshot+0x299/0x430 [btrfs]\n  cleaner_kthread+0x21e/0x380 [btrfs]\n  ? __pfx_cleaner_kthread+0x10/0x10 [btrfs]\n  kthread+0x2e3/0x3c0\n  ? __pfx_kthread+0x10/0x10\n  ret_from_fork+0x31/0x70\n  ? __pfx_kthread+0x10/0x10\n  ret_from_fork_asm+0x1b/0x30\n  </TASK>\n\n Allocated by task 3493983:\n  kasan_save_stack+0x33/0x60\n  kasan_save_track+0x14/0x30\n  __kasan_kmalloc+0xaa/0xb0\n  btrfs_alloc_device+0xb3/0x4e0 [btrfs]\n  device_list_add.constprop.0+0x993/0x1630 [btrfs]\n  btrfs_scan_one_device+0x219/0x3d0 [btrfs]\n  btrfs_control_ioctl+0x26e/0x310 [btrfs]\n  __x64_sys_ioctl+0x134/0x1b0\n  do_syscall_64+0x99/0x190\n  entry_SYSCALL_64_after_hwframe+0x6e/0x76\n\n Freed by task 3494056:\n  kasan_save_stack+0x33/0x60\n  kasan_save_track+0x14/0x30\n  kasan_save_free_info+0x3f/0x60\n  poison_slab_object+0x102/0x170\n  __kasan_slab_free+0x32/0x70\n  kfree+0x11b/0x320\n  btrfs_rm_dev_replace_free_srcdev+0xca/0x280 [btrfs]\n  btrfs_dev_replace_finishing+0xd7e/0x14f0 [btrfs]\n  btrfs_dev_replace_by_ioctl+0x1286/0x25a0 [btrfs]\n  btrfs_ioctl+0xb27/0x57d0 [btrfs]\n  __x64_sys_ioctl+0x134/0x1b0\n  do_syscall_64+0x99/0x190\n  entry_SYSCALL_64_after_hwframe+0x6e/0x76\n\n The buggy address belongs to the object at ffff8881543c8000\n  which belongs to the cache kmalloc-1k of size 1024\n The buggy address is located 96 bytes inside of\n  freed 1024-byte region [ffff8881543c8000, ffff8881543c8400)\n\n The buggy address belongs to the physical page:\n page:00000000fe2c1285 refcount:1 mapcount:0 mapping:0000000000000000 index:0x0 pfn:0x1543c8\n head:00000000fe2c1285 order:3 entire_mapcount:0 nr_pages_mapped:0 pincount:0\n flags: 0x17ffffc0000840(slab|head|node=0|zone=2|lastcpupid=0x1fffff)\n page_type: 0xffffffff()\n raw: 0017ffffc0000840 ffff888100042dc0 ffffea0019e8f200 dead000000000002\n raw: 0000000000000000 0000000000100010 00000001ffffffff 0000000000000000\n page dumped because: kasan: bad access detected\n\n Memory state around the buggy address:\n  ffff8881543c7f00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  ffff8881543c7f80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n >ffff8881543c8000: fa fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb\n                                                        ^\n  ffff8881543c8080: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb\n  ffff8881543c8100: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb\n\nThis UAF happens because we're accessing stale zone information of a\nalready removed btrfs_device in do_zone_finish().\n\nThe sequence of events is as follows:\n\nbtrfs_dev_replace_start\n  btrfs_scrub_dev\n   btrfs_dev_replace_finishing\n    btrfs_dev_replace_update_device_in_mapping_tree <-- devices replaced\n    btrfs_rm_dev_replace_free_srcdev\n     btrfs_free_device                              <-- device freed\n\ncleaner_kthread\n btrfs_delete_unused_bgs\n  btrfs_zone_finish\n   do_zone_finish              <-- refers the freed device\n\nThe reason for this is that we're using a\n---truncated---",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-26944"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-27042",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amdgpu: Fix potential out-of-bounds access in 'amdgpu_discovery_reg_base_init()'\n\nThe issue arises when the array 'adev->vcn.vcn_config' is accessed\nbefore checking if the index 'adev->vcn.num_vcn_inst' is within the\nbounds of the array.\n\nThe fix involves moving the bounds check before the array access. This\nensures that 'adev->vcn.num_vcn_inst' is within the bounds of the array\nbefore it is used as an index.\n\nFixes the below:\ndrivers/gpu/drm/amd/amdgpu/amdgpu_discovery.c:1289 amdgpu_discovery_reg_base_init() error: testing array offset 'adev->vcn.num_vcn_inst' after use.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-27042"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-35866",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nsmb: client: fix potential UAF in cifs_dump_full_key()\n\nSkip sessions that are being teared down (status == SES_EXITING) to\navoid UAF.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-35866"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-35887",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nax25: fix use-after-free bugs caused by ax25_ds_del_timer\n\nWhen the ax25 device is detaching, the ax25_dev_device_down()\ncalls ax25_ds_del_timer() to cleanup the slave_timer. When\nthe timer handler is running, the ax25_ds_del_timer() that\ncalls del_timer() in it will return directly. As a result,\nthe use-after-free bugs could happen, one of the scenarios\nis shown below:\n\n      (Thread 1)          |      (Thread 2)\n                          | ax25_ds_timeout()\nax25_dev_device_down()    |\n  ax25_ds_del_timer()     |\n    del_timer()           |\n  ax25_dev_put() //FREE   |\n                          |  ax25_dev-> //USE\n\nIn order to mitigate bugs, when the device is detaching, use\ntimer_shutdown_sync() to stop the timer.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-35887"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-35929",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nrcu/nocb: Fix WARN_ON_ONCE() in the rcu_nocb_bypass_lock()\n\nFor the kernels built with CONFIG_RCU_NOCB_CPU_DEFAULT_ALL=y and\nCONFIG_RCU_LAZY=y, the following scenarios will trigger WARN_ON_ONCE()\nin the rcu_nocb_bypass_lock() and rcu_nocb_wait_contended() functions:\n\n        CPU2                                               CPU11\nkthread\nrcu_nocb_cb_kthread                                       ksys_write\nrcu_do_batch                                              vfs_write\nrcu_torture_timer_cb                                      proc_sys_write\n__kmem_cache_free                                         proc_sys_call_handler\nkmemleak_free                                             drop_caches_sysctl_handler\ndelete_object_full                                        drop_slab\n__delete_object                                           shrink_slab\nput_object                                                lazy_rcu_shrink_scan\ncall_rcu                                                  rcu_nocb_flush_bypass\n__call_rcu_commn                                            rcu_nocb_bypass_lock\n                                                            raw_spin_trylock(&rdp->nocb_bypass_lock) fail\n                                                            atomic_inc(&rdp->nocb_lock_contended);\nrcu_nocb_wait_contended                                     WARN_ON_ONCE(smp_processor_id() != rdp->cpu);\n WARN_ON_ONCE(atomic_read(&rdp->nocb_lock_contended))                                          |\n                            |_ _ _ _ _ _ _ _ _ _same rdp and rdp->cpu != 11_ _ _ _ _ _ _ _ _ __|\n\nReproduce this bug with \"echo 3 > /proc/sys/vm/drop_caches\".\n\nThis commit therefore uses rcu_nocb_try_flush_bypass() instead of\nrcu_nocb_flush_bypass() in lazy_rcu_shrink_scan().  If the nocb_bypass\nqueue is being flushed, then rcu_nocb_try_flush_bypass will return\ndirectly.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-35929"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-36013",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: L2CAP: Fix slab-use-after-free in l2cap_connect()\n\nExtend a critical section to prevent chan from early freeing.\nAlso make the l2cap_connect() return type void. Nothing is using the\nreturned value but it is ugly to return a potentially freed pointer.\nMaking it void will help with backports because earlier kernels did use\nthe return value. Now the compile will break for kernels where this\npatch is not a complete fix.\n\nCall stack summary:\n\n[use]\nl2cap_bredr_sig_cmd\n  l2cap_connect\n  \u250c mutex_lock(&conn->chan_lock);\n  \u2502 chan = pchan->ops->new_connection(pchan); <- alloc chan\n  \u2502 __l2cap_chan_add(conn, chan);\n  \u2502   l2cap_chan_hold(chan);\n  \u2502   list_add(&chan->list, &conn->chan_l);   ... (1)\n  \u2514 mutex_unlock(&conn->chan_lock);\n    chan->conf_state              ... (4) <- use after free\n\n[free]\nl2cap_conn_del\n\u250c mutex_lock(&conn->chan_lock);\n\u2502 foreach chan in conn->chan_l:            ... (2)\n\u2502   l2cap_chan_put(chan);\n\u2502     l2cap_chan_destroy\n\u2502       kfree(chan)               ... (3) <- chan freed\n\u2514 mutex_unlock(&conn->chan_lock);\n\n==================================================================\nBUG: KASAN: slab-use-after-free in instrument_atomic_read\ninclude/linux/instrumented.h:68 [inline]\nBUG: KASAN: slab-use-after-free in _test_bit\ninclude/asm-generic/bitops/instrumented-non-atomic.h:141 [inline]\nBUG: KASAN: slab-use-after-free in l2cap_connect+0xa67/0x11a0\nnet/bluetooth/l2cap_core.c:4260\nRead of size 8 at addr ffff88810bf040a0 by task kworker/u3:1/311",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-36013"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-36899",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\ngpiolib: cdev: Fix use after free in lineinfo_changed_notify\n\nThe use-after-free issue occurs as follows: when the GPIO chip device file\nis being closed by invoking gpio_chrdev_release(), watched_lines is freed\nby bitmap_free(), but the unregistration of lineinfo_changed_nb notifier\nchain failed due to waiting write rwsem. Additionally, one of the GPIO\nchip's lines is also in the release process and holds the notifier chain's\nread rwsem. Consequently, a race condition leads to the use-after-free of\nwatched_lines.\n\nHere is the typical stack when issue happened:\n\n[free]\ngpio_chrdev_release()\n  --> bitmap_free(cdev->watched_lines)                  <-- freed\n  --> blocking_notifier_chain_unregister()\n    --> down_write(&nh->rwsem)                          <-- waiting rwsem\n          --> __down_write_common()\n            --> rwsem_down_write_slowpath()\n                  --> schedule_preempt_disabled()\n                    --> schedule()\n\n[use]\nst54spi_gpio_dev_release()\n  --> gpio_free()\n    --> gpiod_free()\n      --> gpiod_free_commit()\n        --> gpiod_line_state_notify()\n          --> blocking_notifier_call_chain()\n            --> down_read(&nh->rwsem);                  <-- held rwsem\n            --> notifier_call_chain()\n              --> lineinfo_changed_notify()\n                --> test_bit(xxxx, cdev->watched_lines) <-- use after free\n\nThe side effect of the use-after-free issue is that a GPIO line event is\nbeing generated for userspace where it shouldn't. However, since the chrdev\nis being closed, userspace won't have the chance to read that event anyway.\n\nTo fix the issue, call the bitmap_free() function after the unregistration\nof lineinfo_changed_nb notifier chain.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-36899"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-38570",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\ngfs2: Fix potential glock use-after-free on unmount\n\nWhen a DLM lockspace is released and there ares still locks in that\nlockspace, DLM will unlock those locks automatically.  Commit\nfb6791d100d1b started exploiting this behavior to speed up filesystem\nunmount: gfs2 would simply free glocks it didn't want to unlock and then\nrelease the lockspace.  This didn't take the bast callbacks for\nasynchronous lock contention notifications into account, which remain\nactive until until a lock is unlocked or its lockspace is released.\n\nTo prevent those callbacks from accessing deallocated objects, put the\nglocks that should not be unlocked on the sd_dead_glocks list, release\nthe lockspace, and only then free those glocks.\n\nAs an additional measure, ignore unexpected ast and bast callbacks if\nthe receiving glock is dead.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-38570"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-38630",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nwatchdog: cpu5wdt.c: Fix use-after-free bug caused by cpu5wdt_trigger\n\nWhen the cpu5wdt module is removing, the origin code uses del_timer() to\nde-activate the timer. If the timer handler is running, del_timer() could\nnot stop it and will return directly. If the port region is released by\nrelease_region() and then the timer handler cpu5wdt_trigger() calls outb()\nto write into the region that is released, the use-after-free bug will\nhappen.\n\nChange del_timer() to timer_shutdown_sync() in order that the timer handler\ncould be finished before the port region is released.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-38630"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-39479",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/i915/hwmon: Get rid of devm\n\nWhen both hwmon and hwmon drvdata (on which hwmon depends) are device\nmanaged resources, the expectation, on device unbind, is that hwmon will be\nreleased before drvdata. However, in i915 there are two separate code\npaths, which both release either drvdata or hwmon and either can be\nreleased before the other. These code paths (for device unbind) are as\nfollows (see also the bug referenced below):\n\nCall Trace:\nrelease_nodes+0x11/0x70\ndevres_release_group+0xb2/0x110\ncomponent_unbind_all+0x8d/0xa0\ncomponent_del+0xa5/0x140\nintel_pxp_tee_component_fini+0x29/0x40 [i915]\nintel_pxp_fini+0x33/0x80 [i915]\ni915_driver_remove+0x4c/0x120 [i915]\ni915_pci_remove+0x19/0x30 [i915]\npci_device_remove+0x32/0xa0\ndevice_release_driver_internal+0x19c/0x200\nunbind_store+0x9c/0xb0\n\nand\n\nCall Trace:\nrelease_nodes+0x11/0x70\ndevres_release_all+0x8a/0xc0\ndevice_unbind_cleanup+0x9/0x70\ndevice_release_driver_internal+0x1c1/0x200\nunbind_store+0x9c/0xb0\n\nThis means that in i915, if use devm, we cannot gurantee that hwmon will\nalways be released before drvdata. Which means that we have a uaf if hwmon\nsysfs is accessed when drvdata has been released but hwmon hasn't.\n\nThe only way out of this seems to be do get rid of devm_ and release/free\neverything explicitly during device unbind.\n\nv2: Change commit message and other minor code changes\nv3: Cleanup from i915_hwmon_register on error (Armin Wolf)\nv4: Eliminate potential static analyzer warning (Rodrigo)\n    Eliminate fetch_and_zero (Jani)\nv5: Restore previous logic for ddat_gt->hwmon_dev error return (Andi)",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-39479"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-39508",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nio_uring/io-wq: Use set_bit() and test_bit() at worker->flags\n\nUtilize set_bit() and test_bit() on worker->flags within io_uring/io-wq\nto address potential data races.\n\nThe structure io_worker->flags may be accessed through various data\npaths, leading to concurrency issues. When KCSAN is enabled, it reveals\ndata races occurring in io_worker_handle_work and\nio_wq_activate_free_worker functions.\n\n\t BUG: KCSAN: data-race in io_worker_handle_work / io_wq_activate_free_worker\n\t write to 0xffff8885c4246404 of 4 bytes by task 49071 on cpu 28:\n\t io_worker_handle_work (io_uring/io-wq.c:434 io_uring/io-wq.c:569)\n\t io_wq_worker (io_uring/io-wq.c:?)\n<snip>\n\n\t read to 0xffff8885c4246404 of 4 bytes by task 49024 on cpu 5:\n\t io_wq_activate_free_worker (io_uring/io-wq.c:? io_uring/io-wq.c:285)\n\t io_wq_enqueue (io_uring/io-wq.c:947)\n\t io_queue_iowq (io_uring/io_uring.c:524)\n\t io_req_task_submit (io_uring/io_uring.c:1511)\n\t io_handle_tw_list (io_uring/io_uring.c:1198)\n<snip>\n\nLine numbers against commit 18daea77cca6 (\"Merge tag 'for-linus' of\ngit://git.kernel.org/pub/scm/virt/kvm/kvm\").\n\nThese races involve writes and reads to the same memory location by\ndifferent tasks running on different CPUs. To mitigate this, refactor\nthe code to use atomic operations such as set_bit(), test_bit(), and\nclear_bit() instead of basic \"and\" and \"or\" operations. This ensures\nthread-safe manipulation of worker flags.\n\nAlso, move `create_index` to avoid holes in the structure.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-39508"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-41013",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nxfs: don't walk off the end of a directory data block\n\nThis adds sanity checks for xfs_dir2_data_unused and xfs_dir2_data_entry\nto make sure don't stray beyond valid memory region. Before patching, the\nloop simply checks that the start offset of the dup and dep is within the\nrange. So in a crafted image, if last entry is xfs_dir2_data_unused, we\ncan change dup->length to dup->length-1 and leave 1 byte of space. In the\nnext traversal, this space will be considered as dup or dep. We may\nencounter an out of bound read when accessing the fixed members.\n\nIn the patch, we make sure that the remaining bytes large enough to hold\nan unused entry before accessing xfs_dir2_data_unused and\nxfs_dir2_data_unused is XFS_DIR2_DATA_ALIGN byte aligned. We also make\nsure that the remaining bytes large enough to hold a dirent with a\nsingle-byte name before accessing xfs_dir2_data_entry.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-41013"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-42162",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\ngve: Account for stopped queues when reading NIC stats\n\nWe now account for the fact that the NIC might send us stats for a\nsubset of queues. Without this change, gve_get_ethtool_stats might make\nan invalid access on the priv->stats_report->stats array.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-42162"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-44941",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nf2fs: fix to cover read extent cache access with lock\n\nsyzbot reports a f2fs bug as below:\n\nBUG: KASAN: slab-use-after-free in sanity_check_extent_cache+0x370/0x410 fs/f2fs/extent_cache.c:46\nRead of size 4 at addr ffff8880739ab220 by task syz-executor200/5097\n\nCPU: 0 PID: 5097 Comm: syz-executor200 Not tainted 6.9.0-rc6-syzkaller #0\nHardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 03/27/2024\nCall Trace:\n <TASK>\n __dump_stack lib/dump_stack.c:88 [inline]\n dump_stack_lvl+0x241/0x360 lib/dump_stack.c:114\n print_address_description mm/kasan/report.c:377 [inline]\n print_report+0x169/0x550 mm/kasan/report.c:488\n kasan_report+0x143/0x180 mm/kasan/report.c:601\n sanity_check_extent_cache+0x370/0x410 fs/f2fs/extent_cache.c:46\n do_read_inode fs/f2fs/inode.c:509 [inline]\n f2fs_iget+0x33e1/0x46e0 fs/f2fs/inode.c:560\n f2fs_nfs_get_inode+0x74/0x100 fs/f2fs/super.c:3237\n generic_fh_to_dentry+0x9f/0xf0 fs/libfs.c:1413\n exportfs_decode_fh_raw+0x152/0x5f0 fs/exportfs/expfs.c:444\n exportfs_decode_fh+0x3c/0x80 fs/exportfs/expfs.c:584\n do_handle_to_path fs/fhandle.c:155 [inline]\n handle_to_path fs/fhandle.c:210 [inline]\n do_handle_open+0x495/0x650 fs/fhandle.c:226\n do_syscall_x64 arch/x86/entry/common.c:52 [inline]\n do_syscall_64+0xf5/0x240 arch/x86/entry/common.c:83\n entry_SYSCALL_64_after_hwframe+0x77/0x7f\n\nWe missed to cover sanity_check_extent_cache() w/ extent cache lock,\nso, below race case may happen, result in use after free issue.\n\n- f2fs_iget\n - do_read_inode\n  - f2fs_init_read_extent_tree\n  : add largest extent entry in to cache\n\t\t\t\t\t- shrink\n\t\t\t\t\t - f2fs_shrink_read_extent_tree\n\t\t\t\t\t  - __shrink_extent_tree\n\t\t\t\t\t   - __detach_extent_node\n\t\t\t\t\t   : drop largest extent entry\n  - sanity_check_extent_cache\n  : access et->largest w/o lock\n\nlet's refactor sanity_check_extent_cache() to avoid extent cache access\nand call it before f2fs_init_read_extent_tree() to fix this issue.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-44941"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-44942",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nf2fs: fix to do sanity check on F2FS_INLINE_DATA flag in inode during GC\n\nsyzbot reports a f2fs bug as below:\n\n------------[ cut here ]------------\nkernel BUG at fs/f2fs/inline.c:258!\nCPU: 1 PID: 34 Comm: kworker/u8:2 Not tainted 6.9.0-rc6-syzkaller-00012-g9e4bc4bcae01 #0\nRIP: 0010:f2fs_write_inline_data+0x781/0x790 fs/f2fs/inline.c:258\nCall Trace:\n f2fs_write_single_data_page+0xb65/0x1d60 fs/f2fs/data.c:2834\n f2fs_write_cache_pages fs/f2fs/data.c:3133 [inline]\n __f2fs_write_data_pages fs/f2fs/data.c:3288 [inline]\n f2fs_write_data_pages+0x1efe/0x3a90 fs/f2fs/data.c:3315\n do_writepages+0x35b/0x870 mm/page-writeback.c:2612\n __writeback_single_inode+0x165/0x10b0 fs/fs-writeback.c:1650\n writeback_sb_inodes+0x905/0x1260 fs/fs-writeback.c:1941\n wb_writeback+0x457/0xce0 fs/fs-writeback.c:2117\n wb_do_writeback fs/fs-writeback.c:2264 [inline]\n wb_workfn+0x410/0x1090 fs/fs-writeback.c:2304\n process_one_work kernel/workqueue.c:3254 [inline]\n process_scheduled_works+0xa12/0x17c0 kernel/workqueue.c:3335\n worker_thread+0x86d/0xd70 kernel/workqueue.c:3416\n kthread+0x2f2/0x390 kernel/kthread.c:388\n ret_from_fork+0x4d/0x80 arch/x86/kernel/process.c:147\n ret_from_fork_asm+0x1a/0x30 arch/x86/entry/entry_64.S:244\n\nThe root cause is: inline_data inode can be fuzzed, so that there may\nbe valid blkaddr in its direct node, once f2fs triggers background GC\nto migrate the block, it will hit f2fs_bug_on() during dirty page\nwriteback.\n\nLet's add sanity check on F2FS_INLINE_DATA flag in inode during GC,\nso that, it can forbid migrating inline_data inode's data block for\nfixing.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-44942"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-44951",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nserial: sc16is7xx: fix TX fifo corruption\n\nSometimes, when a packet is received on channel A at almost the same time\nas a packet is about to be transmitted on channel B, we observe with a\nlogic analyzer that the received packet on channel A is transmitted on\nchannel B. In other words, the Tx buffer data on channel B is corrupted\nwith data from channel A.\n\nThe problem appeared since commit 4409df5866b7 (\"serial: sc16is7xx: change\nEFR lock to operate on each channels\"), which changed the EFR locking to\noperate on each channel instead of chip-wise.\n\nThis commit has introduced a regression, because the EFR lock is used not\nonly to protect the EFR registers access, but also, in a very obscure and\nundocumented way, to protect access to the data buffer, which is shared by\nthe Tx and Rx handlers, but also by each channel of the IC.\n\nFix this regression first by switching to kfifo_out_linear_ptr() in\nsc16is7xx_handle_tx() to eliminate the need for a shared Rx/Tx buffer.\n\nSecondly, replace the chip-wise Rx buffer with a separate Rx buffer for\neach channel.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-44951"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-46774",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\npowerpc/rtas: Prevent Spectre v1 gadget construction in sys_rtas()\n\nSmatch warns:\n\n  arch/powerpc/kernel/rtas.c:1932 __do_sys_rtas() warn: potential\n  spectre issue 'args.args' [r] (local cap)\n\nThe 'nargs' and 'nret' locals come directly from a user-supplied\nbuffer and are used as indexes into a small stack-based array and as\ninputs to copy_to_user() after they are subject to bounds checks.\n\nUse array_index_nospec() after the bounds checks to clamp these values\nfor speculative execution.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-46774"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-46786",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nfscache: delete fscache_cookie_lru_timer when fscache exits to avoid UAF\n\nThe fscache_cookie_lru_timer is initialized when the fscache module\nis inserted, but is not deleted when the fscache module is removed.\nIf timer_reduce() is called before removing the fscache module,\nthe fscache_cookie_lru_timer will be added to the timer list of\nthe current cpu. Afterwards, a use-after-free will be triggered\nin the softIRQ after removing the fscache module, as follows:\n\n==================================================================\nBUG: unable to handle page fault for address: fffffbfff803c9e9\n PF: supervisor read access in kernel mode\n PF: error_code(0x0000) - not-present page\nPGD 21ffea067 P4D 21ffea067 PUD 21ffe6067 PMD 110a7c067 PTE 0\nOops: Oops: 0000 [#1] PREEMPT SMP KASAN PTI\nCPU: 1 UID: 0 PID: 0 Comm: swapper/1 Tainted: G W 6.11.0-rc3 #855\nTainted: [W]=WARN\nRIP: 0010:__run_timer_base.part.0+0x254/0x8a0\nCall Trace:\n <IRQ>\n tmigr_handle_remote_up+0x627/0x810\n __walk_groups.isra.0+0x47/0x140\n tmigr_handle_remote+0x1fa/0x2f0\n handle_softirqs+0x180/0x590\n irq_exit_rcu+0x84/0xb0\n sysvec_apic_timer_interrupt+0x6e/0x90\n </IRQ>\n <TASK>\n asm_sysvec_apic_timer_interrupt+0x1a/0x20\nRIP: 0010:default_idle+0xf/0x20\n default_idle_call+0x38/0x60\n do_idle+0x2b5/0x300\n cpu_startup_entry+0x54/0x60\n start_secondary+0x20d/0x280\n common_startup_64+0x13e/0x148\n </TASK>\nModules linked in: [last unloaded: netfs]\n==================================================================\n\nTherefore delete fscache_cookie_lru_timer when removing the fscahe module.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-46786"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-46811",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Fix index may exceed array range within fpu_update_bw_bounding_box\n\n[Why]\nCoverity reports OVERRUN warning. soc.num_states could\nbe 40. But array range of bw_params->clk_table.entries is 8.\n\n[How]\nAssert if soc.num_states greater than 8.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-46811"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-46813",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Check link_index before accessing dc->links[]\n\n[WHY & HOW]\ndc->links[] has max size of MAX_LINKS and NULL is return when trying to\naccess with out-of-bound index.\n\nThis fixes 3 OVERRUN and 1 RESOURCE_LEAK issues reported by Coverity.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-46813"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-46833",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: hns3: void array out of bound when loop tnl_num\n\nWhen query reg inf of SSU, it loops tnl_num times. However, tnl_num comes\nfrom hardware and the length of array is a fixed value. To void array out\nof bound, make sure the loop time is not greater than the length of array",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-46833"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-47691",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nf2fs: fix to avoid use-after-free in f2fs_stop_gc_thread()\n\nsyzbot reports a f2fs bug as below:\n\n __dump_stack lib/dump_stack.c:88 [inline]\n dump_stack_lvl+0x241/0x360 lib/dump_stack.c:114\n print_report+0xe8/0x550 mm/kasan/report.c:491\n kasan_report+0x143/0x180 mm/kasan/report.c:601\n kasan_check_range+0x282/0x290 mm/kasan/generic.c:189\n instrument_atomic_read_write include/linux/instrumented.h:96 [inline]\n atomic_fetch_add_relaxed include/linux/atomic/atomic-instrumented.h:252 [inline]\n __refcount_add include/linux/refcount.h:184 [inline]\n __refcount_inc include/linux/refcount.h:241 [inline]\n refcount_inc include/linux/refcount.h:258 [inline]\n get_task_struct include/linux/sched/task.h:118 [inline]\n kthread_stop+0xca/0x630 kernel/kthread.c:704\n f2fs_stop_gc_thread+0x65/0xb0 fs/f2fs/gc.c:210\n f2fs_do_shutdown+0x192/0x540 fs/f2fs/file.c:2283\n f2fs_ioc_shutdown fs/f2fs/file.c:2325 [inline]\n __f2fs_ioctl+0x443a/0xbe60 fs/f2fs/file.c:4325\n vfs_ioctl fs/ioctl.c:51 [inline]\n __do_sys_ioctl fs/ioctl.c:907 [inline]\n __se_sys_ioctl+0xfc/0x170 fs/ioctl.c:893\n do_syscall_x64 arch/x86/entry/common.c:52 [inline]\n do_syscall_64+0xf3/0x230 arch/x86/entry/common.c:83\n entry_SYSCALL_64_after_hwframe+0x77/0x7f\n\nThe root cause is below race condition, it may cause use-after-free\nissue in sbi->gc_th pointer.\n\n- remount\n - f2fs_remount\n  - f2fs_stop_gc_thread\n   - kfree(gc_th)\n\t\t\t\t- f2fs_ioc_shutdown\n\t\t\t\t - f2fs_do_shutdown\n\t\t\t\t  - f2fs_stop_gc_thread\n\t\t\t\t   - kthread_stop(gc_th->f2fs_gc_task)\n   : sbi->gc_thread = NULL;\n\nWe will call f2fs_do_shutdown() in two paths:\n- for f2fs_ioc_shutdown() path, we should grab sb->s_umount semaphore\nfor fixing.\n- for f2fs_shutdown() path, it's safe since caller has already grabbed\nsb->s_umount semaphore.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-47691"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-49928",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: rtw89: avoid reading out of bounds when loading TX power FW elements\n\nBecause the loop-expression will do one more time before getting false from\ncond-expression, the original code copied one more entry size beyond valid\nregion.\n\nFix it by moving the entry copy to loop-body.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-49928"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-49989",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: fix double free issue during amdgpu module unload\n\nFlexible endpoints use DIGs from available inflexible endpoints,\nso only the encoders of inflexible links need to be freed.\nOtherwise, a double free issue may occur when unloading the\namdgpu module.\n\n[  279.190523] RIP: 0010:__slab_free+0x152/0x2f0\n[  279.190577] Call Trace:\n[  279.190580]  <TASK>\n[  279.190582]  ? show_regs+0x69/0x80\n[  279.190590]  ? die+0x3b/0x90\n[  279.190595]  ? do_trap+0xc8/0xe0\n[  279.190601]  ? do_error_trap+0x73/0xa0\n[  279.190605]  ? __slab_free+0x152/0x2f0\n[  279.190609]  ? exc_invalid_op+0x56/0x70\n[  279.190616]  ? __slab_free+0x152/0x2f0\n[  279.190642]  ? asm_exc_invalid_op+0x1f/0x30\n[  279.190648]  ? dcn10_link_encoder_destroy+0x19/0x30 [amdgpu]\n[  279.191096]  ? __slab_free+0x152/0x2f0\n[  279.191102]  ? dcn10_link_encoder_destroy+0x19/0x30 [amdgpu]\n[  279.191469]  kfree+0x260/0x2b0\n[  279.191474]  dcn10_link_encoder_destroy+0x19/0x30 [amdgpu]\n[  279.191821]  link_destroy+0xd7/0x130 [amdgpu]\n[  279.192248]  dc_destruct+0x90/0x270 [amdgpu]\n[  279.192666]  dc_destroy+0x19/0x40 [amdgpu]\n[  279.193020]  amdgpu_dm_fini+0x16e/0x200 [amdgpu]\n[  279.193432]  dm_hw_fini+0x26/0x40 [amdgpu]\n[  279.193795]  amdgpu_device_fini_hw+0x24c/0x400 [amdgpu]\n[  279.194108]  amdgpu_driver_unload_kms+0x4f/0x70 [amdgpu]\n[  279.194436]  amdgpu_pci_remove+0x40/0x80 [amdgpu]\n[  279.194632]  pci_device_remove+0x3a/0xa0\n[  279.194638]  device_remove+0x40/0x70\n[  279.194642]  device_release_driver_internal+0x1ad/0x210\n[  279.194647]  driver_detach+0x4e/0xa0\n[  279.194650]  bus_remove_driver+0x6f/0xf0\n[  279.194653]  driver_unregister+0x33/0x60\n[  279.194657]  pci_unregister_driver+0x44/0x90\n[  279.194662]  amdgpu_exit+0x19/0x1f0 [amdgpu]\n[  279.194939]  __do_sys_delete_module.isra.0+0x198/0x2f0\n[  279.194946]  __x64_sys_delete_module+0x16/0x20\n[  279.194950]  do_syscall_64+0x58/0x120\n[  279.194954]  entry_SYSCALL_64_after_hwframe+0x6e/0x76\n[  279.194980]  </TASK>",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-49989"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-50029",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: hci_conn: Fix UAF in hci_enhanced_setup_sync\n\nThis checks if the ACL connection remains valid as it could be destroyed\nwhile hci_enhanced_setup_sync is pending on cmd_sync leading to the\nfollowing trace:\n\nBUG: KASAN: slab-use-after-free in hci_enhanced_setup_sync+0x91b/0xa60\nRead of size 1 at addr ffff888002328ffd by task kworker/u5:2/37\n\nCPU: 0 UID: 0 PID: 37 Comm: kworker/u5:2 Not tainted 6.11.0-rc6-01300-g810be445d8d6 #7099\nHardware name: QEMU Standard PC (Q35 + ICH9, 2009), BIOS 1.16.3-2.fc40 04/01/2014\nWorkqueue: hci0 hci_cmd_sync_work\nCall Trace:\n <TASK>\n dump_stack_lvl+0x5d/0x80\n ? hci_enhanced_setup_sync+0x91b/0xa60\n print_report+0x152/0x4c0\n ? hci_enhanced_setup_sync+0x91b/0xa60\n ? __virt_addr_valid+0x1fa/0x420\n ? hci_enhanced_setup_sync+0x91b/0xa60\n kasan_report+0xda/0x1b0\n ? hci_enhanced_setup_sync+0x91b/0xa60\n hci_enhanced_setup_sync+0x91b/0xa60\n ? __pfx_hci_enhanced_setup_sync+0x10/0x10\n ? __pfx___mutex_lock+0x10/0x10\n hci_cmd_sync_work+0x1c2/0x330\n process_one_work+0x7d9/0x1360\n ? __pfx_lock_acquire+0x10/0x10\n ? __pfx_process_one_work+0x10/0x10\n ? assign_work+0x167/0x240\n worker_thread+0x5b7/0xf60\n ? __kthread_parkme+0xac/0x1c0\n ? __pfx_worker_thread+0x10/0x10\n ? __pfx_worker_thread+0x10/0x10\n kthread+0x293/0x360\n ? __pfx_kthread+0x10/0x10\n ret_from_fork+0x2f/0x70\n ? __pfx_kthread+0x10/0x10\n ret_from_fork_asm+0x1a/0x30\n </TASK>\n\nAllocated by task 34:\n kasan_save_stack+0x30/0x50\n kasan_save_track+0x14/0x30\n __kasan_kmalloc+0x8f/0xa0\n __hci_conn_add+0x187/0x17d0\n hci_connect_sco+0x2e1/0xb90\n sco_sock_connect+0x2a2/0xb80\n __sys_connect+0x227/0x2a0\n __x64_sys_connect+0x6d/0xb0\n do_syscall_64+0x71/0x140\n entry_SYSCALL_64_after_hwframe+0x76/0x7e\n\nFreed by task 37:\n kasan_save_stack+0x30/0x50\n kasan_save_track+0x14/0x30\n kasan_save_free_info+0x3b/0x60\n __kasan_slab_free+0x101/0x160\n kfree+0xd0/0x250\n device_release+0x9a/0x210\n kobject_put+0x151/0x280\n hci_conn_del+0x448/0xbf0\n hci_abort_conn_sync+0x46f/0x980\n hci_cmd_sync_work+0x1c2/0x330\n process_one_work+0x7d9/0x1360\n worker_thread+0x5b7/0xf60\n kthread+0x293/0x360\n ret_from_fork+0x2f/0x70\n ret_from_fork_asm+0x1a/0x30",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-50029"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-50047",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nsmb: client: fix UAF in async decryption\n\nDoing an async decryption (large read) crashes with a\nslab-use-after-free way down in the crypto API.\n\nReproducer:\n    # mount.cifs -o ...,seal,esize=1 //srv/share /mnt\n    # dd if=/mnt/largefile of=/dev/null\n    ...\n    [  194.196391] ==================================================================\n    [  194.196844] BUG: KASAN: slab-use-after-free in gf128mul_4k_lle+0xc1/0x110\n    [  194.197269] Read of size 8 at addr ffff888112bd0448 by task kworker/u77:2/899\n    [  194.197707]\n    [  194.197818] CPU: 12 UID: 0 PID: 899 Comm: kworker/u77:2 Not tainted 6.11.0-lku-00028-gfca3ca14a17a-dirty #43\n    [  194.198400] Hardware name: QEMU Standard PC (Q35 + ICH9, 2009), BIOS rel-1.16.2-3-gd478f380-prebuilt.qemu.org 04/01/2014\n    [  194.199046] Workqueue: smb3decryptd smb2_decrypt_offload [cifs]\n    [  194.200032] Call Trace:\n    [  194.200191]  <TASK>\n    [  194.200327]  dump_stack_lvl+0x4e/0x70\n    [  194.200558]  ? gf128mul_4k_lle+0xc1/0x110\n    [  194.200809]  print_report+0x174/0x505\n    [  194.201040]  ? __pfx__raw_spin_lock_irqsave+0x10/0x10\n    [  194.201352]  ? srso_return_thunk+0x5/0x5f\n    [  194.201604]  ? __virt_addr_valid+0xdf/0x1c0\n    [  194.201868]  ? gf128mul_4k_lle+0xc1/0x110\n    [  194.202128]  kasan_report+0xc8/0x150\n    [  194.202361]  ? gf128mul_4k_lle+0xc1/0x110\n    [  194.202616]  gf128mul_4k_lle+0xc1/0x110\n    [  194.202863]  ghash_update+0x184/0x210\n    [  194.203103]  shash_ahash_update+0x184/0x2a0\n    [  194.203377]  ? __pfx_shash_ahash_update+0x10/0x10\n    [  194.203651]  ? srso_return_thunk+0x5/0x5f\n    [  194.203877]  ? crypto_gcm_init_common+0x1ba/0x340\n    [  194.204142]  gcm_hash_assoc_remain_continue+0x10a/0x140\n    [  194.204434]  crypt_message+0xec1/0x10a0 [cifs]\n    [  194.206489]  ? __pfx_crypt_message+0x10/0x10 [cifs]\n    [  194.208507]  ? srso_return_thunk+0x5/0x5f\n    [  194.209205]  ? srso_return_thunk+0x5/0x5f\n    [  194.209925]  ? srso_return_thunk+0x5/0x5f\n    [  194.210443]  ? srso_return_thunk+0x5/0x5f\n    [  194.211037]  decrypt_raw_data+0x15f/0x250 [cifs]\n    [  194.212906]  ? __pfx_decrypt_raw_data+0x10/0x10 [cifs]\n    [  194.214670]  ? srso_return_thunk+0x5/0x5f\n    [  194.215193]  smb2_decrypt_offload+0x12a/0x6c0 [cifs]\n\nThis is because TFM is being used in parallel.\n\nFix this by allocating a new AEAD TFM for async decryption, but keep\nthe existing one for synchronous READ cases (similar to what is done\nin smb3_calc_signature()).\n\nAlso remove the calls to aead_request_set_callback() and\ncrypto_wait_req() since it's always going to be a synchronous operation.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-50047"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-50061",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\ni3c: master: cdns: Fix use after free vulnerability in cdns_i3c_master Driver Due to Race Condition\n\nIn the cdns_i3c_master_probe function, &master->hj_work is bound with\ncdns_i3c_master_hj. And cdns_i3c_master_interrupt can call\ncnds_i3c_master_demux_ibis function to start the work.\n\nIf we remove the module which will call cdns_i3c_master_remove to\nmake cleanup, it will free master->base through i3c_master_unregister\nwhile the work mentioned above will be used. The sequence of operations\nthat may lead to a UAF bug is as follows:\n\nCPU0                                      CPU1\n\n                                     | cdns_i3c_master_hj\ncdns_i3c_master_remove               |\ni3c_master_unregister(&master->base) |\ndevice_unregister(&master->dev)      |\ndevice_release                       |\n//free master->base                  |\n                                     | i3c_master_do_daa(&master->base)\n                                     | //use master->base\n\nFix it by ensuring that the work is canceled before proceeding with\nthe cleanup in cdns_i3c_master_remove.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-50061"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-50063",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nbpf: Prevent tail call between progs attached to different hooks\n\nbpf progs can be attached to kernel functions, and the attached functions\ncan take different parameters or return different return values. If\nprog attached to one kernel function tail calls prog attached to another\nkernel function, the ctx access or return value verification could be\nbypassed.\n\nFor example, if prog1 is attached to func1 which takes only 1 parameter\nand prog2 is attached to func2 which takes two parameters. Since verifier\nassumes the bpf ctx passed to prog2 is constructed based on func2's\nprototype, verifier allows prog2 to access the second parameter from\nthe bpf ctx passed to it. The problem is that verifier does not prevent\nprog1 from passing its bpf ctx to prog2 via tail call. In this case,\nthe bpf ctx passed to prog2 is constructed from func1 instead of func2,\nthat is, the assumption for ctx access verification is bypassed.\n\nAnother example, if BPF LSM prog1 is attached to hook file_alloc_security,\nand BPF LSM prog2 is attached to hook bpf_lsm_audit_rule_known. Verifier\nknows the return value rules for these two hooks, e.g. it is legal for\nbpf_lsm_audit_rule_known to return positive number 1, and it is illegal\nfor file_alloc_security to return positive number. So verifier allows\nprog2 to return positive number 1, but does not allow prog1 to return\npositive number. The problem is that verifier does not prevent prog1\nfrom calling prog2 via tail call. In this case, prog2's return value 1\nwill be used as the return value for prog1's hook file_alloc_security.\nThat is, the return value rule is bypassed.\n\nThis patch adds restriction for tail call to prevent such bypasses.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-50063"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-50112",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nx86/lam: Disable ADDRESS_MASKING in most cases\n\nLinear Address Masking (LAM) has a weakness related to transient\nexecution as described in the SLAM paper[1]. Unless Linear Address\nSpace Separation (LASS) is enabled this weakness may be exploitable.\n\nUntil kernel adds support for LASS[2], only allow LAM for COMPILE_TEST,\nor when speculation mitigations have been disabled at compile time,\notherwise keep LAM disabled.\n\nThere are no processors in market that support LAM yet, so currently\nnobody is affected by this issue.\n\n[1] SLAM: https://download.vusec.net/papers/slam_sp24.pdf\n[2] LASS: https://lore.kernel.org/lkml/20230609183632.48706-1-alexander.shishkin@linux.intel.com/\n\n[ dhansen: update SPECULATION_MITIGATIONS -> CPU_MITIGATIONS ]",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-50112"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-50164",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nbpf: Fix overloading of MEM_UNINIT's meaning\n\nLonial reported an issue in the BPF verifier where check_mem_size_reg()\nhas the following code:\n\n    if (!tnum_is_const(reg->var_off))\n        /* For unprivileged variable accesses, disable raw\n         * mode so that the program is required to\n         * initialize all the memory that the helper could\n         * just partially fill up.\n         */\n         meta = NULL;\n\nThis means that writes are not checked when the register containing the\nsize of the passed buffer has not a fixed size. Through this bug, a BPF\nprogram can write to a map which is marked as read-only, for example,\n.rodata global maps.\n\nThe problem is that MEM_UNINIT's initial meaning that \"the passed buffer\nto the BPF helper does not need to be initialized\" which was added back\nin commit 435faee1aae9 (\"bpf, verifier: add ARG_PTR_TO_RAW_STACK type\")\ngot overloaded over time with \"the passed buffer is being written to\".\n\nThe problem however is that checks such as the above which were added later\nvia 06c1c049721a (\"bpf: allow helpers access to variable memory\") set meta\nto NULL in order force the user to always initialize the passed buffer to\nthe helper. Due to the current double meaning of MEM_UNINIT, this bypasses\nverifier write checks to the memory (not boundary checks though) and only\nassumes the latter memory is read instead.\n\nFix this by reverting MEM_UNINIT back to its original meaning, and having\nMEM_WRITE as an annotation to BPF helpers in order to then trigger the\nBPF verifier checks for writing to memory.\n\nSome notes: check_arg_pair_ok() ensures that for ARG_CONST_SIZE{,_OR_ZERO}\nwe can access fn->arg_type[arg - 1] since it must contain a preceding\nARG_PTR_TO_MEM. For check_mem_reg() the meta argument can be removed\naltogether since we do check both BPF_READ and BPF_WRITE. Same for the\nequivalent check_kfunc_mem_size_reg().",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-50164"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-50217",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nbtrfs: fix use-after-free of block device file in __btrfs_free_extra_devids()\n\nMounting btrfs from two images (which have the same one fsid and two\ndifferent dev_uuids) in certain executing order may trigger an UAF for\nvariable 'device->bdev_file' in __btrfs_free_extra_devids(). And\nfollowing are the details:\n\n1. Attach image_1 to loop0, attach image_2 to loop1, and scan btrfs\n   devices by ioctl(BTRFS_IOC_SCAN_DEV):\n\n             /  btrfs_device_1 \u2192 loop0\n   fs_device\n             \\  btrfs_device_2 \u2192 loop1\n2. mount /dev/loop0 /mnt\n   btrfs_open_devices\n    btrfs_device_1->bdev_file = btrfs_get_bdev_and_sb(loop0)\n    btrfs_device_2->bdev_file = btrfs_get_bdev_and_sb(loop1)\n   btrfs_fill_super\n    open_ctree\n     fail: btrfs_close_devices // -ENOMEM\n\t    btrfs_close_bdev(btrfs_device_1)\n             fput(btrfs_device_1->bdev_file)\n\t      // btrfs_device_1->bdev_file is freed\n\t    btrfs_close_bdev(btrfs_device_2)\n             fput(btrfs_device_2->bdev_file)\n\n3. mount /dev/loop1 /mnt\n   btrfs_open_devices\n    btrfs_get_bdev_and_sb(&bdev_file)\n     // EIO, btrfs_device_1->bdev_file is not assigned,\n     // which points to a freed memory area\n    btrfs_device_2->bdev_file = btrfs_get_bdev_and_sb(loop1)\n   btrfs_fill_super\n    open_ctree\n     btrfs_free_extra_devids\n      if (btrfs_device_1->bdev_file)\n       fput(btrfs_device_1->bdev_file) // UAF !\n\nFix it by setting 'device->bdev_file' as 'NULL' after closing the\nbtrfs_device in btrfs_close_one_device().",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-50217"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-50226",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\ncxl/port: Fix use-after-free, permit out-of-order decoder shutdown\n\nIn support of investigating an initialization failure report [1],\ncxl_test was updated to register mock memory-devices after the mock\nroot-port/bus device had been registered. That led to cxl_test crashing\nwith a use-after-free bug with the following signature:\n\n    cxl_port_attach_region: cxl region3: cxl_host_bridge.0:port3 decoder3.0 add: mem0:decoder7.0 @ 0 next: cxl_switch_uport.0 nr_eps: 1 nr_targets: 1\n    cxl_port_attach_region: cxl region3: cxl_host_bridge.0:port3 decoder3.0 add: mem4:decoder14.0 @ 1 next: cxl_switch_uport.0 nr_eps: 2 nr_targets: 1\n    cxl_port_setup_targets: cxl region3: cxl_switch_uport.0:port6 target[0] = cxl_switch_dport.0 for mem0:decoder7.0 @ 0\n1)  cxl_port_setup_targets: cxl region3: cxl_switch_uport.0:port6 target[1] = cxl_switch_dport.4 for mem4:decoder14.0 @ 1\n    [..]\n    cxld_unregister: cxl decoder14.0:\n    cxl_region_decode_reset: cxl_region region3:\n    mock_decoder_reset: cxl_port port3: decoder3.0 reset\n2)  mock_decoder_reset: cxl_port port3: decoder3.0: out of order reset, expected decoder3.1\n    cxl_endpoint_decoder_release: cxl decoder14.0:\n    [..]\n    cxld_unregister: cxl decoder7.0:\n3)  cxl_region_decode_reset: cxl_region region3:\n    Oops: general protection fault, probably for non-canonical address 0x6b6b6b6b6b6b6bc3: 0000 [#1] PREEMPT SMP PTI\n    [..]\n    RIP: 0010:to_cxl_port+0x8/0x60 [cxl_core]\n    [..]\n    Call Trace:\n     <TASK>\n     cxl_region_decode_reset+0x69/0x190 [cxl_core]\n     cxl_region_detach+0xe8/0x210 [cxl_core]\n     cxl_decoder_kill_region+0x27/0x40 [cxl_core]\n     cxld_unregister+0x5d/0x60 [cxl_core]\n\nAt 1) a region has been established with 2 endpoint decoders (7.0 and\n14.0). Those endpoints share a common switch-decoder in the topology\n(3.0). At teardown, 2), decoder14.0 is the first to be removed and hits\nthe \"out of order reset case\" in the switch decoder. The effect though\nis that region3 cleanup is aborted leaving it in-tact and\nreferencing decoder14.0. At 3) the second attempt to teardown region3\ntrips over the stale decoder14.0 object which has long since been\ndeleted.\n\nThe fix here is to recognize that the CXL specification places no\nmandate on in-order shutdown of switch-decoders, the driver enforces\nin-order allocation, and hardware enforces in-order commit. So, rather\nthan fail and leave objects dangling, always remove them.\n\nIn support of making cxl_region_decode_reset() always succeed,\ncxl_region_invalidate_memregion() failures are turned into warnings.\nCrashing the kernel is ok there since system integrity is at risk if\ncaches cannot be managed around physical address mutation events like\nCXL region destruction.\n\nA new device_for_each_child_reverse_from() is added to cleanup\nport->commit_end after all dependent decoders have been disabled. In\nother words if decoders are allocated 0->1->2 and disabled 1->2->0 then\nport->commit_end only decrements from 2 after 2 has been disabled, and\nit decrements all the way to zero since 1 was disabled previously.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-50226"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-50246",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nfs/ntfs3: Add rough attr alloc_size check",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-50246"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-53068",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nfirmware: arm_scmi: Fix slab-use-after-free in scmi_bus_notifier()\n\nThe scmi_dev->name is released prematurely in __scmi_device_destroy(),\nwhich causes slab-use-after-free when accessing scmi_dev->name in\nscmi_bus_notifier(). So move the release of scmi_dev->name to\nscmi_device_release() to avoid slab-use-after-free.\n\n  |  BUG: KASAN: slab-use-after-free in strncmp+0xe4/0xec\n  |  Read of size 1 at addr ffffff80a482bcc0 by task swapper/0/1\n  |\n  |  CPU: 1 PID: 1 Comm: swapper/0 Not tainted 6.6.38-debug #1\n  |  Hardware name: Qualcomm Technologies, Inc. SA8775P Ride (DT)\n  |  Call trace:\n  |   dump_backtrace+0x94/0x114\n  |   show_stack+0x18/0x24\n  |   dump_stack_lvl+0x48/0x60\n  |   print_report+0xf4/0x5b0\n  |   kasan_report+0xa4/0xec\n  |   __asan_report_load1_noabort+0x20/0x2c\n  |   strncmp+0xe4/0xec\n  |   scmi_bus_notifier+0x5c/0x54c\n  |   notifier_call_chain+0xb4/0x31c\n  |   blocking_notifier_call_chain+0x68/0x9c\n  |   bus_notify+0x54/0x78\n  |   device_del+0x1bc/0x840\n  |   device_unregister+0x20/0xb4\n  |   __scmi_device_destroy+0xac/0x280\n  |   scmi_device_destroy+0x94/0xd0\n  |   scmi_chan_setup+0x524/0x750\n  |   scmi_probe+0x7fc/0x1508\n  |   platform_probe+0xc4/0x19c\n  |   really_probe+0x32c/0x99c\n  |   __driver_probe_device+0x15c/0x3c4\n  |   driver_probe_device+0x5c/0x170\n  |   __driver_attach+0x1c8/0x440\n  |   bus_for_each_dev+0xf4/0x178\n  |   driver_attach+0x3c/0x58\n  |   bus_add_driver+0x234/0x4d4\n  |   driver_register+0xf4/0x3c0\n  |   __platform_driver_register+0x60/0x88\n  |   scmi_driver_init+0xb0/0x104\n  |   do_one_initcall+0xb4/0x664\n  |   kernel_init_freeable+0x3c8/0x894\n  |   kernel_init+0x24/0x1e8\n  |   ret_from_fork+0x10/0x20\n  |\n  |  Allocated by task 1:\n  |   kasan_save_stack+0x2c/0x54\n  |   kasan_set_track+0x2c/0x40\n  |   kasan_save_alloc_info+0x24/0x34\n  |   __kasan_kmalloc+0xa0/0xb8\n  |   __kmalloc_node_track_caller+0x6c/0x104\n  |   kstrdup+0x48/0x84\n  |   kstrdup_const+0x34/0x40\n  |   __scmi_device_create.part.0+0x8c/0x408\n  |   scmi_device_create+0x104/0x370\n  |   scmi_chan_setup+0x2a0/0x750\n  |   scmi_probe+0x7fc/0x1508\n  |   platform_probe+0xc4/0x19c\n  |   really_probe+0x32c/0x99c\n  |   __driver_probe_device+0x15c/0x3c4\n  |   driver_probe_device+0x5c/0x170\n  |   __driver_attach+0x1c8/0x440\n  |   bus_for_each_dev+0xf4/0x178\n  |   driver_attach+0x3c/0x58\n  |   bus_add_driver+0x234/0x4d4\n  |   driver_register+0xf4/0x3c0\n  |   __platform_driver_register+0x60/0x88\n  |   scmi_driver_init+0xb0/0x104\n  |   do_one_initcall+0xb4/0x664\n  |   kernel_init_freeable+0x3c8/0x894\n  |   kernel_init+0x24/0x1e8\n  |   ret_from_fork+0x10/0x20\n  |\n  |  Freed by task 1:\n  |   kasan_save_stack+0x2c/0x54\n  |   kasan_set_track+0x2c/0x40\n  |   kasan_save_free_info+0x38/0x5c\n  |   __kasan_slab_free+0xe8/0x164\n  |   __kmem_cache_free+0x11c/0x230\n  |   kfree+0x70/0x130\n  |   kfree_const+0x20/0x40\n  |   __scmi_device_destroy+0x70/0x280\n  |   scmi_device_destroy+0x94/0xd0\n  |   scmi_chan_setup+0x524/0x750\n  |   scmi_probe+0x7fc/0x1508\n  |   platform_probe+0xc4/0x19c\n  |   really_probe+0x32c/0x99c\n  |   __driver_probe_device+0x15c/0x3c4\n  |   driver_probe_device+0x5c/0x170\n  |   __driver_attach+0x1c8/0x440\n  |   bus_for_each_dev+0xf4/0x178\n  |   driver_attach+0x3c/0x58\n  |   bus_add_driver+0x234/0x4d4\n  |   driver_register+0xf4/0x3c0\n  |   __platform_driver_register+0x60/0x88\n  |   scmi_driver_init+0xb0/0x104\n  |   do_one_initcall+0xb4/0x664\n  |   kernel_init_freeable+0x3c8/0x894\n  |   kernel_init+0x24/0x1e8\n  |   ret_from_fork+0x10/0x20",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-53068"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-53108",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Adjust VSDB parser for replay feature\n\nAt some point, the IEEE ID identification for the replay check in the\nAMD EDID was added. However, this check causes the following\nout-of-bounds issues when using KASAN:\n\n[   27.804016] BUG: KASAN: slab-out-of-bounds in amdgpu_dm_update_freesync_caps+0xefa/0x17a0 [amdgpu]\n[   27.804788] Read of size 1 at addr ffff8881647fdb00 by task systemd-udevd/383\n\n...\n\n[   27.821207] Memory state around the buggy address:\n[   27.821215]  ffff8881647fda00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n[   27.821224]  ffff8881647fda80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n[   27.821234] >ffff8881647fdb00: fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc\n[   27.821243]                    ^\n[   27.821250]  ffff8881647fdb80: fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc\n[   27.821259]  ffff8881647fdc00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n[   27.821268] ==================================================================\n\nThis is caused because the ID extraction happens outside of the range of\nthe edid lenght. This commit addresses this issue by considering the\namd_vsdb_block size.\n\n(cherry picked from commit b7e381b1ccd5e778e3d9c44c669ad38439a861d8)",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-53108"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-53133",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Handle dml allocation failure to avoid crash\n\n[Why]\nIn the case where a dml allocation fails for any reason, the\ncurrent state's dml contexts would no longer be valid. Then\nsubsequent calls dc_state_copy_internal would shallow copy\ninvalid memory and if the new state was released, a double\nfree would occur.\n\n[How]\nReset dml pointers in new_state to NULL and avoid invalid\npointer\n\n(cherry picked from commit bcafdc61529a48f6f06355d78eb41b3aeda5296c)",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-53133"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-53166",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nblock, bfq: fix bfqq uaf in bfq_limit_depth()\n\nSet new allocated bfqq to bic or remove freed bfqq from bic are both\nprotected by bfqd->lock, however bfq_limit_depth() is deferencing bfqq\nfrom bic without the lock, this can lead to UAF if the io_context is\nshared by multiple tasks.\n\nFor example, test bfq with io_uring can trigger following UAF in v6.6:\n\n==================================================================\nBUG: KASAN: slab-use-after-free in bfqq_group+0x15/0x50\n\nCall Trace:\n <TASK>\n dump_stack_lvl+0x47/0x80\n print_address_description.constprop.0+0x66/0x300\n print_report+0x3e/0x70\n kasan_report+0xb4/0xf0\n bfqq_group+0x15/0x50\n bfqq_request_over_limit+0x130/0x9a0\n bfq_limit_depth+0x1b5/0x480\n __blk_mq_alloc_requests+0x2b5/0xa00\n blk_mq_get_new_requests+0x11d/0x1d0\n blk_mq_submit_bio+0x286/0xb00\n submit_bio_noacct_nocheck+0x331/0x400\n __block_write_full_folio+0x3d0/0x640\n writepage_cb+0x3b/0xc0\n write_cache_pages+0x254/0x6c0\n write_cache_pages+0x254/0x6c0\n do_writepages+0x192/0x310\n filemap_fdatawrite_wbc+0x95/0xc0\n __filemap_fdatawrite_range+0x99/0xd0\n filemap_write_and_wait_range.part.0+0x4d/0xa0\n blkdev_read_iter+0xef/0x1e0\n io_read+0x1b6/0x8a0\n io_issue_sqe+0x87/0x300\n io_wq_submit_work+0xeb/0x390\n io_worker_handle_work+0x24d/0x550\n io_wq_worker+0x27f/0x6c0\n ret_from_fork_asm+0x1b/0x30\n </TASK>\n\nAllocated by task 808602:\n kasan_save_stack+0x1e/0x40\n kasan_set_track+0x21/0x30\n __kasan_slab_alloc+0x83/0x90\n kmem_cache_alloc_node+0x1b1/0x6d0\n bfq_get_queue+0x138/0xfa0\n bfq_get_bfqq_handle_split+0xe3/0x2c0\n bfq_init_rq+0x196/0xbb0\n bfq_insert_request.isra.0+0xb5/0x480\n bfq_insert_requests+0x156/0x180\n blk_mq_insert_request+0x15d/0x440\n blk_mq_submit_bio+0x8a4/0xb00\n submit_bio_noacct_nocheck+0x331/0x400\n __blkdev_direct_IO_async+0x2dd/0x330\n blkdev_write_iter+0x39a/0x450\n io_write+0x22a/0x840\n io_issue_sqe+0x87/0x300\n io_wq_submit_work+0xeb/0x390\n io_worker_handle_work+0x24d/0x550\n io_wq_worker+0x27f/0x6c0\n ret_from_fork+0x2d/0x50\n ret_from_fork_asm+0x1b/0x30\n\nFreed by task 808589:\n kasan_save_stack+0x1e/0x40\n kasan_set_track+0x21/0x30\n kasan_save_free_info+0x27/0x40\n __kasan_slab_free+0x126/0x1b0\n kmem_cache_free+0x10c/0x750\n bfq_put_queue+0x2dd/0x770\n __bfq_insert_request.isra.0+0x155/0x7a0\n bfq_insert_request.isra.0+0x122/0x480\n bfq_insert_requests+0x156/0x180\n blk_mq_dispatch_plug_list+0x528/0x7e0\n blk_mq_flush_plug_list.part.0+0xe5/0x590\n __blk_flush_plug+0x3b/0x90\n blk_finish_plug+0x40/0x60\n do_writepages+0x19d/0x310\n filemap_fdatawrite_wbc+0x95/0xc0\n __filemap_fdatawrite_range+0x99/0xd0\n filemap_write_and_wait_range.part.0+0x4d/0xa0\n blkdev_read_iter+0xef/0x1e0\n io_read+0x1b6/0x8a0\n io_issue_sqe+0x87/0x300\n io_wq_submit_work+0xeb/0x390\n io_worker_handle_work+0x24d/0x550\n io_wq_worker+0x27f/0x6c0\n ret_from_fork+0x2d/0x50\n ret_from_fork_asm+0x1b/0x30\n\nFix the problem by protecting bic_to_bfqq() with bfqd->lock.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-53166"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-53168",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nsunrpc: fix one UAF issue caused by sunrpc kernel tcp socket\n\nBUG: KASAN: slab-use-after-free in tcp_write_timer_handler+0x156/0x3e0\nRead of size 1 at addr ffff888111f322cd by task swapper/0/0\n\nCPU: 0 UID: 0 PID: 0 Comm: swapper/0 Not tainted 6.12.0-rc4-dirty #7\nHardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.15.0-1\nCall Trace:\n <IRQ>\n dump_stack_lvl+0x68/0xa0\n print_address_description.constprop.0+0x2c/0x3d0\n print_report+0xb4/0x270\n kasan_report+0xbd/0xf0\n tcp_write_timer_handler+0x156/0x3e0\n tcp_write_timer+0x66/0x170\n call_timer_fn+0xfb/0x1d0\n __run_timers+0x3f8/0x480\n run_timer_softirq+0x9b/0x100\n handle_softirqs+0x153/0x390\n __irq_exit_rcu+0x103/0x120\n irq_exit_rcu+0xe/0x20\n sysvec_apic_timer_interrupt+0x76/0x90\n </IRQ>\n <TASK>\n asm_sysvec_apic_timer_interrupt+0x1a/0x20\nRIP: 0010:default_idle+0xf/0x20\nCode: 4c 01 c7 4c 29 c2 e9 72 ff ff ff 90 90 90 90 90 90 90 90 90 90 90 90\n 90 90 90 90 f3 0f 1e fa 66 90 0f 00 2d 33 f8 25 00 fb f4 <fa> c3 cc cc cc\n cc 66 66 2e 0f 1f 84 00 00 00 00 00 90 90 90 90 90\nRSP: 0018:ffffffffa2007e28 EFLAGS: 00000242\nRAX: 00000000000f3b31 RBX: 1ffffffff4400fc7 RCX: ffffffffa09c3196\nRDX: 0000000000000000 RSI: 0000000000000000 RDI: ffffffff9f00590f\nRBP: 0000000000000000 R08: 0000000000000001 R09: ffffed102360835d\nR10: ffff88811b041aeb R11: 0000000000000001 R12: 0000000000000000\nR13: ffffffffa202d7c0 R14: 0000000000000000 R15: 00000000000147d0\n default_idle_call+0x6b/0xa0\n cpuidle_idle_call+0x1af/0x1f0\n do_idle+0xbc/0x130\n cpu_startup_entry+0x33/0x40\n rest_init+0x11f/0x210\n start_kernel+0x39a/0x420\n x86_64_start_reservations+0x18/0x30\n x86_64_start_kernel+0x97/0xa0\n common_startup_64+0x13e/0x141\n </TASK>\n\nAllocated by task 595:\n kasan_save_stack+0x24/0x50\n kasan_save_track+0x14/0x30\n __kasan_slab_alloc+0x87/0x90\n kmem_cache_alloc_noprof+0x12b/0x3f0\n copy_net_ns+0x94/0x380\n create_new_namespaces+0x24c/0x500\n unshare_nsproxy_namespaces+0x75/0xf0\n ksys_unshare+0x24e/0x4f0\n __x64_sys_unshare+0x1f/0x30\n do_syscall_64+0x70/0x180\n entry_SYSCALL_64_after_hwframe+0x76/0x7e\n\nFreed by task 100:\n kasan_save_stack+0x24/0x50\n kasan_save_track+0x14/0x30\n kasan_save_free_info+0x3b/0x60\n __kasan_slab_free+0x54/0x70\n kmem_cache_free+0x156/0x5d0\n cleanup_net+0x5d3/0x670\n process_one_work+0x776/0xa90\n worker_thread+0x2e2/0x560\n kthread+0x1a8/0x1f0\n ret_from_fork+0x34/0x60\n ret_from_fork_asm+0x1a/0x30\n\nReproduction script:\n\nmkdir -p /mnt/nfsshare\nmkdir -p /mnt/nfs/netns_1\nmkfs.ext4 /dev/sdb\nmount /dev/sdb /mnt/nfsshare\nsystemctl restart nfs-server\nchmod 777 /mnt/nfsshare\nexportfs -i -o rw,no_root_squash *:/mnt/nfsshare\n\nip netns add netns_1\nip link add name veth_1_peer type veth peer veth_1\nifconfig veth_1_peer 11.11.0.254 up\nip link set veth_1 netns netns_1\nip netns exec netns_1 ifconfig veth_1 11.11.0.1\n\nip netns exec netns_1 /root/iptables -A OUTPUT -d 11.11.0.254 -p tcp \\\n\t--tcp-flags FIN FIN  -j DROP\n\n(note: In my environment, a DESTROY_CLIENTID operation is always sent\n immediately, breaking the nfs tcp connection.)\nip netns exec netns_1 timeout -s 9 300 mount -t nfs -o proto=tcp,vers=4.1 \\\n\t11.11.0.254:/mnt/nfsshare /mnt/nfs/netns_1\n\nip netns del netns_1\n\nThe reason here is that the tcp socket in netns_1 (nfs side) has been\nshutdown and closed (done in xs_destroy), but the FIN message (with ack)\nis discarded, and the nfsd side keeps sending retransmission messages.\nAs a result, when the tcp sock in netns_1 processes the received message,\nit sends the message (FIN message) in the sending queue, and the tcp timer\nis re-established. When the network namespace is deleted, the net structure\naccessed by tcp's timer handler function causes problems.\n\nTo fix this problem, let's hold netns refcnt for the tcp kernel socket as\ndone in other modules. This is an ugly hack which can easily be backported\nto earlier kernels. A proper fix which cleans up the interfaces will\nfollow, but may not be so easy to backport.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-53168"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-53170",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nblock: fix uaf for flush rq while iterating tags\n\nblk_mq_clear_flush_rq_mapping() is not called during scsi probe, by\nchecking blk_queue_init_done(). However, QUEUE_FLAG_INIT_DONE is cleared\nin del_gendisk by commit aec89dc5d421 (\"block: keep q_usage_counter in\natomic mode after del_gendisk\"), hence for disk like scsi, following\nblk_mq_destroy_queue() will not clear flush rq from tags->rqs[] as well,\ncause following uaf that is found by our syzkaller for v6.6:\n\n==================================================================\nBUG: KASAN: slab-use-after-free in blk_mq_find_and_get_req+0x16e/0x1a0 block/blk-mq-tag.c:261\nRead of size 4 at addr ffff88811c969c20 by task kworker/1:2H/224909\n\nCPU: 1 PID: 224909 Comm: kworker/1:2H Not tainted 6.6.0-ga836a5060850 #32\nWorkqueue: kblockd blk_mq_timeout_work\nCall Trace:\n\n__dump_stack lib/dump_stack.c:88 [inline]\ndump_stack_lvl+0x91/0xf0 lib/dump_stack.c:106\nprint_address_description.constprop.0+0x66/0x300 mm/kasan/report.c:364\nprint_report+0x3e/0x70 mm/kasan/report.c:475\nkasan_report+0xb8/0xf0 mm/kasan/report.c:588\nblk_mq_find_and_get_req+0x16e/0x1a0 block/blk-mq-tag.c:261\nbt_iter block/blk-mq-tag.c:288 [inline]\n__sbitmap_for_each_set include/linux/sbitmap.h:295 [inline]\nsbitmap_for_each_set include/linux/sbitmap.h:316 [inline]\nbt_for_each+0x455/0x790 block/blk-mq-tag.c:325\nblk_mq_queue_tag_busy_iter+0x320/0x740 block/blk-mq-tag.c:534\nblk_mq_timeout_work+0x1a3/0x7b0 block/blk-mq.c:1673\nprocess_one_work+0x7c4/0x1450 kernel/workqueue.c:2631\nprocess_scheduled_works kernel/workqueue.c:2704 [inline]\nworker_thread+0x804/0xe40 kernel/workqueue.c:2785\nkthread+0x346/0x450 kernel/kthread.c:388\nret_from_fork+0x4d/0x80 arch/x86/kernel/process.c:147\nret_from_fork_asm+0x1b/0x30 arch/x86/entry/entry_64.S:293\n\nAllocated by task 942:\nkasan_save_stack+0x22/0x50 mm/kasan/common.c:45\nkasan_set_track+0x25/0x30 mm/kasan/common.c:52\n____kasan_kmalloc mm/kasan/common.c:374 [inline]\n__kasan_kmalloc mm/kasan/common.c:383 [inline]\n__kasan_kmalloc+0xaa/0xb0 mm/kasan/common.c:380\nkasan_kmalloc include/linux/kasan.h:198 [inline]\n__do_kmalloc_node mm/slab_common.c:1007 [inline]\n__kmalloc_node+0x69/0x170 mm/slab_common.c:1014\nkmalloc_node include/linux/slab.h:620 [inline]\nkzalloc_node include/linux/slab.h:732 [inline]\nblk_alloc_flush_queue+0x144/0x2f0 block/blk-flush.c:499\nblk_mq_alloc_hctx+0x601/0x940 block/blk-mq.c:3788\nblk_mq_alloc_and_init_hctx+0x27f/0x330 block/blk-mq.c:4261\nblk_mq_realloc_hw_ctxs+0x488/0x5e0 block/blk-mq.c:4294\nblk_mq_init_allocated_queue+0x188/0x860 block/blk-mq.c:4350\nblk_mq_init_queue_data block/blk-mq.c:4166 [inline]\nblk_mq_init_queue+0x8d/0x100 block/blk-mq.c:4176\nscsi_alloc_sdev+0x843/0xd50 drivers/scsi/scsi_scan.c:335\nscsi_probe_and_add_lun+0x77c/0xde0 drivers/scsi/scsi_scan.c:1189\n__scsi_scan_target+0x1fc/0x5a0 drivers/scsi/scsi_scan.c:1727\nscsi_scan_channel drivers/scsi/scsi_scan.c:1815 [inline]\nscsi_scan_channel+0x14b/0x1e0 drivers/scsi/scsi_scan.c:1791\nscsi_scan_host_selected+0x2fe/0x400 drivers/scsi/scsi_scan.c:1844\nscsi_scan+0x3a0/0x3f0 drivers/scsi/scsi_sysfs.c:151\nstore_scan+0x2a/0x60 drivers/scsi/scsi_sysfs.c:191\ndev_attr_store+0x5c/0x90 drivers/base/core.c:2388\nsysfs_kf_write+0x11c/0x170 fs/sysfs/file.c:136\nkernfs_fop_write_iter+0x3fc/0x610 fs/kernfs/file.c:338\ncall_write_iter include/linux/fs.h:2083 [inline]\nnew_sync_write+0x1b4/0x2d0 fs/read_write.c:493\nvfs_write+0x76c/0xb00 fs/read_write.c:586\nksys_write+0x127/0x250 fs/read_write.c:639\ndo_syscall_x64 arch/x86/entry/common.c:51 [inline]\ndo_syscall_64+0x70/0x120 arch/x86/entry/common.c:81\nentry_SYSCALL_64_after_hwframe+0x78/0xe2\n\nFreed by task 244687:\nkasan_save_stack+0x22/0x50 mm/kasan/common.c:45\nkasan_set_track+0x25/0x30 mm/kasan/common.c:52\nkasan_save_free_info+0x2b/0x50 mm/kasan/generic.c:522\n____kasan_slab_free mm/kasan/common.c:236 [inline]\n__kasan_slab_free+0x12a/0x1b0 mm/kasan/common.c:244\nkasan_slab_free include/linux/kasan.h:164 [in\n---truncated---",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-53170"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-53179",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nsmb: client: fix use-after-free of signing key\n\nCustomers have reported use-after-free in @ses->auth_key.response with\nSMB2.1 + sign mounts which occurs due to following race:\n\ntask A                         task B\ncifs_mount()\n dfs_mount_share()\n  get_session()\n   cifs_mount_get_session()    cifs_send_recv()\n    cifs_get_smb_ses()          compound_send_recv()\n     cifs_setup_session()        smb2_setup_request()\n      kfree_sensitive()           smb2_calc_signature()\n                                   crypto_shash_setkey() *UAF*\n\nFix this by ensuring that we have a valid @ses->auth_key.response by\nchecking whether @ses->ses_status is SES_GOOD or SES_EXITING with\n@ses->ses_lock held.  After commit 24a9799aa8ef (\"smb: client: fix UAF\nin smb2_reconnect_server()\"), we made sure to call ->logoff() only\nwhen @ses was known to be good (e.g. valid ->auth_key.response), so\nit's safe to access signing key when @ses->ses_status == SES_EXITING.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-53179"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-53203",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: typec: fix potential array underflow in ucsi_ccg_sync_control()\n\nThe \"command\" variable can be controlled by the user via debugfs.  The\nworry is that if con_index is zero then \"&uc->ucsi->connector[con_index\n- 1]\" would be an array underflow.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-53203"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-53229",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nRDMA/rxe: Fix the qp flush warnings in req\n\nWhen the qp is in error state, the status of WQEs in the queue should be\nset to error. Or else the following will appear.\n\n[  920.617269] WARNING: CPU: 1 PID: 21 at drivers/infiniband/sw/rxe/rxe_comp.c:756 rxe_completer+0x989/0xcc0 [rdma_rxe]\n[  920.617744] Modules linked in: rnbd_client(O) rtrs_client(O) rtrs_core(O) rdma_ucm rdma_cm iw_cm ib_cm crc32_generic rdma_rxe ip6_udp_tunnel udp_tunnel ib_uverbs ib_core loop brd null_blk ipv6\n[  920.618516] CPU: 1 PID: 21 Comm: ksoftirqd/1 Tainted: G           O       6.1.113-storage+ #65\n[  920.618986] Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.15.0-1 04/01/2014\n[  920.619396] RIP: 0010:rxe_completer+0x989/0xcc0 [rdma_rxe]\n[  920.619658] Code: 0f b6 84 24 3a 02 00 00 41 89 84 24 44 04 00 00 e9 2a f7 ff ff 39 ca bb 03 00 00 00 b8 0e 00 00 00 48 0f 45 d8 e9 15 f7 ff ff <0f> 0b e9 cb f8 ff ff 41 bf f5 ff ff ff e9 08 f8 ff ff 49 8d bc 24\n[  920.620482] RSP: 0018:ffff97b7c00bbc38 EFLAGS: 00010246\n[  920.620817] RAX: 0000000000000000 RBX: 000000000000000c RCX: 0000000000000008\n[  920.621183] RDX: ffff960dc396ebc0 RSI: 0000000000005400 RDI: ffff960dc4e2fbac\n[  920.621548] RBP: 0000000000000000 R08: 0000000000000001 R09: ffffffffac406450\n[  920.621884] R10: ffffffffac4060c0 R11: 0000000000000001 R12: ffff960dc4e2f800\n[  920.622254] R13: ffff960dc4e2f928 R14: ffff97b7c029c580 R15: 0000000000000000\n[  920.622609] FS:  0000000000000000(0000) GS:ffff960ef7d00000(0000) knlGS:0000000000000000\n[  920.622979] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033\n[  920.623245] CR2: 00007fa056965e90 CR3: 00000001107f1000 CR4: 00000000000006e0\n[  920.623680] Call Trace:\n[  920.623815]  <TASK>\n[  920.623933]  ? __warn+0x79/0xc0\n[  920.624116]  ? rxe_completer+0x989/0xcc0 [rdma_rxe]\n[  920.624356]  ? report_bug+0xfb/0x150\n[  920.624594]  ? handle_bug+0x3c/0x60\n[  920.624796]  ? exc_invalid_op+0x14/0x70\n[  920.624976]  ? asm_exc_invalid_op+0x16/0x20\n[  920.625203]  ? rxe_completer+0x989/0xcc0 [rdma_rxe]\n[  920.625474]  ? rxe_completer+0x329/0xcc0 [rdma_rxe]\n[  920.625749]  rxe_do_task+0x80/0x110 [rdma_rxe]\n[  920.626037]  rxe_requester+0x625/0xde0 [rdma_rxe]\n[  920.626310]  ? rxe_cq_post+0xe2/0x180 [rdma_rxe]\n[  920.626583]  ? do_complete+0x18d/0x220 [rdma_rxe]\n[  920.626812]  ? rxe_completer+0x1a3/0xcc0 [rdma_rxe]\n[  920.627050]  rxe_do_task+0x80/0x110 [rdma_rxe]\n[  920.627285]  tasklet_action_common.constprop.0+0xa4/0x120\n[  920.627522]  handle_softirqs+0xc2/0x250\n[  920.627728]  ? sort_range+0x20/0x20\n[  920.627942]  run_ksoftirqd+0x1f/0x30\n[  920.628158]  smpboot_thread_fn+0xc7/0x1b0\n[  920.628334]  kthread+0xd6/0x100\n[  920.628504]  ? kthread_complete_and_exit+0x20/0x20\n[  920.628709]  ret_from_fork+0x1f/0x30\n[  920.628892]  </TASK>",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-53229"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-56538",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm: zynqmp_kms: Unplug DRM device before removal\n\nPrevent userspace accesses to the DRM device from causing\nuse-after-frees by unplugging the device before we remove it. This\ncauses any further userspace accesses to result in an error without\nfurther calls into this driver's internals.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-56538"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-56551",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amdgpu: fix usage slab after free\n\n[  +0.000021] BUG: KASAN: slab-use-after-free in drm_sched_entity_flush+0x6cb/0x7a0 [gpu_sched]\n[  +0.000027] Read of size 8 at addr ffff8881b8605f88 by task amd_pci_unplug/2147\n\n[  +0.000023] CPU: 6 PID: 2147 Comm: amd_pci_unplug Not tainted 6.10.0+ #1\n[  +0.000016] Hardware name: ASUS System Product Name/ROG STRIX B550-F GAMING (WI-FI), BIOS 1401 12/03/2020\n[  +0.000016] Call Trace:\n[  +0.000008]  <TASK>\n[  +0.000009]  dump_stack_lvl+0x76/0xa0\n[  +0.000017]  print_report+0xce/0x5f0\n[  +0.000017]  ? drm_sched_entity_flush+0x6cb/0x7a0 [gpu_sched]\n[  +0.000019]  ? srso_return_thunk+0x5/0x5f\n[  +0.000015]  ? kasan_complete_mode_report_info+0x72/0x200\n[  +0.000016]  ? drm_sched_entity_flush+0x6cb/0x7a0 [gpu_sched]\n[  +0.000019]  kasan_report+0xbe/0x110\n[  +0.000015]  ? drm_sched_entity_flush+0x6cb/0x7a0 [gpu_sched]\n[  +0.000023]  __asan_report_load8_noabort+0x14/0x30\n[  +0.000014]  drm_sched_entity_flush+0x6cb/0x7a0 [gpu_sched]\n[  +0.000020]  ? srso_return_thunk+0x5/0x5f\n[  +0.000013]  ? __kasan_check_write+0x14/0x30\n[  +0.000016]  ? __pfx_drm_sched_entity_flush+0x10/0x10 [gpu_sched]\n[  +0.000020]  ? srso_return_thunk+0x5/0x5f\n[  +0.000013]  ? __kasan_check_write+0x14/0x30\n[  +0.000013]  ? srso_return_thunk+0x5/0x5f\n[  +0.000013]  ? enable_work+0x124/0x220\n[  +0.000015]  ? __pfx_enable_work+0x10/0x10\n[  +0.000013]  ? srso_return_thunk+0x5/0x5f\n[  +0.000014]  ? free_large_kmalloc+0x85/0xf0\n[  +0.000016]  drm_sched_entity_destroy+0x18/0x30 [gpu_sched]\n[  +0.000020]  amdgpu_vce_sw_fini+0x55/0x170 [amdgpu]\n[  +0.000735]  ? __kasan_check_read+0x11/0x20\n[  +0.000016]  vce_v4_0_sw_fini+0x80/0x110 [amdgpu]\n[  +0.000726]  amdgpu_device_fini_sw+0x331/0xfc0 [amdgpu]\n[  +0.000679]  ? mutex_unlock+0x80/0xe0\n[  +0.000017]  ? __pfx_amdgpu_device_fini_sw+0x10/0x10 [amdgpu]\n[  +0.000662]  ? srso_return_thunk+0x5/0x5f\n[  +0.000014]  ? __kasan_check_write+0x14/0x30\n[  +0.000013]  ? srso_return_thunk+0x5/0x5f\n[  +0.000013]  ? mutex_unlock+0x80/0xe0\n[  +0.000016]  amdgpu_driver_release_kms+0x16/0x80 [amdgpu]\n[  +0.000663]  drm_minor_release+0xc9/0x140 [drm]\n[  +0.000081]  drm_release+0x1fd/0x390 [drm]\n[  +0.000082]  __fput+0x36c/0xad0\n[  +0.000018]  __fput_sync+0x3c/0x50\n[  +0.000014]  __x64_sys_close+0x7d/0xe0\n[  +0.000014]  x64_sys_call+0x1bc6/0x2680\n[  +0.000014]  do_syscall_64+0x70/0x130\n[  +0.000014]  ? srso_return_thunk+0x5/0x5f\n[  +0.000014]  ? irqentry_exit_to_user_mode+0x60/0x190\n[  +0.000015]  ? srso_return_thunk+0x5/0x5f\n[  +0.000014]  ? irqentry_exit+0x43/0x50\n[  +0.000012]  ? srso_return_thunk+0x5/0x5f\n[  +0.000013]  ? exc_page_fault+0x7c/0x110\n[  +0.000015]  entry_SYSCALL_64_after_hwframe+0x76/0x7e\n[  +0.000014] RIP: 0033:0x7ffff7b14f67\n[  +0.000013] Code: ff e8 0d 16 02 00 66 2e 0f 1f 84 00 00 00 00 00 0f 1f 00 f3 0f 1e fa 64 8b 04 25 18 00 00 00 85 c0 75 10 b8 03 00 00 00 0f 05 <48> 3d 00 f0 ff ff 77 41 c3 48 83 ec 18 89 7c 24 0c e8 73 ba f7 ff\n[  +0.000026] RSP: 002b:00007fffffffe378 EFLAGS: 00000246 ORIG_RAX: 0000000000000003\n[  +0.000019] RAX: ffffffffffffffda RBX: 0000000000000000 RCX: 00007ffff7b14f67\n[  +0.000014] RDX: 0000000000000000 RSI: 00007ffff7f6f47a RDI: 0000000000000003\n[  +0.000014] RBP: 00007fffffffe3a0 R08: 0000555555569890 R09: 0000000000000000\n[  +0.000014] R10: 0000000000000000 R11: 0000000000000246 R12: 00007fffffffe5c8\n[  +0.000013] R13: 00005555555552a9 R14: 0000555555557d48 R15: 00007ffff7ffd040\n[  +0.000020]  </TASK>\n\n[  +0.000016] Allocated by task 383 on cpu 7 at 26.880319s:\n[  +0.000014]  kasan_save_stack+0x28/0x60\n[  +0.000008]  kasan_save_track+0x18/0x70\n[  +0.000007]  kasan_save_alloc_info+0x38/0x60\n[  +0.000007]  __kasan_kmalloc+0xc1/0xd0\n[  +0.000007]  kmalloc_trace_noprof+0x180/0x380\n[  +0.000007]  drm_sched_init+0x411/0xec0 [gpu_sched]\n[  +0.000012]  amdgpu_device_init+0x695f/0xa610 [amdgpu]\n[  +0.000658]  amdgpu_driver_load_kms+0x1a/0x120 [amdgpu]\n[  +0.000662]  amdgpu_pci_p\n---truncated---",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-56551"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-56582",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nbtrfs: fix use-after-free in btrfs_encoded_read_endio()\n\nShinichiro reported the following use-after free that sometimes is\nhappening in our CI system when running fstests' btrfs/284 on a TCMU\nrunner device:\n\n  BUG: KASAN: slab-use-after-free in lock_release+0x708/0x780\n  Read of size 8 at addr ffff888106a83f18 by task kworker/u80:6/219\n\n  CPU: 8 UID: 0 PID: 219 Comm: kworker/u80:6 Not tainted 6.12.0-rc6-kts+ #15\n  Hardware name: Supermicro Super Server/X11SPi-TF, BIOS 3.3 02/21/2020\n  Workqueue: btrfs-endio btrfs_end_bio_work [btrfs]\n  Call Trace:\n   <TASK>\n   dump_stack_lvl+0x6e/0xa0\n   ? lock_release+0x708/0x780\n   print_report+0x174/0x505\n   ? lock_release+0x708/0x780\n   ? __virt_addr_valid+0x224/0x410\n   ? lock_release+0x708/0x780\n   kasan_report+0xda/0x1b0\n   ? lock_release+0x708/0x780\n   ? __wake_up+0x44/0x60\n   lock_release+0x708/0x780\n   ? __pfx_lock_release+0x10/0x10\n   ? __pfx_do_raw_spin_lock+0x10/0x10\n   ? lock_is_held_type+0x9a/0x110\n   _raw_spin_unlock_irqrestore+0x1f/0x60\n   __wake_up+0x44/0x60\n   btrfs_encoded_read_endio+0x14b/0x190 [btrfs]\n   btrfs_check_read_bio+0x8d9/0x1360 [btrfs]\n   ? lock_release+0x1b0/0x780\n   ? trace_lock_acquire+0x12f/0x1a0\n   ? __pfx_btrfs_check_read_bio+0x10/0x10 [btrfs]\n   ? process_one_work+0x7e3/0x1460\n   ? lock_acquire+0x31/0xc0\n   ? process_one_work+0x7e3/0x1460\n   process_one_work+0x85c/0x1460\n   ? __pfx_process_one_work+0x10/0x10\n   ? assign_work+0x16c/0x240\n   worker_thread+0x5e6/0xfc0\n   ? __pfx_worker_thread+0x10/0x10\n   kthread+0x2c3/0x3a0\n   ? __pfx_kthread+0x10/0x10\n   ret_from_fork+0x31/0x70\n   ? __pfx_kthread+0x10/0x10\n   ret_from_fork_asm+0x1a/0x30\n   </TASK>\n\n  Allocated by task 3661:\n   kasan_save_stack+0x30/0x50\n   kasan_save_track+0x14/0x30\n   __kasan_kmalloc+0xaa/0xb0\n   btrfs_encoded_read_regular_fill_pages+0x16c/0x6d0 [btrfs]\n   send_extent_data+0xf0f/0x24a0 [btrfs]\n   process_extent+0x48a/0x1830 [btrfs]\n   changed_cb+0x178b/0x2ea0 [btrfs]\n   btrfs_ioctl_send+0x3bf9/0x5c20 [btrfs]\n   _btrfs_ioctl_send+0x117/0x330 [btrfs]\n   btrfs_ioctl+0x184a/0x60a0 [btrfs]\n   __x64_sys_ioctl+0x12e/0x1a0\n   do_syscall_64+0x95/0x180\n   entry_SYSCALL_64_after_hwframe+0x76/0x7e\n\n  Freed by task 3661:\n   kasan_save_stack+0x30/0x50\n   kasan_save_track+0x14/0x30\n   kasan_save_free_info+0x3b/0x70\n   __kasan_slab_free+0x4f/0x70\n   kfree+0x143/0x490\n   btrfs_encoded_read_regular_fill_pages+0x531/0x6d0 [btrfs]\n   send_extent_data+0xf0f/0x24a0 [btrfs]\n   process_extent+0x48a/0x1830 [btrfs]\n   changed_cb+0x178b/0x2ea0 [btrfs]\n   btrfs_ioctl_send+0x3bf9/0x5c20 [btrfs]\n   _btrfs_ioctl_send+0x117/0x330 [btrfs]\n   btrfs_ioctl+0x184a/0x60a0 [btrfs]\n   __x64_sys_ioctl+0x12e/0x1a0\n   do_syscall_64+0x95/0x180\n   entry_SYSCALL_64_after_hwframe+0x76/0x7e\n\n  The buggy address belongs to the object at ffff888106a83f00\n   which belongs to the cache kmalloc-rnd-07-96 of size 96\n  The buggy address is located 24 bytes inside of\n   freed 96-byte region [ffff888106a83f00, ffff888106a83f60)\n\n  The buggy address belongs to the physical page:\n  page: refcount:1 mapcount:0 mapping:0000000000000000 index:0xffff888106a83800 pfn:0x106a83\n  flags: 0x17ffffc0000000(node=0|zone=2|lastcpupid=0x1fffff)\n  page_type: f5(slab)\n  raw: 0017ffffc0000000 ffff888100053680 ffffea0004917200 0000000000000004\n  raw: ffff888106a83800 0000000080200019 00000001f5000000 0000000000000000\n  page dumped because: kasan: bad access detected\n\n  Memory state around the buggy address:\n   ffff888106a83e00: fa fb fb fb fb fb fb fb fb fb fb fb fc fc fc fc\n   ffff888106a83e80: fa fb fb fb fb fb fb fb fb fb fb fb fc fc fc fc\n  >ffff888106a83f00: fa fb fb fb fb fb fb fb fb fb fb fb fc fc fc fc\n                              ^\n   ffff888106a83f80: fa fb fb fb fb fb fb fb fb fb fb fb fc fc fc fc\n   ffff888106a84000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  ==================================================================\n\nFurther analyzing the trace and \n---truncated---",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-56582"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-56608",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Fix out-of-bounds access in 'dcn21_link_encoder_create'\n\nAn issue was identified in the dcn21_link_encoder_create function where\nan out-of-bounds access could occur when the hpd_source index was used\nto reference the link_enc_hpd_regs array. This array has a fixed size\nand the index was not being checked against the array's bounds before\naccessing it.\n\nThis fix adds a conditional check to ensure that the hpd_source index is\nwithin the valid range of the link_enc_hpd_regs array. If the index is\nout of bounds, the function now returns NULL to prevent undefined\nbehavior.\n\nReferences:\n\n[   65.920507] ------------[ cut here ]------------\n[   65.920510] UBSAN: array-index-out-of-bounds in drivers/gpu/drm/amd/amdgpu/../display/dc/resource/dcn21/dcn21_resource.c:1312:29\n[   65.920519] index 7 is out of range for type 'dcn10_link_enc_hpd_registers [5]'\n[   65.920523] CPU: 3 PID: 1178 Comm: modprobe Tainted: G           OE      6.8.0-cleanershaderfeatureresetasdntipmi200nv2132 #13\n[   65.920525] Hardware name: AMD Majolica-RN/Majolica-RN, BIOS WMJ0429N_Weekly_20_04_2 04/29/2020\n[   65.920527] Call Trace:\n[   65.920529]  <TASK>\n[   65.920532]  dump_stack_lvl+0x48/0x70\n[   65.920541]  dump_stack+0x10/0x20\n[   65.920543]  __ubsan_handle_out_of_bounds+0xa2/0xe0\n[   65.920549]  dcn21_link_encoder_create+0xd9/0x140 [amdgpu]\n[   65.921009]  link_create+0x6d3/0xed0 [amdgpu]\n[   65.921355]  create_links+0x18a/0x4e0 [amdgpu]\n[   65.921679]  dc_create+0x360/0x720 [amdgpu]\n[   65.921999]  ? dmi_matches+0xa0/0x220\n[   65.922004]  amdgpu_dm_init+0x2b6/0x2c90 [amdgpu]\n[   65.922342]  ? console_unlock+0x77/0x120\n[   65.922348]  ? dev_printk_emit+0x86/0xb0\n[   65.922354]  dm_hw_init+0x15/0x40 [amdgpu]\n[   65.922686]  amdgpu_device_init+0x26a8/0x33a0 [amdgpu]\n[   65.922921]  amdgpu_driver_load_kms+0x1b/0xa0 [amdgpu]\n[   65.923087]  amdgpu_pci_probe+0x1b7/0x630 [amdgpu]\n[   65.923087]  local_pci_probe+0x4b/0xb0\n[   65.923087]  pci_device_probe+0xc8/0x280\n[   65.923087]  really_probe+0x187/0x300\n[   65.923087]  __driver_probe_device+0x85/0x130\n[   65.923087]  driver_probe_device+0x24/0x110\n[   65.923087]  __driver_attach+0xac/0x1d0\n[   65.923087]  ? __pfx___driver_attach+0x10/0x10\n[   65.923087]  bus_for_each_dev+0x7d/0xd0\n[   65.923087]  driver_attach+0x1e/0x30\n[   65.923087]  bus_add_driver+0xf2/0x200\n[   65.923087]  driver_register+0x64/0x130\n[   65.923087]  ? __pfx_amdgpu_init+0x10/0x10 [amdgpu]\n[   65.923087]  __pci_register_driver+0x61/0x70\n[   65.923087]  amdgpu_init+0x7d/0xff0 [amdgpu]\n[   65.923087]  do_one_initcall+0x49/0x310\n[   65.923087]  ? kmalloc_trace+0x136/0x360\n[   65.923087]  do_init_module+0x6a/0x270\n[   65.923087]  load_module+0x1fce/0x23a0\n[   65.923087]  init_module_from_file+0x9c/0xe0\n[   65.923087]  ? init_module_from_file+0x9c/0xe0\n[   65.923087]  idempotent_init_module+0x179/0x230\n[   65.923087]  __x64_sys_finit_module+0x5d/0xa0\n[   65.923087]  do_syscall_64+0x76/0x120\n[   65.923087]  entry_SYSCALL_64_after_hwframe+0x6e/0x76\n[   65.923087] RIP: 0033:0x7f2d80f1e88d\n[   65.923087] Code: 5b 41 5c c3 66 0f 1f 84 00 00 00 00 00 f3 0f 1e fa 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 4d 89 c8 4c 8b 4c 24 08 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 8b 0d 73 b5 0f 00 f7 d8 64 89 01 48\n[   65.923087] RSP: 002b:00007ffc7bc1aa78 EFLAGS: 00000246 ORIG_RAX: 0000000000000139\n[   65.923087] RAX: ffffffffffffffda RBX: 0000564c9c1db130 RCX: 00007f2d80f1e88d\n[   65.923087] RDX: 0000000000000000 RSI: 0000564c9c1e5480 RDI: 000000000000000f\n[   65.923087] RBP: 0000000000040000 R08: 0000000000000000 R09: 0000000000000002\n[   65.923087] R10: 000000000000000f R11: 0000000000000246 R12: 0000564c9c1e5480\n[   65.923087] R13: 0000564c9c1db260 R14: 0000000000000000 R15: 0000564c9c1e54b0\n[   65.923087]  </TASK>\n[   65.923927] ---[ end trace ]---",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-56608"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-56631",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: sg: Fix slab-use-after-free read in sg_release()\n\nFix a use-after-free bug in sg_release(), detected by syzbot with KASAN:\n\nBUG: KASAN: slab-use-after-free in lock_release+0x151/0xa30\nkernel/locking/lockdep.c:5838\n__mutex_unlock_slowpath+0xe2/0x750 kernel/locking/mutex.c:912\nsg_release+0x1f4/0x2e0 drivers/scsi/sg.c:407\n\nIn sg_release(), the function kref_put(&sfp->f_ref, sg_remove_sfp) is\ncalled before releasing the open_rel_lock mutex. The kref_put() call may\ndecrement the reference count of sfp to zero, triggering its cleanup\nthrough sg_remove_sfp(). This cleanup includes scheduling deferred work\nvia sg_remove_sfp_usercontext(), which ultimately frees sfp.\n\nAfter kref_put(), sg_release() continues to unlock open_rel_lock and may\nreference sfp or sdp. If sfp has already been freed, this results in a\nslab-use-after-free error.\n\nMove the kref_put(&sfp->f_ref, sg_remove_sfp) call after unlocking the\nopen_rel_lock mutex. This ensures:\n\n - No references to sfp or sdp occur after the reference count is\n   decremented.\n\n - Cleanup functions such as sg_remove_sfp() and\n   sg_remove_sfp_usercontext() can safely execute without impacting the\n   mutex handling in sg_release().\n\nThe fix has been tested and validated by syzbot. This patch closes the\nbug reported at the following syzkaller link and ensures proper\nsequencing of resource cleanup and mutex operations, eliminating the\nrisk of use-after-free errors in sg_release().",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-56631"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-56664",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nbpf, sockmap: Fix race between element replace and close()\n\nElement replace (with a socket different from the one stored) may race\nwith socket's close() link popping & unlinking. __sock_map_delete()\nunconditionally unrefs the (wrong) element:\n\n// set map[0] = s0\nmap_update_elem(map, 0, s0)\n\n// drop fd of s0\nclose(s0)\n  sock_map_close()\n    lock_sock(sk)               (s0!)\n    sock_map_remove_links(sk)\n      link = sk_psock_link_pop()\n      sock_map_unlink(sk, link)\n        sock_map_delete_from_link\n                                        // replace map[0] with s1\n                                        map_update_elem(map, 0, s1)\n                                          sock_map_update_elem\n                                (s1!)       lock_sock(sk)\n                                            sock_map_update_common\n                                              psock = sk_psock(sk)\n                                              spin_lock(&stab->lock)\n                                              osk = stab->sks[idx]\n                                              sock_map_add_link(..., &stab->sks[idx])\n                                              sock_map_unref(osk, &stab->sks[idx])\n                                                psock = sk_psock(osk)\n                                                sk_psock_put(sk, psock)\n                                                  if (refcount_dec_and_test(&psock))\n                                                    sk_psock_drop(sk, psock)\n                                              spin_unlock(&stab->lock)\n                                            unlock_sock(sk)\n          __sock_map_delete\n            spin_lock(&stab->lock)\n            sk = *psk                        // s1 replaced s0; sk == s1\n            if (!sk_test || sk_test == sk)   // sk_test (s0) != sk (s1); no branch\n              sk = xchg(psk, NULL)\n            if (sk)\n              sock_map_unref(sk, psk)        // unref s1; sks[idx] will dangle\n                psock = sk_psock(sk)\n                sk_psock_put(sk, psock)\n                  if (refcount_dec_and_test())\n                    sk_psock_drop(sk, psock)\n            spin_unlock(&stab->lock)\n    release_sock(sk)\n\nThen close(map) enqueues bpf_map_free_deferred, which finally calls\nsock_map_free(). This results in some refcount_t warnings along with\na KASAN splat [1].\n\nFix __sock_map_delete(), do not allow sock_map_unref() on elements that\nmay have been replaced.\n\n[1]:\nBUG: KASAN: slab-use-after-free in sock_map_free+0x10e/0x330\nWrite of size 4 at addr ffff88811f5b9100 by task kworker/u64:12/1063\n\nCPU: 14 UID: 0 PID: 1063 Comm: kworker/u64:12 Not tainted 6.12.0+ #125\nHardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS Arch Linux 1.16.3-1-1 04/01/2014\nWorkqueue: events_unbound bpf_map_free_deferred\nCall Trace:\n <TASK>\n dump_stack_lvl+0x68/0x90\n print_report+0x174/0x4f6\n kasan_report+0xb9/0x190\n kasan_check_range+0x10f/0x1e0\n sock_map_free+0x10e/0x330\n bpf_map_free_deferred+0x173/0x320\n process_one_work+0x846/0x1420\n worker_thread+0x5b3/0xf80\n kthread+0x29e/0x360\n ret_from_fork+0x2d/0x70\n ret_from_fork_asm+0x1a/0x30\n </TASK>\n\nAllocated by task 1202:\n kasan_save_stack+0x1e/0x40\n kasan_save_track+0x10/0x30\n __kasan_slab_alloc+0x85/0x90\n kmem_cache_alloc_noprof+0x131/0x450\n sk_prot_alloc+0x5b/0x220\n sk_alloc+0x2c/0x870\n unix_create1+0x88/0x8a0\n unix_create+0xc5/0x180\n __sock_create+0x241/0x650\n __sys_socketpair+0x1ce/0x420\n __x64_sys_socketpair+0x92/0x100\n do_syscall_64+0x93/0x180\n entry_SYSCALL_64_after_hwframe+0x76/0x7e\n\nFreed by task 46:\n kasan_save_stack+0x1e/0x40\n kasan_save_track+0x10/0x30\n kasan_save_free_info+0x37/0x60\n __kasan_slab_free+0x4b/0x70\n kmem_cache_free+0x1a1/0x590\n __sk_destruct+0x388/0x5a0\n sk_psock_destroy+0x73e/0xa50\n process_one_work+0x846/0x1420\n worker_thread+0x5b3/0xf80\n kthread+0x29e/0x360\n ret_from_fork+0x2d/0x70\n ret_from_fork_asm+0x1a/0x30\n\nThe bu\n---truncated---",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-56664"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-56759",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nbtrfs: fix use-after-free when COWing tree bock and tracing is enabled\n\nWhen a COWing a tree block, at btrfs_cow_block(), and we have the\ntracepoint trace_btrfs_cow_block() enabled and preemption is also enabled\n(CONFIG_PREEMPT=y), we can trigger a use-after-free in the COWed extent\nbuffer while inside the tracepoint code. This is because in some paths\nthat call btrfs_cow_block(), such as btrfs_search_slot(), we are holding\nthe last reference on the extent buffer @buf so btrfs_force_cow_block()\ndrops the last reference on the @buf extent buffer when it calls\nfree_extent_buffer_stale(buf), which schedules the release of the extent\nbuffer with RCU. This means that if we are on a kernel with preemption,\nthe current task may be preempted before calling trace_btrfs_cow_block()\nand the extent buffer already released by the time trace_btrfs_cow_block()\nis called, resulting in a use-after-free.\n\nFix this by moving the trace_btrfs_cow_block() from btrfs_cow_block() to\nbtrfs_force_cow_block() before the COWed extent buffer is freed.\nThis also has a side effect of invoking the tracepoint in the tree defrag\ncode, at defrag.c:btrfs_realloc_node(), since btrfs_force_cow_block() is\ncalled there, but this is fine and it was actually missing there.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-56759"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-56775",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Fix handling of plane refcount\n\n[Why]\nThe mechanism to backup and restore plane states doesn't maintain\nrefcount, which can cause issues if the refcount of the plane changes\nin between backup and restore operations, such as memory leaks if the\nrefcount was supposed to go down, or double frees / invalid memory\naccesses if the refcount was supposed to go up.\n\n[How]\nCache and re-apply current refcount when restoring plane states.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-56775"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-56784",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Adding array index check to prevent memory corruption\n\n[Why & How]\nArray indices out of bound caused memory corruption. Adding checks to\nensure that array index stays in bound.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-56784"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-57887",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm: adv7511: Fix use-after-free in adv7533_attach_dsi()\n\nThe host_node pointer was assigned and freed in adv7533_parse_dt(), and\nlater, adv7533_attach_dsi() uses the same. Fix this use-after-free issue\nby\u00a0dropping of_node_put() in adv7533_parse_dt() and calling of_node_put()\nin error path of probe() and also in the remove().",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-57887"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-57892",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nocfs2: fix slab-use-after-free due to dangling pointer dqi_priv\n\nWhen mounting ocfs2 and then remounting it as read-only, a\nslab-use-after-free occurs after the user uses a syscall to\nquota_getnextquota.  Specifically, sb_dqinfo(sb, type)->dqi_priv is the\ndangling pointer.\n\nDuring the remounting process, the pointer dqi_priv is freed but is never\nset as null leaving it to be accessed.  Additionally, the read-only option\nfor remounting sets the DQUOT_SUSPENDED flag instead of setting the\nDQUOT_USAGE_ENABLED flags.  Moreover, later in the process of getting the\nnext quota, the function ocfs2_get_next_id is called and only checks the\nquota usage flags and not the quota suspended flags.\n\nTo fix this, I set dqi_priv to null when it is freed after remounting with\nread-only and put a check for DQUOT_SUSPENDED in ocfs2_get_next_id.\n\n[akpm@linux-foundation.org: coding-style cleanups]",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-57892"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-57896",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nbtrfs: flush delalloc workers queue before stopping cleaner kthread during unmount\n\nDuring the unmount path, at close_ctree(), we first stop the cleaner\nkthread, using kthread_stop() which frees the associated task_struct, and\nthen stop and destroy all the work queues. However after we stopped the\ncleaner we may still have a worker from the delalloc_workers queue running\ninode.c:submit_compressed_extents(), which calls btrfs_add_delayed_iput(),\nwhich in turn tries to wake up the cleaner kthread - which was already\ndestroyed before, resulting in a use-after-free on the task_struct.\n\nSyzbot reported this with the following stack traces:\n\n  BUG: KASAN: slab-use-after-free in __lock_acquire+0x78/0x2100 kernel/locking/lockdep.c:5089\n  Read of size 8 at addr ffff8880259d2818 by task kworker/u8:3/52\n\n  CPU: 1 UID: 0 PID: 52 Comm: kworker/u8:3 Not tainted 6.13.0-rc1-syzkaller-00002-gcdd30ebb1b9f #0\n  Hardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 09/13/2024\n  Workqueue: btrfs-delalloc btrfs_work_helper\n  Call Trace:\n   <TASK>\n   __dump_stack lib/dump_stack.c:94 [inline]\n   dump_stack_lvl+0x241/0x360 lib/dump_stack.c:120\n   print_address_description mm/kasan/report.c:378 [inline]\n   print_report+0x169/0x550 mm/kasan/report.c:489\n   kasan_report+0x143/0x180 mm/kasan/report.c:602\n   __lock_acquire+0x78/0x2100 kernel/locking/lockdep.c:5089\n   lock_acquire+0x1ed/0x550 kernel/locking/lockdep.c:5849\n   __raw_spin_lock_irqsave include/linux/spinlock_api_smp.h:110 [inline]\n   _raw_spin_lock_irqsave+0xd5/0x120 kernel/locking/spinlock.c:162\n   class_raw_spinlock_irqsave_constructor include/linux/spinlock.h:551 [inline]\n   try_to_wake_up+0xc2/0x1470 kernel/sched/core.c:4205\n   submit_compressed_extents+0xdf/0x16e0 fs/btrfs/inode.c:1615\n   run_ordered_work fs/btrfs/async-thread.c:288 [inline]\n   btrfs_work_helper+0x96f/0xc40 fs/btrfs/async-thread.c:324\n   process_one_work kernel/workqueue.c:3229 [inline]\n   process_scheduled_works+0xa66/0x1840 kernel/workqueue.c:3310\n   worker_thread+0x870/0xd30 kernel/workqueue.c:3391\n   kthread+0x2f0/0x390 kernel/kthread.c:389\n   ret_from_fork+0x4b/0x80 arch/x86/kernel/process.c:147\n   ret_from_fork_asm+0x1a/0x30 arch/x86/entry/entry_64.S:244\n   </TASK>\n\n  Allocated by task 2:\n   kasan_save_stack mm/kasan/common.c:47 [inline]\n   kasan_save_track+0x3f/0x80 mm/kasan/common.c:68\n   unpoison_slab_object mm/kasan/common.c:319 [inline]\n   __kasan_slab_alloc+0x66/0x80 mm/kasan/common.c:345\n   kasan_slab_alloc include/linux/kasan.h:250 [inline]\n   slab_post_alloc_hook mm/slub.c:4104 [inline]\n   slab_alloc_node mm/slub.c:4153 [inline]\n   kmem_cache_alloc_node_noprof+0x1d9/0x380 mm/slub.c:4205\n   alloc_task_struct_node kernel/fork.c:180 [inline]\n   dup_task_struct+0x57/0x8c0 kernel/fork.c:1113\n   copy_process+0x5d1/0x3d50 kernel/fork.c:2225\n   kernel_clone+0x223/0x870 kernel/fork.c:2807\n   kernel_thread+0x1bc/0x240 kernel/fork.c:2869\n   create_kthread kernel/kthread.c:412 [inline]\n   kthreadd+0x60d/0x810 kernel/kthread.c:767\n   ret_from_fork+0x4b/0x80 arch/x86/kernel/process.c:147\n   ret_from_fork_asm+0x1a/0x30 arch/x86/entry/entry_64.S:244\n\n  Freed by task 24:\n   kasan_save_stack mm/kasan/common.c:47 [inline]\n   kasan_save_track+0x3f/0x80 mm/kasan/common.c:68\n   kasan_save_free_info+0x40/0x50 mm/kasan/generic.c:582\n   poison_slab_object mm/kasan/common.c:247 [inline]\n   __kasan_slab_free+0x59/0x70 mm/kasan/common.c:264\n   kasan_slab_free include/linux/kasan.h:233 [inline]\n   slab_free_hook mm/slub.c:2338 [inline]\n   slab_free mm/slub.c:4598 [inline]\n   kmem_cache_free+0x195/0x410 mm/slub.c:4700\n   put_task_struct include/linux/sched/task.h:144 [inline]\n   delayed_put_task_struct+0x125/0x300 kernel/exit.c:227\n   rcu_do_batch kernel/rcu/tree.c:2567 [inline]\n   rcu_core+0xaaa/0x17a0 kernel/rcu/tree.c:2823\n   handle_softirqs+0x2d4/0x9b0 kernel/softirq.c:554\n   run_ksoftirqd+0xca/0x130 kernel/softirq.c:943\n  \n---truncated---",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-57896"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-57900",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nila: serialize calls to nf_register_net_hooks()\n\nsyzbot found a race in ila_add_mapping() [1]\n\ncommit 031ae72825ce (\"ila: call nf_unregister_net_hooks() sooner\")\nattempted to fix a similar issue.\n\nLooking at the syzbot repro, we have concurrent ILA_CMD_ADD commands.\n\nAdd a mutex to make sure at most one thread is calling nf_register_net_hooks().\n\n[1]\n BUG: KASAN: slab-use-after-free in rht_key_hashfn include/linux/rhashtable.h:159 [inline]\n BUG: KASAN: slab-use-after-free in __rhashtable_lookup.constprop.0+0x426/0x550 include/linux/rhashtable.h:604\nRead of size 4 at addr ffff888028f40008 by task dhcpcd/5501\n\nCPU: 1 UID: 0 PID: 5501 Comm: dhcpcd Not tainted 6.13.0-rc4-syzkaller-00054-gd6ef8b40d075 #0\nHardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 09/13/2024\nCall Trace:\n <IRQ>\n  __dump_stack lib/dump_stack.c:94 [inline]\n  dump_stack_lvl+0x116/0x1f0 lib/dump_stack.c:120\n  print_address_description mm/kasan/report.c:378 [inline]\n  print_report+0xc3/0x620 mm/kasan/report.c:489\n  kasan_report+0xd9/0x110 mm/kasan/report.c:602\n  rht_key_hashfn include/linux/rhashtable.h:159 [inline]\n  __rhashtable_lookup.constprop.0+0x426/0x550 include/linux/rhashtable.h:604\n  rhashtable_lookup include/linux/rhashtable.h:646 [inline]\n  rhashtable_lookup_fast include/linux/rhashtable.h:672 [inline]\n  ila_lookup_wildcards net/ipv6/ila/ila_xlat.c:127 [inline]\n  ila_xlat_addr net/ipv6/ila/ila_xlat.c:652 [inline]\n  ila_nf_input+0x1ee/0x620 net/ipv6/ila/ila_xlat.c:185\n  nf_hook_entry_hookfn include/linux/netfilter.h:154 [inline]\n  nf_hook_slow+0xbb/0x200 net/netfilter/core.c:626\n  nf_hook.constprop.0+0x42e/0x750 include/linux/netfilter.h:269\n  NF_HOOK include/linux/netfilter.h:312 [inline]\n  ipv6_rcv+0xa4/0x680 net/ipv6/ip6_input.c:309\n  __netif_receive_skb_one_core+0x12e/0x1e0 net/core/dev.c:5672\n  __netif_receive_skb+0x1d/0x160 net/core/dev.c:5785\n  process_backlog+0x443/0x15f0 net/core/dev.c:6117\n  __napi_poll.constprop.0+0xb7/0x550 net/core/dev.c:6883\n  napi_poll net/core/dev.c:6952 [inline]\n  net_rx_action+0xa94/0x1010 net/core/dev.c:7074\n  handle_softirqs+0x213/0x8f0 kernel/softirq.c:561\n  __do_softirq kernel/softirq.c:595 [inline]\n  invoke_softirq kernel/softirq.c:435 [inline]\n  __irq_exit_rcu+0x109/0x170 kernel/softirq.c:662\n  irq_exit_rcu+0x9/0x30 kernel/softirq.c:678\n  instr_sysvec_apic_timer_interrupt arch/x86/kernel/apic/apic.c:1049 [inline]\n  sysvec_apic_timer_interrupt+0xa4/0xc0 arch/x86/kernel/apic/apic.c:1049",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-57900"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-57906",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\niio: adc: ti-ads8688: fix information leak in triggered buffer\n\nThe 'buffer' local array is used to push data to user space from a\ntriggered buffer, but it does not set values for inactive channels, as\nit only uses iio_for_each_active_channel() to assign new values.\n\nInitialize the array to zero before using it to avoid pushing\nuninitialized information to userspace.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-57906"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-57907",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\niio: adc: rockchip_saradc: fix information leak in triggered buffer\n\nThe 'data' local struct is used to push data to user space from a\ntriggered buffer, but it does not set values for inactive channels, as\nit only uses iio_for_each_active_channel() to assign new values.\n\nInitialize the struct to zero before using it to avoid pushing\nuninitialized information to userspace.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-57907"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-57908",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\niio: imu: kmx61: fix information leak in triggered buffer\n\nThe 'buffer' local array is used to push data to user space from a\ntriggered buffer, but it does not set values for inactive channels, as\nit only uses iio_for_each_active_channel() to assign new values.\n\nInitialize the array to zero before using it to avoid pushing\nuninitialized information to userspace.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-57908"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-57910",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\niio: light: vcnl4035: fix information leak in triggered buffer\n\nThe 'buffer' local array is used to push data to userspace from a\ntriggered buffer, but it does not set an initial value for the single\ndata element, which is an u16 aligned to 8 bytes. That leaves at least\n4 bytes uninitialized even after writing an integer value with\nregmap_read().\n\nInitialize the array to zero before using it to avoid pushing\nuninitialized information to userspace.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-57910"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-57911",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\niio: dummy: iio_simply_dummy_buffer: fix information leak in triggered buffer\n\nThe 'data' array is allocated via kmalloc() and it is used to push data\nto user space from a triggered buffer, but it does not set values for\ninactive channels, as it only uses iio_for_each_active_channel()\nto assign new values.\n\nUse kzalloc for the memory allocation to avoid pushing uninitialized\ninformation to userspace.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-57911"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-57912",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\niio: pressure: zpa2326: fix information leak in triggered buffer\n\nThe 'sample' local struct is used to push data to user space from a\ntriggered buffer, but it has a hole between the temperature and the\ntimestamp (u32 pressure, u16 temperature, GAP, u64 timestamp).\nThis hole is never initialized.\n\nInitialize the struct to zero before using it to avoid pushing\nuninitialized information to userspace.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-57912"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-57951",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nhrtimers: Handle CPU state correctly on hotplug\n\nConsider a scenario where a CPU transitions from CPUHP_ONLINE to halfway\nthrough a CPU hotunplug down to CPUHP_HRTIMERS_PREPARE, and then back to\nCPUHP_ONLINE:\n\nSince hrtimers_prepare_cpu() does not run, cpu_base.hres_active remains set\nto 1 throughout. However, during a CPU unplug operation, the tick and the\nclockevents are shut down at CPUHP_AP_TICK_DYING. On return to the online\nstate, for instance CFS incorrectly assumes that the hrtick is already\nactive, and the chance of the clockevent device to transition to oneshot\nmode is also lost forever for the CPU, unless it goes back to a lower state\nthan CPUHP_HRTIMERS_PREPARE once.\n\nThis round-trip reveals another issue; cpu_base.online is not set to 1\nafter the transition, which appears as a WARN_ON_ONCE in enqueue_hrtimer().\n\nAside of that, the bulk of the per CPU state is not reset either, which\nmeans there are dangling pointers in the worst case.\n\nAddress this by adding a corresponding startup() callback, which resets the\nstale per CPU state and sets the online flag.\n\n[ tglx: Make the new callback unconditionally available, remove the online\n  \tmodification in the prepare() callback and clear the remaining\n  \tstate in the starting callback instead of the prepare callback ]",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-57951"
+    },
+    {
+        "VulnerabilityID": "CVE-2025-21631",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nblock, bfq: fix waker_bfqq UAF after bfq_split_bfqq()\n\nOur syzkaller report a following UAF for v6.6:\n\nBUG: KASAN: slab-use-after-free in bfq_init_rq+0x175d/0x17a0 block/bfq-iosched.c:6958\nRead of size 8 at addr ffff8881b57147d8 by task fsstress/232726\n\nCPU: 2 PID: 232726 Comm: fsstress Not tainted 6.6.0-g3629d1885222 #39\nCall Trace:\n <TASK>\n __dump_stack lib/dump_stack.c:88 [inline]\n dump_stack_lvl+0x91/0xf0 lib/dump_stack.c:106\n print_address_description.constprop.0+0x66/0x300 mm/kasan/report.c:364\n print_report+0x3e/0x70 mm/kasan/report.c:475\n kasan_report+0xb8/0xf0 mm/kasan/report.c:588\n hlist_add_head include/linux/list.h:1023 [inline]\n bfq_init_rq+0x175d/0x17a0 block/bfq-iosched.c:6958\n bfq_insert_request.isra.0+0xe8/0xa20 block/bfq-iosched.c:6271\n bfq_insert_requests+0x27f/0x390 block/bfq-iosched.c:6323\n blk_mq_insert_request+0x290/0x8f0 block/blk-mq.c:2660\n blk_mq_submit_bio+0x1021/0x15e0 block/blk-mq.c:3143\n __submit_bio+0xa0/0x6b0 block/blk-core.c:639\n __submit_bio_noacct_mq block/blk-core.c:718 [inline]\n submit_bio_noacct_nocheck+0x5b7/0x810 block/blk-core.c:747\n submit_bio_noacct+0xca0/0x1990 block/blk-core.c:847\n __ext4_read_bh fs/ext4/super.c:205 [inline]\n ext4_read_bh+0x15e/0x2e0 fs/ext4/super.c:230\n __read_extent_tree_block+0x304/0x6f0 fs/ext4/extents.c:567\n ext4_find_extent+0x479/0xd20 fs/ext4/extents.c:947\n ext4_ext_map_blocks+0x1a3/0x2680 fs/ext4/extents.c:4182\n ext4_map_blocks+0x929/0x15a0 fs/ext4/inode.c:660\n ext4_iomap_begin_report+0x298/0x480 fs/ext4/inode.c:3569\n iomap_iter+0x3dd/0x1010 fs/iomap/iter.c:91\n iomap_fiemap+0x1f4/0x360 fs/iomap/fiemap.c:80\n ext4_fiemap+0x181/0x210 fs/ext4/extents.c:5051\n ioctl_fiemap.isra.0+0x1b4/0x290 fs/ioctl.c:220\n do_vfs_ioctl+0x31c/0x11a0 fs/ioctl.c:811\n __do_sys_ioctl fs/ioctl.c:869 [inline]\n __se_sys_ioctl+0xae/0x190 fs/ioctl.c:857\n do_syscall_x64 arch/x86/entry/common.c:51 [inline]\n do_syscall_64+0x70/0x120 arch/x86/entry/common.c:81\n entry_SYSCALL_64_after_hwframe+0x78/0xe2\n\nAllocated by task 232719:\n kasan_save_stack+0x22/0x50 mm/kasan/common.c:45\n kasan_set_track+0x25/0x30 mm/kasan/common.c:52\n __kasan_slab_alloc+0x87/0x90 mm/kasan/common.c:328\n kasan_slab_alloc include/linux/kasan.h:188 [inline]\n slab_post_alloc_hook mm/slab.h:768 [inline]\n slab_alloc_node mm/slub.c:3492 [inline]\n kmem_cache_alloc_node+0x1b8/0x6f0 mm/slub.c:3537\n bfq_get_queue+0x215/0x1f00 block/bfq-iosched.c:5869\n bfq_get_bfqq_handle_split+0x167/0x5f0 block/bfq-iosched.c:6776\n bfq_init_rq+0x13a4/0x17a0 block/bfq-iosched.c:6938\n bfq_insert_request.isra.0+0xe8/0xa20 block/bfq-iosched.c:6271\n bfq_insert_requests+0x27f/0x390 block/bfq-iosched.c:6323\n blk_mq_insert_request+0x290/0x8f0 block/blk-mq.c:2660\n blk_mq_submit_bio+0x1021/0x15e0 block/blk-mq.c:3143\n __submit_bio+0xa0/0x6b0 block/blk-core.c:639\n __submit_bio_noacct_mq block/blk-core.c:718 [inline]\n submit_bio_noacct_nocheck+0x5b7/0x810 block/blk-core.c:747\n submit_bio_noacct+0xca0/0x1990 block/blk-core.c:847\n __ext4_read_bh fs/ext4/super.c:205 [inline]\n ext4_read_bh_nowait+0x15a/0x240 fs/ext4/super.c:217\n ext4_read_bh_lock+0xac/0xd0 fs/ext4/super.c:242\n ext4_bread_batch+0x268/0x500 fs/ext4/inode.c:958\n __ext4_find_entry+0x448/0x10f0 fs/ext4/namei.c:1671\n ext4_lookup_entry fs/ext4/namei.c:1774 [inline]\n ext4_lookup.part.0+0x359/0x6f0 fs/ext4/namei.c:1842\n ext4_lookup+0x72/0x90 fs/ext4/namei.c:1839\n __lookup_slow+0x257/0x480 fs/namei.c:1696\n lookup_slow fs/namei.c:1713 [inline]\n walk_component+0x454/0x5c0 fs/namei.c:2004\n link_path_walk.part.0+0x773/0xda0 fs/namei.c:2331\n link_path_walk fs/namei.c:3826 [inline]\n path_openat+0x1b9/0x520 fs/namei.c:3826\n do_filp_open+0x1b7/0x400 fs/namei.c:3857\n do_sys_openat2+0x5dc/0x6e0 fs/open.c:1428\n do_sys_open fs/open.c:1443 [inline]\n __do_sys_openat fs/open.c:1459 [inline]\n __se_sys_openat fs/open.c:1454 [inline]\n __x64_sys_openat+0x148/0x200 fs/open.c:1454\n do_syscall_x64 arch/x86/entry/common.c:51 [inline]\n do_syscall_6\n---truncated---",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-21631"
+    },
+    {
+        "VulnerabilityID": "CVE-2025-21647",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nsched: sch_cake: add bounds checks to host bulk flow fairness counts\n\nEven though we fixed a logic error in the commit cited below, syzbot\nstill managed to trigger an underflow of the per-host bulk flow\ncounters, leading to an out of bounds memory access.\n\nTo avoid any such logic errors causing out of bounds memory accesses,\nthis commit factors out all accesses to the per-host bulk flow counters\nto a series of helpers that perform bounds-checking before any\nincrements and decrements. This also has the benefit of improving\nreadability by moving the conditional checks for the flow mode into\nthese helpers, instead of having them spread out throughout the\ncode (which was the cause of the original logic error).\n\nAs part of this change, the flow quantum calculation is consolidated\ninto a helper function, which means that the dithering applied to the\nost load scaling is now applied both in the DRR rotation and when a\nsparse flow's quantum is first initiated. The only user-visible effect\nof this is that the maximum packet size that can be sent while a flow\nstays sparse will now vary with +/- one byte in some cases. This should\nnot make a noticeable difference in practice, and thus it's not worth\ncomplicating the code to preserve the old behaviour.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-21647"
+    },
+    {
+        "VulnerabilityID": "CVE-2025-21648",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: conntrack: clamp maximum hashtable size to INT_MAX\n\nUse INT_MAX as maximum size for the conntrack hashtable. Otherwise, it\nis possible to hit WARN_ON_ONCE in __kvmalloc_node_noprof() when\nresizing hashtable because __GFP_NOWARN is unset. See:\n\n  0708a0afe291 (\"mm: Consider __GFP_NOWARN flag for oversized kvmalloc() calls\")\n\nNote: hashtable resize is only possible from init_netns.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-21648"
+    },
+    {
+        "VulnerabilityID": "CVE-2025-21671",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nzram: fix potential UAF of zram table\n\nIf zram_meta_alloc failed early, it frees allocated zram->table without\nsetting it NULL.  Which will potentially cause zram_meta_free to access\nthe table if user reset an failed and uninitialized device.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-21671"
+    },
+    {
+        "VulnerabilityID": "CVE-2025-21680",
+        "PkgName": "linux-libc-dev",
+        "InstalledVersion": "6.1.124-1",
+        "Severity": "HIGH",
+        "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\npktgen: Avoid out-of-bounds access in get_imix_entries\n\nPassing a sufficient amount of imix entries leads to invalid access to the\npkt_dev->imix_entries array because of the incorrect boundary check.\n\nUBSAN: array-index-out-of-bounds in net/core/pktgen.c:874:24\nindex 20 is out of range for type 'imix_pkt [20]'\nCPU: 2 PID: 1210 Comm: bash Not tainted 6.10.0-rc1 #121\nHardware name: QEMU Standard PC (i440FX + PIIX, 1996)\nCall Trace:\n<TASK>\ndump_stack_lvl lib/dump_stack.c:117\n__ubsan_handle_out_of_bounds lib/ubsan.c:429\nget_imix_entries net/core/pktgen.c:874\npktgen_if_write net/core/pktgen.c:1063\npde_write fs/proc/inode.c:334\nproc_reg_write fs/proc/inode.c:346\nvfs_write fs/read_write.c:593\nksys_write fs/read_write.c:644\ndo_syscall_64 arch/x86/entry/common.c:83\nentry_SYSCALL_64_after_hwframe arch/x86/entry/entry_64.S:130\n\nFound by Linux Verification Center (linuxtesting.org) with SVACE.\n\n[ fp: allow to fill the array completely; minor changelog cleanup ]",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-21680"
+    },
+    {
+        "VulnerabilityID": "CVE-2023-31484",
+        "PkgName": "perl",
+        "InstalledVersion": "5.36.0-7+deb12u1",
+        "Severity": "HIGH",
+        "Description": "CPAN.pm before 2.35 does not verify TLS certificates when downloading distributions over HTTPS.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-31484"
+    },
+    {
+        "VulnerabilityID": "CVE-2023-31484",
+        "PkgName": "perl-base",
+        "InstalledVersion": "5.36.0-7+deb12u1",
+        "Severity": "HIGH",
+        "Description": "CPAN.pm before 2.35 does not verify TLS certificates when downloading distributions over HTTPS.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-31484"
+    },
+    {
+        "VulnerabilityID": "CVE-2023-31484",
+        "PkgName": "perl-modules-5.36",
+        "InstalledVersion": "5.36.0-7+deb12u1",
+        "Severity": "HIGH",
+        "Description": "CPAN.pm before 2.35 does not verify TLS certificates when downloading distributions over HTTPS.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-31484"
+    },
+    {
+        "VulnerabilityID": "CVE-2023-45853",
+        "PkgName": "zlib1g",
+        "InstalledVersion": "1:1.2.13.dfsg-1",
+        "Severity": "CRITICAL",
+        "Description": "MiniZip in zlib through 1.3 has an integer overflow and resultant heap-based buffer overflow in zipOpenNewFileInZip4_64 via a long filename, comment, or extra field. NOTE: MiniZip is not a supported part of the zlib product. NOTE: pyminizip through 0.2.6 is also vulnerable because it bundles an affected zlib version, and exposes the applicable MiniZip code through its compress API.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-45853"
+    },
+    {
+        "VulnerabilityID": "CVE-2023-45853",
+        "PkgName": "zlib1g-dev",
+        "InstalledVersion": "1:1.2.13.dfsg-1",
+        "Severity": "CRITICAL",
+        "Description": "MiniZip in zlib through 1.3 has an integer overflow and resultant heap-based buffer overflow in zipOpenNewFileInZip4_64 via a long filename, comment, or extra field. NOTE: MiniZip is not a supported part of the zlib product. NOTE: pyminizip through 0.2.6 is also vulnerable because it bundles an affected zlib version, and exposes the applicable MiniZip code through its compress API.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-45853"
+    },
+    {
+        "VulnerabilityID": "CVE-2024-33663",
+        "PkgName": "python-jose",
+        "InstalledVersion": "3.3.0",
+        "Severity": "CRITICAL",
+        "Description": "python-jose through 3.3.0 has algorithm confusion with OpenSSH ECDSA keys and other key formats. This is similar to CVE-2022-29217.",
+        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-33663"
+    }
+]
